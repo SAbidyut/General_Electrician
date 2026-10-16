@@ -1072,6 +1072,32 @@ are untouched and their items in the review file are still open.
 - Edit tool: `scratchpad/rep.py` + pair files (exact-count find/replace); backups
   of every ch*.py/dia_ch*.py from before the pass are in the session scratchpad.
 
+## Full-book revision, 2026-10-16 — stage 1 done, stage 2 paused
+
+The user approved a three-stage revision of the whole book (review in
+`Book/build/notes/language_review_2026-10-16.md`; all 15 book-wide decisions
+in its first table and the proposed headings are approved):
+
+1. **Stage 1 — factual/safety errors: DONE** for all 17 chapters (one report per
+   chapter in `notes/2026-10-16/fix_chNN.md`; brief in `fixbrief.md`). New
+   sections: ch13 ১৩.৬.৬ auto-manual, ch15 ১৫.১০ star-delta practice. ch08's
+   d01/d10/d14 drew three phases on one bar (a short) — fixed; **ch13 d13 has the
+   same fault, not yet fixed.**
+2. **Stage 2 — language, headings, decisions: NOT STARTED in the sources** (the user
+   paused it; no chNN.py was changed). Resume by running the brief in
+   `notes/2026-10-16/s2brief.md` per chapter.
+3. **Stage 3** — close page-foot gaps (bookkit's new `<m:d>` brackets shifted
+   layouts, e.g. ch11 now has gaps), rebuild, copy deliverables into `Book/`,
+   `python mkbook.py --pdf`.
+
+Environment notes from this pass: `CHROME` and `LO_PROFILE` env vars (render.py,
+svgkit.py, layout.py); render.py now pads the viewport and crops (headless
+Chromium clipped the bottom ~86 px); LibreOffice needs the `libreoffice-math`
+package or equations come out blank; LibreOffice 24.2 printed a bare "(" in
+OMML as "\(", so `_math_tokens` now emits matched brackets as `<m:d>`.
+BNBC 2020 text could not be reached (`notes/2026-10-16/bnbc2020_map.md`), so
+citations stay "২০১২" and the imprint says so.
+
 ## Next step
 
 **All seventeen chapters are written and the full book is merged.** What is

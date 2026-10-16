@@ -152,6 +152,9 @@ def _meta(fname):
         def field(key):
             v = str(em.get(key, {}).get("value", "")).strip()
             v = re.sub(r"<[^>]+>", "", v)          # লেখকের ঘরে HTML থাকে
+            # উইকিপিডিয়ার ব্যবহারকারী-পাতার লিংক "(talk · contribs)"
+            # লেখকের নামের অংশ নয় — ছাপা কৃতজ্ঞতায় এসে পড়েছিল
+            v = re.sub(r"\(\s*talk\s*·\s*contribs\s*\)", "", v)
             return re.sub(r"\s+", " ", v).strip()
 
         db[fname] = {"url": info.get("thumburl") or info["url"],
@@ -200,7 +203,10 @@ def main():
         im.save(os.path.join(OUT, name + ".jpg"), quality=92)
 
         credits[name] = {"title": m["title"] or os.path.splitext(fname)[0],
-                         "author": m["author"], "licence": m["licence"],
+                         # ক্যাশে পুরোনো লেখা থাকতে পারে, তাই এখানেও ছাঁটা
+                         "author": re.sub(r"\s*\(\s*talk\s*·\s*contribs\s*\)",
+                                          "", m["author"]).strip(),
+                         "licence": m["licence"],
                          "source": "উইকিমিডিয়া কমন্স"}
         print(f"✓ {name:14s} {str(im.size):12s} {m['licence']:14s} {fname}")
 

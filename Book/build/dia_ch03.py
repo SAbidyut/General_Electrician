@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""অধ্যায় ৪ — ইলেকট্রিসিটি বা বিদ্যুৎ : টেকনিক্যাল ডায়াগ্রাম।"""
+"""অধ্যায় ৩ — ইলেকট্রিসিটি বা বিদ্যুৎ : টেকনিক্যাল ডায়াগ্রাম।"""
 import os, math
 from svgkit import (SVG, NAVY, STEEL, LIGHT, RED, REDBG, GREEN, GREENBG,
                     AMBER, AMBERBG, GREY, LINE, INK, wrap, tw)
@@ -61,16 +61,16 @@ def d01_atom():
 
     s.text(770, 214, "মুক্ত ইলেকট্রন", T_NAME, RED, 700)
     for j, ln in enumerate(wrap(
-            "সবচেয়ে বাইরের কক্ষপথের ইলেকট্রন নিউক্লিয়াসের টান কম অনুভব করে, "
-            "তাই সহজেই পরমাণু ছেড়ে বেরিয়ে যেতে পারে", 420, T_SMALL, 400)):
+            "সবচেয়ে বাইরের কক্ষপথের ইলেকট্রনের উপর নিউক্লিয়াসের টান কম, "
+            "তাই এটি সহজে পরমাণু ছেড়ে বেরিয়ে আসে", 420, T_SMALL, 400)):
         s.text(770, 250 + j * T_SMALL * 1.34, ln, T_SMALL, "#39434D", 400)
 
     bullet_panel(s, 770, 342, 440,
                  ["পরিবাহীতে মুক্ত ইলেকট্রনের সংখ্যা অনেক বেশি",
-                  "অপরিবাহীতে ইলেকট্রন শক্তভাবে আবদ্ধ থাকে",
-                  "মুক্ত ইলেকট্রনের সুশৃঙ্খল প্রবাহই কারেন্ট"],
+                  "ইনসুলেটরে ইলেকট্রন শক্তভাবে আবদ্ধ থাকে",
+                  "মুক্ত ইলেকট্রন একদিকে চললে কারেন্ট তৈরি হয়"],
                  T_BODY, "#EAF2FA", STEEL, INK, STEEL)
-    s.text(620, 660, "একটি ইলেকট্রনের চার্জ = ১.৬ × ১০⁻¹⁹ কুলম্ব (ঋণাত্মক)",
+    s.text(620, 660, "একটি ইলেকট্রনের চার্জ = 1.6 × 10⁻¹⁹ কুলম্ব (ঋণাত্মক)",
            T_SMALL, GREY, 400, "middle")
     s.fit(660, 24)
     return s.save(f"{OUT}/d01_atom.svg")
@@ -91,28 +91,30 @@ def d02_types():
         s.box_auto(cx, y1 - 4, name, T_NAME, fill=col, stroke=col,
                    tcolor="#FFFFFF", pad_x=28, pad_y=13, min_w=260)
     bullet_panel(s, 130, y1 + 66, 400,
-                 ["উৎপত্তিস্থলেই স্থির থাকে, প্রবাহিত হয় না",
-                  "ঘর্ষণে সৃষ্টি হয় — যেমন চিরুনি ও কাগজ",
-                  "বজ্রপাত এর সবচেয়ে বড় উদাহরণ"],
+                 ["বস্তুর গায়ে জমে থাকে, প্রবাহিত হয় না",
+                  "দুটি বস্তু ঘষলে তৈরি হয়, যেমন চিরুনি ও কাগজ",
+                  "মেঘে জমা চার্জও স্থির বিদ্যুৎ"],
                  T_BODY, "#FFF6E5", AMBER, INK, AMBER)
 
     y2 = 430
+    ymax = 0
     for cx, name, col, items in (
             (760, "এসি (AC)", GREEN,
-             ["নির্দিষ্ট নিয়মে দিক বদলায়",
-              "মান প্রতি মুহূর্তে পরিবর্তনশীল",
-              "গৃহস্থালি সরবরাহ — ২৩০ V, ৫০ Hz"]),
+             ["নির্দিষ্ট সময় পরপর দিক বদলায়",
+              "মান প্রতি মুহূর্তে বদলায়",
+              "বাসাবাড়ির সরবরাহ: 230 V, 50 Hz"]),
             (1060, "ডিসি (DC)", RED,
-             ["সব সময় একই দিকে প্রবাহিত",
-              "মান নির্দিষ্ট থাকে",
+             ["সবসময় একই দিকে চলে",
+              "মান মোটামুটি স্থির থাকে",
               "ব্যাটারি, সোলার প্যানেল"])):
         s.path(f"M 910 {y1+52:.1f} L 910 {y2-46:.1f} L {cx:.1f} {y2-46:.1f} "
                f"L {cx:.1f} {y2-14:.1f}", STEEL, 2.4, marker=ar)
         s.box_auto(cx, y2 - 4, name, T_BODY, fill=col, stroke=col,
                    tcolor="#FFFFFF", pad_x=24, pad_y=11, min_w=200)
-        bullet_panel(s, cx - 140, y2 + 56, 280, items, T_SMALL,
-                     GREENBG if col == GREEN else REDBG, col, INK, col)
-    s.fit(660, 24)
+        bot = bullet_panel(s, cx - 140, y2 + 56, 280, items, T_SMALL,
+                           GREENBG if col == GREEN else REDBG, col, INK, col)
+        ymax = max(ymax, bot)
+    s.fit(max(660, ymax + 4), 24)
     return s.save(f"{OUT}/d02_types.svg")
 
 
@@ -156,9 +158,9 @@ def d03_current():
            T_BODY, RED, 700, "middle")
 
     s.rect(60, 526, 1120, 62, "#EAF2FA", STEEL, 2, 11)
-    s.text(620, 554, "ইলেকট্রন ও প্রচলিত কারেন্ট — দিক দুটি পরস্পর বিপরীত",
+    s.text(620, 554, "ইলেকট্রন প্রবাহ ও প্রচলিত কারেন্টের দিক পরস্পর বিপরীত",
            T_NAME, NAVY, 700, "middle")
-    s.text(620, 580, "হিসাব-নিকাশ ও বর্তনী অঙ্কনে সর্বদা প্রচলিত দিকই ব্যবহার করা হয়",
+    s.text(620, 580, "হিসাবে ও সার্কিট ডায়াগ্রামে প্রচলিত কারেন্টের দিকই দেখানো হয়",
            T_SMALL, GREY, 400, "middle")
     s.fit(588, 22)
     return s.save(f"{OUT}/d03_current.svg")
@@ -195,15 +197,15 @@ def d04_ac_dc():
     xd = 726
     panel(xd, "ডিসি (DC)", RED)
     s.path(f"M {xd} {y0-64} L {xd+w} {y0-64}", RED, 3.6)
-    s.text(xd + w / 2, y0 + h + 92, "মান সব সময় একই", T_SMALL, NAVY, 700, "middle")
+    s.text(xd + w / 2, y0 + h + 92, "মান সবসময় একই", T_SMALL, NAVY, 700, "middle")
 
     s.rect(60, 596, 1120, 122, "#FFF6E5", AMBER, 2, 12)
     s.text(620, 632, "ফ্রিকোয়েন্সি = প্রতি সেকেন্ডে সম্পন্ন সাইকেলের সংখ্যা",
            T_NAME, "#7A5200", 700, "middle")
     s.text(620, 666,
-           "বাংলাদেশে সরবরাহ ফ্রিকোয়েন্সি ৫০ হার্জ — প্রতি সেকেন্ডে ৫০ বার সাইকেল সম্পন্ন হয়",
+           "বাংলাদেশে সরবরাহ ফ্রিকোয়েন্সি 50 Hz: প্রতি সেকেন্ডে ৫০টি সাইকেল সম্পন্ন হয়",
            T_SMALL, "#7A5200", 400, "middle")
-    s.text(620, 698, "একটি সাইকেলের সময় = ১ / ৫০ = ০.০২ সেকেন্ড",
+    s.text(620, 698, "একটি সাইকেলের সময় = 1/50 = 0.02 s",
            T_SMALL, "#7A5200", 400, "middle")
     s.fit(718, 22)
     return s.save(f"{OUT}/d04_ac_dc.svg")
@@ -212,7 +214,7 @@ def d04_ac_dc():
 def d05_ohm():
     """Ohm's law triangle beside the circuit it describes."""
     s = SVG(1240, 640)
-    s.title("ওহমের সূত্র — V, I ও R-এর সম্পর্ক", T_TITLE)
+    s.title("ওহমের সূত্র: V, I ও R-এর সম্পর্ক", T_TITLE)
 
     # circuit
     L, R_, T, B = 110, 540, 150, 400
@@ -241,7 +243,7 @@ def d05_ohm():
     y = 486
     for i, (f, note) in enumerate((("V = I × R", "ভোল্টেজ নির্ণয়"),
                                    ("I = V / R", "কারেন্ট নির্ণয়"),
-                                   ("R = V / I", "রোধ নির্ণয়"))):
+                                   ("R = V / I", "রেজিস্ট্যান্স নির্ণয়"))):
         x = 110 + i * 356
         s.rect(x, y, 320, 84, "#F5F9FC", STEEL, 2, 11)
         s.text(x + 160, y + 40, f, 30, NAVY, 700, "middle")
@@ -253,12 +255,12 @@ def d05_ohm():
 def d06_resistance_factors():
     """The four things that set a conductor's resistance."""
     s = SVG(1240, 560)
-    s.title("পরিবাহীর রোধ যেসব বিষয়ের উপর নির্ভর করে", T_TITLE)
+    s.title("পরিবাহীর রেজিস্ট্যান্স নির্ধারণকারী বিষয়", T_TITLE)
     cards = [
-        ("দৈর্ঘ্য", "L", "দৈর্ঘ্য বাড়লে রোধ বাড়ে", "R ∝ L", STEEL, "#EAF2FA"),
-        ("প্রস্থচ্ছেদ", "A", "মোটা তারে রোধ কমে", "R ∝ 1/A", GREEN, GREENBG),
-        ("উপাদান", "ρ", "তামার রোধ কম, লোহার বেশি", "R ∝ ρ", AMBER, AMBERBG),
-        ("তাপমাত্রা", "t", "ধাতুতে তাপ বাড়লে রোধ বাড়ে", "—", RED, REDBG),
+        ("দৈর্ঘ্য", "L", "দৈর্ঘ্য বাড়লে রেজিস্ট্যান্স বাড়ে", "R ∝ L", STEEL, "#EAF2FA"),
+        ("প্রস্থচ্ছেদ", "A", "মোটা তারে রেজিস্ট্যান্স কমে", "R ∝ 1/A", GREEN, GREENBG),
+        ("উপাদান", "ρ", "তামার রেজিস্ট্যান্স কম, লোহার বেশি", "R ∝ ρ", AMBER, AMBERBG),
+        ("তাপমাত্রা", "t", "ধাতুর তাপমাত্রা বাড়লে রেজিস্ট্যান্স বাড়ে", "সূত্রে নেই", RED, REDBG),
     ]
     cw, gapx = 278, 22
     x0 = (1240 - (4 * cw + 3 * gapx)) / 2
@@ -293,7 +295,7 @@ def d07_capacitor_inductor():
                tcolor="#FFFFFF", pad_x=26, pad_y=11)
     PL, PR, PT, PH = 268, 396, 216, 150          # plate x's, top, height
     s.rect(PL + 16, PT + 10, PR - PL - 32, PH - 20, "#E8EDF1", "#B9C4CE", 1.8, 3)
-    s.text((PL + PR) / 2, PT + PH / 2 + 7, "ডাইইলেকট্রিক", 17, "#4A5561", 600, "middle")
+    s.text((PL + PR) / 2, PT + PH / 2 + 7, "ইনসুলেটর", 17, "#4A5561", 600, "middle")
     s.rect(PL - 11, PT, 22, PH, "#C57A2A", "#9A5A18", 2, 3)
     s.rect(PR - 11, PT, 22, PH, "#C57A2A", "#9A5A18", 2, 3)
     s.text(PL, PT - 16, "প্লেট", 17, "#7A5200", 700, "middle")
@@ -302,7 +304,7 @@ def d07_capacitor_inductor():
     s.path(f"M {PR} {PT+PH/2} L 512 {PT+PH/2}", NAVY, 3)
     s.text(148, PT + PH / 2 + 9, "+", 30, RED, 700, "middle")
     s.text(532, PT + PH / 2 + 9, "−", 30, STEEL, 700, "middle")
-    s.text(340, 424, "চার্জ সঞ্চয় করে · একক ফ্যারাড (F)", T_SMALL, NAVY, 600, "middle")
+    s.text(340, 424, "চার্জ জমা রাখে · একক ফ্যারাড (F)", T_SMALL, NAVY, 600, "middle")
 
     # ── inductor ──────────────────────────────────────────────────────────
     s.rect(630, 96, 540, 372, "#FCFDFE", LINE, 1.8, 14)
@@ -325,9 +327,9 @@ def d07_capacitor_inductor():
            T_SMALL, NAVY, 600, "middle")
 
     s.rect(70, 492, 1100, 62, "#FFF6E5", AMBER, 2, 11)
-    s.text(620, 520, "ক্যাপাসিটর বৈদ্যুতিক ক্ষেত্রে, ইন্ডাক্টর চৌম্বক ক্ষেত্রে শক্তি সঞ্চয় করে",
+    s.text(620, 520, "ক্যাপাসিটর বৈদ্যুতিক ক্ষেত্রে, ইন্ডাক্টর চৌম্বক ক্ষেত্রে শক্তি জমা রাখে",
            T_NAME, "#7A5200", 700, "middle")
-    s.text(620, 546, "দুটিই AC সার্কিটে কারেন্টকে বাধা দেয়, কিন্তু ভিন্ন উপায়ে",
+    s.text(620, 546, "দুটিই এসি সার্কিটে কারেন্টে বাধা দেয়, তবে ভিন্নভাবে",
            T_SMALL, "#7A5200", 400, "middle")
     s.fit(554, 22)
     return s.save(f"{OUT}/d07_capacitor_inductor.svg")
@@ -336,7 +338,7 @@ def d07_capacitor_inductor():
 def d08_colour_code():
     """IEC 60445 conductor colours."""
     s = SVG(1240, 620)
-    s.title("পরিবাহীর রং সংকেত (IEC 60445)", T_TITLE)
+    s.title("তারের কালার কোড (IEC 60445)", T_TITLE)
     rows = [
         ("ফেজ / লাইন", "L  বা  L1", "বাদামি", "#7A4A21", "#FFFFFF"),
         ("ফেজ (দ্বিতীয়)", "L2", "কালো", "#232323", "#FFFFFF"),
@@ -348,7 +350,7 @@ def d08_colour_code():
     y = 108
     hrow = 74
     s.rect(x0, y, w, 52, NAVY, NAVY, 2, 10)
-    s.text(x0 + 190, y + 35, "পরিবাহীর নাম", T_BODY, "#FFFFFF", 700, "middle")
+    s.text(x0 + 190, y + 35, "তার", T_BODY, "#FFFFFF", 700, "middle")
     s.text(x0 + 470, y + 35, "চিহ্ন", T_BODY, "#FFFFFF", 700, "middle")
     s.text(x0 + 700, y + 35, "রং", T_BODY, "#FFFFFF", 700, "middle")
     s.text(x0 + 920, y + 35, "নমুনা", T_BODY, "#FFFFFF", 700, "middle")
@@ -371,10 +373,10 @@ def d08_colour_code():
         yy += hrow + 8
     s.rect(x0, yy + 6, w, 62, REDBG, RED, 2, 11)
     s.text(x0 + w / 2, yy + 34,
-           "সবুজ-হলুদ রং কেবল আর্থ পরিবাহীর জন্য সংরক্ষিত",
+           "সবুজ-হলুদ তার শুধু আর্থের জন্য",
            T_NAME, "#7A1810", 700, "middle")
     s.text(x0 + w / 2, yy + 60,
-           "অন্য কোনো কাজে এই রঙের তার ব্যবহার করা সম্পূর্ণ নিষিদ্ধ",
+           "অন্য কোনো কাজে এই রঙের তার ব্যবহার করা সম্পূর্ণ নিষেধ",
            T_SMALL, "#7A1810", 400, "middle")
     s.fit(yy + 68, 24)
     return s.save(f"{OUT}/d08_colour_code.svg")

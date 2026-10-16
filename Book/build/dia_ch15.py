@@ -477,7 +477,7 @@ def d07_colour():
 
     y = note_strip(s, top + ph + 26,
                    "উপর থেকে নিচে L1-L2-L3, সবার নিচে নিউট্রাল — "
-                   "ক্রম সব প্যানেলে এক")
+                   "এটিই প্রচলিত ক্রম")
     s.fit(y, 24)
     return s.save(f"{OUT}/d07_colour.svg")
 
@@ -637,15 +637,117 @@ def d13_mount():
 # ── ১৪. বাসবার ট্রাংকিং ─────────────────────────────────────────────────
 def d14_trunk():
     return sheet(
-        "d14_trunk", "বাসবার ট্রাংকিং", "ছাদ থেকে ঝোলানো",
+        "d14_trunk", "বাসবার ট্রাংকিং (বাসডাক্ট)", "ছাদ থেকে ঝোলানো",
         "ph_trunk.jpg",
-        "উঁচু ভবনে রাইজার কেবলের বদলে — বিএনবিসি ১.৩.১৮.৩",
+        "কারখানার ছাদ বরাবর আনুভূমিক রান — একে বাসডাক্টও বলা হয়",
         iw=780)
+
+
+# ── ১৫. বাসবার থেকে স্টার-ডেল্টা স্টার্টার ───────────────────────────────
+def _ticks(s, x, y, col=SYM):
+    """একক-লাইন ছবিতে তিন ফেজের চিহ্ন — লাইনের গায়ে তিনটি তির্যক দাগ।"""
+    for k in (-1, 0, 1):
+        yy = y + k * 9
+        s.path(f"M {x - 11} {yy + 6} L {x + 11} {yy - 6}", col, 2.4)
+
+
+def d15_sd():
+    """একটি মোটর প্যানেলের বাসবার থেকে তিনটি স্টার-ডেল্টা স্টার্টার।
+
+    বাঁয়ের স্টার্টারটি (M1, 37 kW, 72 A) খুলে দেখানো:  বার → Q1 → একটি
+    জোড় বিন্দু → KM1 ও KM3।  KM3 নেয় Q1-এর আউটপুট থেকে, বাসবার থেকে
+    আলাদা ট্যাপ নয় — অধ্যায় ১৪-এর ১৪.১০.১-এর সংযোগের সঙ্গে মিল রেখে।
+    ডানের দুটি (M2 15 kW 30 A, M3 22 kW 44 A) অধ্যায় ১৪-এর ABB সারণির
+    সারি; কেবল ব্লক হিসেবে।  তার-ক্রসিং:  ট্যাপের খাড়া দাগগুলো নিচের
+    বার পেরোয় বিন্দু ছাড়া (বাসবার আঁকার প্রচলিত রীতি, অধ্যায় ১১-এর
+    d12-এর মতো);  PE-র তার কোনো তার কাটে না।
+    """
+    s = SVG(1240, 900)
+    s.title("বাসবার থেকে স্টার-ডেল্টা স্টার্টার", T_TITLE)
+
+    bars = [("L1", C_L1, 118), ("L2", C_L2, 146), ("L3", C_L3, 174),
+            ("N", C_N, 202), ("PE", C_PE, 230)]
+    X0, X1 = 112, 1192
+    for tag, c, y in bars:
+        s.line(X0, y, X1, y, c, 10, cap="butt")
+        if tag == "PE":
+            s.line(X0, y, X1, y, C_L2, 10, dash="14 14", cap="butt")
+        s.text(52, y + 8, tag, T_NAME, NAVY, 700, "start")
+
+    phase = bars[:3]
+
+    def tap(cx, top_y=300):
+        for (tag, c, y), dx in zip(phase, (-30, 0, 30)):
+            s.line(cx + dx, y, cx + dx, top_y, c, 3.4)
+            node(s, cx + dx, y, c, 7)
+
+    # ── বাঁয়ে: M1 খুলে দেখানো ───────────────────────────────────
+    cx = 330
+    tap(cx, 296)
+    blk(s, cx, 326, "Q1  MCCB", 190, 60, LIGHT, STEEL, T_BODY)
+    s.line(cx, 356, cx, 420, SYM, SW)
+    _ticks(s, cx, 384)
+    s.text(cx + 24, 392, "In", T_NAME, RED, 700, "start")
+    node(s, cx, 420)
+    s.line(200, 420, 470, 420, SYM, SW)
+
+    for x, name in ((200, "KM1"), (470, "KM3")):
+        s.line(x, 420, x, 446, SYM, SW)
+        blk(s, x, 474, name, 104, 56, "#FFFFFF", NAVY, T_BODY)
+        s.text(x + 62, 482, "0.58 In", T_BODY, RED, 700, "start")
+
+    # KM1 → F2 → U1 V1 W1
+    s.line(200, 502, 200, 528, SYM, SW)
+    blk(s, 200, 554, "F2", 104, 52, AMBERBG, AMBER, T_BODY)
+    s.line(200, 580, 200, 650, SYM, SW)
+    _ticks(s, 200, 616)
+
+    # KM3 → W2 U2 V2, আর পথে KM2-এর শাখা
+    s.line(470, 502, 470, 650, SYM, SW)
+    _ticks(s, 470, 616)
+    node(s, 470, 560)
+    s.line(470, 560, 600, 560, SYM, SW)
+    blk(s, 652, 560, "KM2", 104, 56, "#FFFFFF", NAVY, T_BODY)
+    s.text(652, 622, "In / 3", T_BODY, RED, 700, "middle")
+
+    # মোটরের টার্মিনাল বাক্স ও মোটর
+    s.rect(140, 650, 390, 56, PLATE, STEEL, 2.4, 8)
+    s.text(212, 686, "U1  V1  W1", T_BODY, NAVY, 700, "middle")
+    s.text(458, 686, "W2  U2  V2", T_BODY, NAVY, 700, "middle")
+    s.line(335, 706, 335, 736, SYM, SW)
+    s.circle(335, 782, 46, "#FFFFFF", NAVY, 3)
+    s.text(335, 792, "M1", T_NODE, NAVY, 700, "middle")
+    s.text(335, 856, "37 kW · 72 A", T_BODY, NAVY, 700, "middle")
+
+    # PE — বার থেকে মোটরের বডিতে, কোনো তার না কেটে
+    s.line(752, 230, 752, 782, C_PE, 4)
+    s.line(752, 782, 381, 782, C_PE, 4)
+    node(s, 752, 230, C_PE, 7)
+    s.text(766, 760, "PE", T_NAME, C_PE, 700, "start")
+
+    # ── ডাইনে: আরও দুটি স্টার্টার, কেবল ব্লক ───────────────────────
+    for cx, q, m, kw, amp in ((920, "Q2", "M2", "15 kW", "30 A"),
+                              (1100, "Q3", "M3", "22 kW", "44 A")):
+        tap(cx, 296)
+        blk(s, cx, 326, q, 120, 60, LIGHT, STEEL, T_BODY)
+        s.line(cx, 356, cx, 420, SYM, SW)
+        _ticks(s, cx, 388)
+        s.rect(cx - 74, 420, 148, 108, "#FFFFFF", NAVY, 2.6, 10)
+        s.text(cx, 466, "স্টার-ডেল্টা", T_BODY, NAVY, 700, "middle")
+        s.text(cx, 500, "স্টার্টার", T_BODY, NAVY, 700, "middle")
+        s.line(cx, 528, cx, 736, SYM, SW)
+        _ticks(s, cx, 632)
+        s.circle(cx, 782, 46, "#FFFFFF", NAVY, 3)
+        s.text(cx, 792, m, T_NODE, NAVY, 700, "middle")
+        s.text(cx, 856, f"{kw} · {amp}", T_BODY, NAVY, 700, "middle")
+
+    s.fit(880, 20)
+    return s.save(f"{OUT}/d15_sd.svg")
 
 
 ALL = [d01_why, d02_concept, d03_material, d04_dims, d05_types, d06_main,
        d07_colour, d08_earth, d09_submeter, d10_3p1p, d11_sdb, d12_calc,
-       d13_mount, d14_trunk]
+       d13_mount, d14_trunk, d15_sd]
 
 
 if __name__ == "__main__":

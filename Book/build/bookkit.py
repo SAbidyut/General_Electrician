@@ -1223,6 +1223,43 @@ _MATH_CMD = {
 }
 
 
+def _paren_end(expr, i):
+    """Index of the ")" matching the "(" at expr[i], or None if unmatched.
+    Text inside `backticks` is skipped, so a unit like `(A)` stays text."""
+    depth, k, tick = 0, i, False
+    while k < len(expr):
+        c = expr[k]
+        if c == "`":
+            tick = not tick
+        elif not tick and c == "(":
+            depth += 1
+        elif not tick and c == ")":
+            depth -= 1
+            if depth == 0:
+                return k
+        k += 1
+    return None
+
+
+def _upright_text(text, size=None):
+    """Upright run for `backtick` text; bracketed parts become <m:d> for the
+    same LibreOffice reason as in _math_tokens (e.g. `16(8) A`)."""
+    out, i = [], 0
+    while i < len(text):
+        j = _paren_end(text, i) if text[i] == "(" else None
+        if j is not None:
+            out.append("<m:d><m:dPr><m:begChr m:val=\"(\"/>"
+                       "<m:endChr m:val=\")\"/></m:dPr>"
+                       f"<m:e>{_upright_text(text[i + 1:j], size)}</m:e></m:d>")
+            i = j + 1
+        else:
+            k = text.find("(", i + 1)
+            k = len(text) if k < 0 else k
+            out.append(_mrun(text[i:k], upright=True, size=size))
+            i = k
+    return "".join(out)
+
+
 def _math_tokens(expr, size=None):
     r"""Small DSL → OMML.
 
@@ -1281,14 +1318,24 @@ def _math_tokens(expr, size=None):
             else:
                 out.append(_mrun("\\", upright=True, size=size))
                 i += 1
+        elif expr[i] == "(" and _paren_end(expr, i) is not None:
+            # A real <m:d> delimiter, not "(" as text: LibreOffice 24.2 turns a
+            # bare "(" in a math run into a literal "\(" when it converts the
+            # equation, and <m:d> also lets both renderers size the brackets.
+            j = _paren_end(expr, i)
+            out.append("<m:d><m:dPr><m:begChr m:val=\"(\"/>"
+                       "<m:endChr m:val=\")\"/></m:dPr>"
+                       f"<m:e>{_math_tokens(expr[i + 1:j], size)}</m:e></m:d>")
+            i = j + 1
         elif expr[i] == "`":
             j = expr.find("`", i + 1)
             j = len(expr) if j < 0 else j
-            out.append(_mrun(expr[i + 1:j], upright=True, size=size))
+            out.append(_upright_text(expr[i + 1:j], size))
             i = j + 1
         else:
             k = i
             while k < len(expr) and expr[k] not in "`\\" \
+                    and not (expr[k] == "(" and k > i) \
                     and not expr.startswith("^{", k) \
                     and not expr.startswith("_{", k):
                 k += 1

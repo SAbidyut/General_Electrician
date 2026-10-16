@@ -275,8 +275,8 @@ def d03_ratio():
                      "0.58 / 1.73 = 0.33 গুণ।", T_BODY, GREY, 400, "middle")
 
     for k, (ttl, val, col) in enumerate(
-            [("সরাসরি (DOL) চালু", "6 × Ie", RED),
-             ("স্টারে চালু", "2 × Ie", STARC)]):
+            [("সরাসরি (DOL) চালু", "6 × In", RED),
+             ("স্টারে চালু", "2 × In", STARC)]):
         x = 300 + k * 400
         s.rect(x - 150, 540, 300, 96, "#FCFDFE", col, 2.6, 11)
         s.text(x, 576, ttl, T_SMALL, GREY, 400, "middle")
@@ -313,7 +313,7 @@ def d04_curves():
         y0 = 516
         ymax = 7 if k == 0 else 3
         _axes(s, x0, y0, W, H, "গতি (শতকরা)",
-              "I / Ie" if k == 0 else "T / Tn", ymax)
+              "I / In" if k == 0 else "T / Tn", ymax)
         px = lambda p: x0 + W * p / 100
         py = lambda v: y0 - H * v / ymax
 

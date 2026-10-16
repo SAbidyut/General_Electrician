@@ -501,7 +501,7 @@ def d09_lamps():
 
     s.path(f"M 82 {NY} L {RX} {NY}", NEUT, SW)
     node(s, RX, NY, NEUT)
-    y = note_strip(s, NY + 34, "S1 বন্ধ করার t সময় পরে H1 জ্বলে আর H2 নেভে")
+    y = note_strip(s, NY + 34, "S1 অন করার t সময় পরে H1 জ্বলে আর H2 নেভে")
     s.fit(y, 24)
     return s.save(f"{OUT}/d09_lamps.svg")
 
@@ -562,7 +562,7 @@ def d10_sequence():
         node(s, RX, r, NEUT)
     s.path(f"M 82 {NY} L {RX} {NY}", NEUT, SW)
     node(s, RX, NY, NEUT)
-    y = note_strip(s, NY + 34, "S1 বন্ধ: H1 সঙ্গে সঙ্গে, H2 t1 পরে, H3 আরও "
+    y = note_strip(s, NY + 34, "S1 অন: H1 সঙ্গে সঙ্গে, H2 t1 পরে, H3 আরও "
                                "t2 পরে")
     s.fit(y, 24)
     return s.save(f"{OUT}/d10_sequence.svg")

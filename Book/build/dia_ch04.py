@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""অধ্যায় ৭ — ইলেকট্রিক্যাল সার্কিট: সিরিজ, প্যারালাল ও মিশ্র : ডায়াগ্রাম।
+"""অধ্যায় ৪: ইলেকট্রিক্যাল সার্কিট (সিরিজ, প্যারালাল ও মিশ্র), ডায়াগ্রাম।
 
 সার্কিটের ছবিগুলো RAPTI-র নিজস্ব সোর্স ফাইল (Circuit Diagram.pptx ও
 HW Connection Diagram All.pptx) থেকে হুবহু বসানো — হাতে আঁকা নয়।
@@ -119,10 +119,7 @@ def d01_classification():
             y = ly + lh
         bottom = max(bottom, y)
 
-    s.text(620, bottom + 44,
-           "এই অধ্যায়ের মূল আলোচ্য — সংযোগ অনুসারে সার্কিটের তিন প্রকারভেদ",
-           T_BODY, GREY, 400, "middle")
-    s.fit(bottom + 44, 26)
+    s.fit(bottom, 26)
     return s.save(f"{OUT}/d01_classification.svg")
 
 
@@ -133,8 +130,8 @@ def d02_current_path():
     ar = s.arrow_defs(RED, "arc", 15)
 
     PW, PY, PH = 554, 96, 340
-    panel(s, 46, PY, PW, PH, "সিরিজ — একটিমাত্র পথ", STEEL)
-    panel(s, 640, PY, PW, PH, "প্যারালাল — একাধিক পথ", GREEN)
+    panel(s, 46, PY, PW, PH, "সিরিজ: একটি পথ", STEEL)
+    panel(s, 640, PY, PW, PH, "প্যারালাল: একাধিক পথ", GREEN)
 
     # ── series loop ────────────────────────────────────────────────────
     L, R, TOP, BOT = 116, 528, 248, 400
@@ -153,7 +150,7 @@ def d02_current_path():
     s.path(f"M {prev} {TOP} L {R} {TOP}", SYM, SW)
     s.path(f"M {R} {TOP} L {R} {BOT}", SYM, SW)
     s.path(f"M {R} {BOT} L {L} {BOT}", RED, 3.4, marker=ar)
-    s.text(322, BOT - 16, "I — সব লোডে একই কারেন্ট", T_SMALL, RED, 700,
+    s.text(322, BOT - 16, "সব লোডে একই কারেন্ট I", T_SMALL, RED, 700,
            "middle")
 
     # ── parallel rails ─────────────────────────────────────────────────
@@ -174,7 +171,7 @@ def d02_current_path():
     s.path(f"M 748 {TR+22} L 790 {TR+22}", RED, 3.4, marker=ar)
 
     y = formula_strip(s, 466,
-                      "সিরিজে কারেন্ট সমান, ভোল্টেজ ভাগ হয় — "
+                      "সিরিজে কারেন্ট সমান, ভোল্টেজ ভাগ হয়; "
                       "প্যারালালে ভোল্টেজ সমান, কারেন্ট ভাগ হয়")
     s.fit(y, 22)
     return s.save(f"{OUT}/d02_current_path.svg")
@@ -187,8 +184,8 @@ def d03_simple():
     def conn(s, cx):
         image_panel(s, cx, 150, 500, f"{IMG}/d03_simple_conn.png")
 
-    return _sheet("d03_simple", "সাধারণ সার্কিট — এক উৎস, এক লোড", circ, conn,
-                  "উৎস → ফিউজ → সুইচ → লোড → নিউট্রাল: বর্তনী সম্পূর্ণ হলেই "
+    return _sheet("d03_simple", "সাধারণ সার্কিট: একটি উৎস ও একটি লোড", circ, conn,
+                  "উৎস → ফিউজ → সুইচ → লোড → নিউট্রাল: সার্কিট সম্পূর্ণ হলে "
                   "বাতি জ্বলে", 660)
 
 
@@ -199,10 +196,10 @@ def d04_series():
     def conn(s, cx):
         image_panel(s, cx, 150, 440, f"{IMG}/d04_series_conn.png")
 
-    return _sheet("d04_series", "সিরিজ সার্কিট — দুটি বাতি একই পথে",
+    return _sheet("d04_series", "দুটি বাতির সিরিজ সংযোগ",
                   circ, conn,
-                  "প্রথম বাতির শেষ প্রান্ত দ্বিতীয় বাতির শুরুতে — "
-                  "একটি নষ্ট হলে দুটোই বন্ধ", 600)
+                  "প্রথম বাতির শেষ প্রান্ত দ্বিতীয় বাতির শুরুতে যুক্ত; "
+                  "একটি নষ্ট হলে দুটিই নেভে", 600)
 
 
 def d05_parallel():
@@ -212,10 +209,10 @@ def d05_parallel():
     def conn(s, cx):
         image_panel(s, cx, 150, 440, f"{IMG}/d05_parallel_conn.png")
 
-    return _sheet("d05_parallel", "প্যারালাল সার্কিট — প্রতিটি বাতির নিজস্ব পথ",
+    return _sheet("d05_parallel", "দুটি বাতির প্যারালাল সংযোগ",
                   circ, conn,
-                  "প্রতিটি শাখা আলাদা সুইচসহ ফেজ ও নিউট্রালের মাঝে — "
-                  "প্রত্যেকে পূর্ণ ভোল্টেজ পায়", 600)
+                  "প্রতিটি শাখা নিজের সুইচসহ ফেজ ও নিউট্রালের মাঝে; "
+                  "প্রতিটি বাতি পূর্ণ ভোল্টেজ পায়", 600)
 
 
 def d06_mixed():
@@ -225,7 +222,7 @@ def d06_mixed():
     def conn(s, cx):
         image_panel(s, cx, 150, 400, f"{IMG}/d06_mixed_conn.png")
 
-    return _sheet("d06_mixed", "মিশ্র সার্কিট — সিরিজ ও প্যারালাল একসঙ্গে",
+    return _sheet("d06_mixed", "মিশ্র সার্কিট: সিরিজ ও প্যারালাল সংযোগ একসঙ্গে",
                   circ, conn,
                   "বাতি ১ ও বাতি ২ প্যারালালে; বাতি ৩ ও বাতি ৪ নিজেদের মধ্যে "
                   "সিরিজে থেকে ওই দুটির সঙ্গে প্যারালালে", 560)
@@ -234,7 +231,7 @@ def d06_mixed():
 def d07_series_calc():
     """সিরিজ সার্কিটের রোধ, কারেন্ট ও ভোল্টেজের হিসাব।"""
     s = SVG(1240, 520)
-    s.title("সিরিজ সার্কিটে রোধ ও ভোল্টেজের হিসাব", T_TITLE)
+    s.title("সিরিজ সার্কিটে রেজিস্ট্যান্স ও ভোল্টেজের হিসাব", T_TITLE)
     ar = s.arrow_defs(RED, "ars", 15)
 
     L, R, TOP, BOT = 168, 1072, 190, 400
@@ -256,12 +253,12 @@ def d07_series_calc():
     s.path(f"M {prev} {TOP} L {R} {TOP}", SYM, SW)
     s.path(f"M {R} {TOP} L {R} {BOT}", SYM, SW)
     s.path(f"M {R} {BOT} L {L} {BOT}", RED, 3.4, marker=ar)
-    s.text(620, BOT - 18, "I — প্রতিটি রোধে একই মানের কারেন্ট", T_BODY, RED,
+    s.text(620, BOT - 18, "প্রতিটি রেজিস্টরে একই কারেন্ট I", T_BODY, RED,
            700, "middle")
 
     y = formula_strip(s, 438,
                       "RT = R1 + R2 + R3    এবং    V = V1 + V2 + V3    "
-                      "(কারেন্ট I সব রোধে সমান)")
+                      "(I সব রেজিস্টরে সমান)")
     s.fit(y, 22)
     return s.save(f"{OUT}/d07_series_calc.svg")
 
@@ -269,7 +266,7 @@ def d07_series_calc():
 def d08_parallel_calc():
     """প্যারালাল সার্কিটের রোধ ও কারেন্টের হিসাব।"""
     s = SVG(1240, 520)
-    s.title("প্যারালাল সার্কিটে রোধ ও কারেন্টের হিসাব", T_TITLE)
+    s.title("প্যারালাল সার্কিটে রেজিস্ট্যান্স ও কারেন্টের হিসাব", T_TITLE)
     ar = s.arrow_defs(RED, "arp", 15)
 
     L, R, TR, BR = 210, 922, 176, 400
@@ -293,7 +290,7 @@ def d08_parallel_calc():
 
     s.path(f"M {L+46} {TR-22} L {L+146} {TR-22}", RED, 3.4, marker=ar)
     s.text(L + 96, TR - 34, "I", T_BODY, RED, 700, "middle")
-    s.text(566, BR + 40, "প্রতিটি রোধের দুই প্রান্তেই উৎসের পূর্ণ ভোল্টেজ",
+    s.text(566, BR + 40, "প্রতিটি রেজিস্টরের দুই প্রান্তে উৎসের পূর্ণ ভোল্টেজ",
            T_BODY, GREY, 400, "middle")
 
     y = formula_strip(s, 476,
@@ -306,7 +303,7 @@ def d08_parallel_calc():
 def d09_mixed_calc():
     """মিশ্র সার্কিট — R1 সিরিজে, তার পরে R2 ও R3 প্যারালালে।"""
     s = SVG(1240, 520)
-    s.title("মিশ্র সার্কিটের হিসাব — R1 সিরিজে, R2 ও R3 প্যারালালে", T_TITLE)
+    s.title("মিশ্র সার্কিটের হিসাব: R1 সিরিজে, R2 ও R3 প্যারালালে", T_TITLE)
 
     L, R, TOP, BOT = 190, 1082, 186, 420
     scy = 300
@@ -362,9 +359,9 @@ def d10_meters():
 
     return _sheet("d10_meters", "অ্যামিটার ও ভোল্টমিটারের সংযোগ পদ্ধতি",
                   amm, volt,
-                  "অ্যামিটার সবসময় লোডের সঙ্গে সিরিজে, ভোল্টমিটার সবসময় "
+                  "অ্যামিটার বসে লোডের সঙ্গে সিরিজে, ভোল্টমিটার বসে "
                   "লোডের সঙ্গে প্যারালালে", 600,
-                  t_left="অ্যামিটার — সিরিজে", t_right="ভোল্টমিটার — প্যারালালে")
+                  t_left="অ্যামিটার: সিরিজে", t_right="ভোল্টমিটার: প্যারালালে")
 
 
 ALL = [d01_classification, d02_current_path, d03_simple, d04_series,

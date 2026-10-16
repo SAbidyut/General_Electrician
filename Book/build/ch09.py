@@ -12,7 +12,7 @@
 মান ও সংখ্যা যাচাই করা হয়েছে (মুখস্থ থেকে নয়, মূল নথি থেকে):
 
   বিএনবিসি ২০১২ পার্ট ৮ অধ্যায় ১, ধারা ১.৩.২৭ (law.resource.org-এর
-  পিডিএফ) — (ক) সরঞ্জাম ও কেব্‌ল ফুল-লোড কারেন্টের অন্তত সমান;
+  পিডিএফ) — (ক) সরঞ্জাম ও ক্যাবল ফুল-লোড কারেন্টের অন্তত সমান;
   (গ) "Every electric motor having a rating exceeding 0.376 kW shall
   be provided with control equipment incorporating means of protection
   against overcurrent.";  (ঘ) আপনা থেকে আবার চালু হওয়া ঠেকানো।

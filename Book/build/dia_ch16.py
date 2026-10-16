@@ -47,6 +47,7 @@ from dia_ch08 import (panel, note_strip, node, blk, chip, callout,
                       T_TINY, SYM, SW, LIVE, NEUT, DEAD, PLATE, CU)
 from dia_ch09 import fuse, lamp
 from dia_ch11 import earth, meter
+from dia_ch14 import hop_line
 from svgkit import (SVG, NAVY, STEEL, LIGHT, RED, REDBG, GREEN, GREENBG,
                     AMBER, AMBERBG, GREY, LINE, INK, tw)
 
@@ -303,10 +304,13 @@ def d03_hierarchy():
     s.path(f"M {xs[3] + 14} {CY + 53} L {xs[3] + 26} {CY + 53}", DCP, 3.4)
 
     names = ("সেল", "মডিউল", "স্ট্রিং", "অ্যারে")
-    subs = ("Voc প্রায় 0.69 V", "55 সেল সিরিজে", "3 মডিউল সিরিজে",
+    # সংখ্যাগুলো Trina TSM-500 DE18M.08-এর — ch16.py-র লেখার সঙ্গে মেলে:
+    # 150 হাফ-সেল = সিরিজে 75 সেল, Voc 51.7 V, Isc 12.28 A, 500 W।
+    # সিরিজে কারেন্ট বাড়ে না, তাই সেলের কারেন্টই মডিউলের Isc।
+    subs = ("Voc প্রায় 0.69 V", "75 সেল সিরিজে", "3 মডিউল সিরিজে",
             "2 স্ট্রিং প্যারালালে")
-    vals = ("Isc প্রায় 18.5 A", "Voc 37.9 V · 550 W",
-            "Voc 113.7 V · 1650 W", "113.7 V · 3300 W")
+    vals = ("Isc প্রায় 12.3 A", "Voc 51.7 V · 500 W",
+            "Voc 155.1 V · 1500 W", "Isc 24.56 A · 3000 W")
     for x, n, sb, v in zip(xs, names, subs, vals):
         s.text(x + CW / 2, 160, n, T_NAME, NAVY, 700, "middle")
         s.text(x + CW / 2, 322, sb, T_SMALL, STEEL, 700, "middle")
@@ -1041,9 +1045,13 @@ def d14_battbank():
     s.text(620, 142, "প্যারালাল", T_NAME, NAVY, 700, "middle")
     p3, n3 = cell(474, 210)
     p4, n4 = cell(644, 210)
-    s.path(f"M {p3} 200 L {p3} 172 L {p4} 172 L {p4} 200", DCP, 3.2)
-    s.path(f"M {n3} 200 L {n3} 186 L {n4} 186 L {n4} 200", DCN, 3.2)
-    s.text(p3 - 22, 166, "+", T_BODY, DCP, 700, "end")
+    s.path(f"M {p3} 200 L {p3} 168 L {p4} 168 L {p4} 200", DCP, 3.2)
+    # − বাসটি দ্বিতীয় ব্যাটারির + তারকে পেরোয় — অধ্যায় ১২/১৪-র নিয়মে
+    # সেখানে আধা-বৃত্তের লাফ (লাফ = পেরিয়ে যাওয়া, বিন্দু = জোড়া)
+    s.path(f"M {n3} 200 L {n3} 186", DCN, 3.2)
+    hop_line(s, n3, n4, 186, [p4], DCN, 3.2, r=8)
+    s.path(f"M {n4} 186 L {n4} 200", DCN, 3.2)
+    s.text(p3 - 22, 162, "+", T_BODY, DCP, 700, "end")
     s.text(n4 + 22, 180, "-", T_BODY, DCN, 700, "start")
     s.text(620, 356, "12 V · 400 AH", T_NAME, BATT, 700, "middle")
     s.text(620, 396, "AH যোগ, ভোল্টেজ একই", T_SMALL, GREY, 700, "middle")

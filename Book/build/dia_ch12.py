@@ -435,8 +435,11 @@ def d05_power():
                if i != 1 else f"M {x} {MOT - 84} L {x} {ey}", SYM, 3.6)
         s.text(x - 18, MOT - 92, nm, T_SMALL, NAVY, 700, "end")
     motor_sym(s, QX[1], MOT, 46)
-    earth(s, QX[1] + 46, MOT)
-    s.text(QX[1] + 108, MOT + 8, "PE", T_BODY, GREEN, 700, "start")
+    # আর্থ মোটরের ফ্রেম থেকে একটু ডানে সরিয়ে — বৃত্তের গায়ে বসালে
+    # প্রতীকের দাগ "3 ~" লেখার উপর পড়ে
+    s.path(f"M {QX[1] + 46} {MOT} L {QX[1] + 100} {MOT}", GREEN, 3)
+    earth(s, QX[1] + 100, MOT)
+    s.text(QX[1] + 138, MOT + 8, "PE", T_BODY, GREEN, 700, "start")
 
     s.path(f"M 892 {JOIN + 16} L {B0 + 2 * GAP + 8} {JOIN + 2}", STEEL, 2.2)
     s.textlines(900, JOIN + 26, ["দুই কন্টাক্টরের একই নম্বরের",
@@ -512,7 +515,8 @@ def _rung(s, y, items, coil_tag, coil_on, lamp_y, lamp_tag, lamp_col,
     """একটি দিকের রাং।  items = [(x, kind, closed, tag, tagpos, a, b), …]
 
     tagpos:  "top" — কন্টাক্টের মাথায়;  "low" — নিচে (বোতামের কন্টাক্টে,
-    কারণ মাথা দিয়ে বোতামের ছেঁড়া যান্ত্রিক রেখা নামে)।"""
+    কারণ মাথা দিয়ে বোতামের ছেঁড়া যান্ত্রিক রেখা নামে);  "upright" —
+    ড্যাশ-রেখার ডানে, ব্লেডের উপরে (নিচে ল্যাচ থাকলে)।"""
     cur, x = LIVE, 500
     for (ix, kind, closed, tag, tagpos, ta, tb) in items:
         s.path(f"M {x} {y} L {ix} {y}", cur, SW)
@@ -524,6 +528,10 @@ def _rung(s, y, items, coil_tag, coil_on, lamp_y, lamp_tag, lamp_col,
             s.text(ix + 46, y - 58, tag, T_SMALL, NAVY, 700, "middle")
         elif tagpos == "low":
             s.text(ix + 46, y + 76, tag, T_SMALL, NAVY, 700, "middle")
+        elif tagpos == "upright":
+            # বোতামের ড্যাশ-রেখার ডানে, ব্লেডের উপরে — বাঁয়ে বসালে আগের
+            # NC-র ঠেসের মাথায় লেগে যেত
+            s.text(ix + 56, y - 56, tag, T_SMALL, NAVY, 700, "start")
         elif tag:
             s.text(ix - 10, y - 26, tag, T_SMALL, NAVY, 700, "end")
         s.text(ix + 10, y + 36, ta, T_TINY, NAVY, 700, "middle")
@@ -601,7 +609,7 @@ def _ladder12(s, oy, state):
     # রাং ২ — পিছনের দিক
     _rung(s, RR,
           [(BX1, "nc", True, "FWD", "low", "21", "22"),
-           (BX2, "no", False, "REV", "left", "13", "14"),
+           (BX2, "no", False, "REV", "upright", "13", "14"),
            (IX, "nc", not fwd, "KM1", "top", "21", "22")],
           "KM2", rev, LR, "H2: পেছনে", REVC, BX2, HR, "KM2 13-14", rev)
 

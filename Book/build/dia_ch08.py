@@ -760,8 +760,9 @@ def d10_power():
     TOP, MCB_Y, KM_Y, MOT_Y = 118, 210, 380, 560
 
     # সরবরাহ
-    s.path(f"M 360 {TOP} L 780 {TOP}", LIVE, 3)
-    s.text(344, TOP + 9, "সরবরাহ", T_BODY, NAVY, 700, "end")
+    # তিন ফেজ তিনটি আলাদা তার — একটি আড়াআড়ি রেখায় জোড়া দিলে সেটি
+    # ফেজে-ফেজে শর্ট সার্কিট বোঝায় (আগের সংস্করণের ভুল)
+    s.text(380, TOP + 9, "সরবরাহ", T_BODY, NAVY, 700, "end")
     for x, nm in PH:
         node(s, x, TOP, LIVE)
         s.text(x, TOP - 22, nm, T_BODY, LIVE, 700, "middle")
@@ -792,8 +793,10 @@ def d10_power():
         s.path(f"M {x} {KM_Y + 58} L {x} {MOT_Y - 68}", LIVE, 4)
 
     # মোটর
-    s.path(f"M 430 {MOT_Y - 68} L 710 {MOT_Y - 68}", LIVE, 4)
+    # তিনটি তার আলাদাভাবে মোটরের তিন টার্মিনালে (U, V, W)
+    s.path(f"M 430 {MOT_Y - 68} L 537 {MOT_Y - 33}", LIVE, 4)
     s.path(f"M 570 {MOT_Y - 68} L 570 {MOT_Y - 46}", LIVE, 4)
+    s.path(f"M 710 {MOT_Y - 68} L 603 {MOT_Y - 33}", LIVE, 4)
     s.circle(570, MOT_Y, 46, "#FFFFFF", SYM, 3.6)
     s.text(570, MOT_Y - 4, "M", T_NODE, SYM, 700, "middle")
     s.text(570, MOT_Y + 26, "3 ~", T_SMALL, SYM, 700, "middle")

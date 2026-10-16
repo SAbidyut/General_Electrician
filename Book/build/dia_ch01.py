@@ -263,7 +263,7 @@ def d02_shock_path():
     ar = s.arrow_defs(RED, "arr", 15)
     GY = 462
     panels = [(282, "হাত থেকে হাত", "প্রবাহের বড় অংশ সরাসরি হৃৎপিণ্ডের ভেতর দিয়ে যায়"),
-              (838, "হাত থেকে পা", "কারেন্ট বুকের ভেতর দিয়ে পায়ে নেমে যায়")]
+              (838, "হাত থেকে পা", "কারেন্ট হৃৎপিণ্ড ও দেহের বড় অংশ পার হয়ে যায়")]
     for cx, title, sub in panels:
         s.rect(cx - 248, 66, 496, 512, "#FCFDFE", LINE, 1.8, 14)
         s.box_auto(cx, 80, title, T_NAME, fill=RED, stroke=RED, tcolor="#FFFFFF",
@@ -404,7 +404,7 @@ def d06_loto():
             s.path(f"M {x+bw+5:.1f} 172 L {x+bw+gap-7:.1f} 172", STEEL, 2.8, marker=ar)
     s.rect(x0, 268, n * bw + (n - 1) * gap, 64, REDBG, RED, 2, 12)
     s.text(600, 307,
-           "যিনি তালা লাগিয়েছেন, কেবল তিনিই তালা খুলবেন",
+           "যিনি তালা লাগিয়েছেন, শুধু তিনিই তালা খুলবেন",
            T_NAME, "#7A1810", 700, "middle")
     s.fit(332, 24)
     return s.save(f"{OUT}/d06_loto.svg")

@@ -660,9 +660,9 @@ def d09_interlock():
     s.text(x + 66, 356, "21-22 খোলে", T_SMALL, NAVY, 700, "middle")
     _no(s, x + 20, 420, LIVE, closed=True)
     s.text(x + 66, 476, "13-14 বন্ধ হয়", T_SMALL, NAVY, 700, "middle")
-    s.text(X0 + W / 2, 528, "একসঙ্গে, তাই একটির", T_SMALL, GREY, 400,
+    s.text(X0 + W / 2, 528, "আগে 21-22 খোলে,", T_SMALL, GREY, 400,
            "middle")
-    s.text(X0 + W / 2, 556, "আগে অন্যটি হয় না", T_SMALL, GREY, 400,
+    s.text(X0 + W / 2, 556, "তারপর 13-14 বন্ধ হয়", T_SMALL, GREY, 400,
            "middle")
 
     # ২ — মিরর কন্টাক্ট

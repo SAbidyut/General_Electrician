@@ -603,9 +603,9 @@ def d09_single():
 
 
 def d10_double():
-    s = SVG(1240, 520)
+    s = SVG(1240, 460)
     s.title("ডাবল কন্ডিশন — কন্ট্রোল সার্কিট", T_TITLE)
-    LY, NY, RX = 250, 400, 1130
+    LY, NY, RX = 250, 350, 1130
     s.text(70, LY + 9, "L", T_NODE, LIVE, 700, "end")
     s.text(70, NY + 9, "N", T_NODE, NEUT, 700, "end")
     s.path(f"M 82 {LY} L 118 {LY}", CW, SW)
@@ -621,7 +621,7 @@ def d10_double():
     s.path(f"M 976 {LY} L {RX} {LY} L {RX} {NY}", NEUT, SW)
     s.path(f"M 82 {NY} L {RX} {NY}", NEUT, SW)
     node(s, RX, NY, NEUT)
-    y = note_strip(s, 440, "দুই সুইচ সিরিজে — দুটোই বন্ধ হলে তবেই "
+    y = note_strip(s, 386, "দুই সুইচ সিরিজে — দুটোই বন্ধ হলে তবেই "
                            "কয়েল টান পায়")
     s.fit(y, 24)
     return s.save(f"{OUT}/d10_double.svg")

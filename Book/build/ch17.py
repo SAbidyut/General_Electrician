@@ -29,7 +29,7 @@ Balun ব্যবহার ও সংযোগ · CC ক্যামেরা �
           শাফটটি স্যানিটারি শাফটের গা ঘেঁষে হতে পারবে না — শুকনো
           থাকতে হবে।
   ১.৩.৩৯.২ PVC কন্ডুইটের ভেতরে অন্তত ৪০ শতাংশ ফাঁকা রাখতে হবে।
-  ১.৩.৪০.১ **RF ও ভিডিও কেব্‌ল** — এই অধ্যায়ের কোঅক্সের ধারা।
+  ১.৩.৪০.১ **RF ও ভিডিও ক্যাবল** — এই অধ্যায়ের কোঅক্সের ধারা।
           "These cables must not be placed in the same conduit with
           power cables.  A distance of at least **350mm** must be
           maintained if a portion runs in parallel with the power
@@ -37,7 +37,7 @@ Balun ব্যবহার ও সংযোগ · CC ক্যামেরা �
           Co-axial Cables shall be made with solid Copper centre
           conductor, foamed polythene insulated and further sealed
           Alluminium foil taped and Copper wire braided."
-  ১.৩.৪১  **ডেটা কেব্‌ল** — IP ক্যামেরার ধারা।  "Cat 6 unshielded
+  ১.৩.৪১  **ডেটা ক্যাবল** — IP ক্যামেরার ধারা।  "Cat 6 unshielded
           twisted pair (UTP) cables in a concealed manner";  এক মাথায়
           8P8C (RJ45) সকেট, অন্য মাথায় প্যাচ প্যানেল;  "From the patch
           panel up to the data socket the cable shall be in one piece
@@ -942,7 +942,9 @@ def build():
     b.para("PoE সুইচ বা NVR-এর ডেটাশিটে পাওয়ারের দুটি সীমা লেখা থাকে: "
            "প্রতি পোর্টের সীমা আর সব পোর্ট মিলিয়ে মোট সীমা। দুটি সীমাই "
            "একসঙ্গে মানতে হয়। যেমন DHI-NVR4108HS-8P-4KS2-এ প্রতি পোর্টে "
-           "সর্বোচ্চ 25.5 W আর মোট 80 W।")
+           "সর্বোচ্চ 25.5 W আর মোট 80 W। ডেটাশিটের মূল ইংরেজি লাইনটি "
+           "হলো: \"PoE: Max 25.5w for single port, 80w in total\"। এই দুই "
+           "মান মিলিয়েই ঠিক করতে হয় NVR-এ কতগুলো ক্যামেরা চলবে।")
 
     b.worked_example(
         4,
@@ -1248,11 +1250,13 @@ def build():
     b.h2("১২ ভোল্ট লাইনে ভোল্টেজ ড্রপ", "১৭.৯.২")
     b.para("তারেরও রেজিস্ট্যান্স আছে, তাই কারেন্ট চললে তারে কিছু "
            "ভোল্টেজ কমে যায়। অধ্যায় ৩-এর দুটি সূত্র মিলিয়ে এই ড্রপ "
-           "হিসাব করা হয়।")
+           "হিসাব করা হয়। প্রথম সূত্রে তারের রেজিস্ট্যান্স পাওয়া যায়, আর "
+           "দ্বিতীয় সূত্রে সেই রেজিস্ট্যান্সে কত ভোল্ট ড্রপ হয় তা পাওয়া "
+           "যায়।")
 
     b.math(r"R = \rho \frac{L}{A} \qquad V_{drop} = I \times R")
 
-    b.para("তামার রেজিস্টিভিটি (আপেক্ষিক রোধ) ρ প্রায় 0.0175 "
+    b.para("তামার রেজিস্টিভিটি ρ প্রায় 0.0175 "
            "Ω·mm²/m; এই এককে L মিটারে আর A বর্গমিলিমিটারে বসাতে হয়। "
            "**L হলো তারের মোট দৈর্ঘ্য, অর্থাৎ যাওয়া ও আসা দুটিই।** "
            "ক্যামেরা ৬০ মিটার দূরে থাকলে তার লাগে ১২০ মিটার। DC "

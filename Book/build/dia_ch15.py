@@ -50,7 +50,8 @@ BOXG = "#E7ECF1"
 PLATE = "#F4F7FA"
 METAL = "#8D9AA8"
 
-# বিএনবিসি ১.৩.৯.৩.১৫-এর রং — ছবির বারগুলোতেও ঠিক এই রং
+# আগের কোডের রং (লাল-হলুদ-নীল) — ছবির বারগুলোতেও এই রং; বিএনবিসি ২০২০-এর
+# IEC কোড (বাদামি-কালো-ধূসর, নীল N) d07-এ পাশাপাশি দেখানো
 C_L1 = "#D42A1F"
 C_L2 = "#E8B21C"
 C_L3 = "#2E6FB7"
@@ -444,7 +445,8 @@ def d06_main():
 
 # ── ৭. রঙের কোড ও বার সাজানো ────────────────────────────────────────────
 def d07_colour():
-    """বিএনবিসি ১.৩.৯.৩.১৫ — বাঁয়ে কোড, ডাইনে বাস্তব প্যানেল।"""
+    """বাঁয়ে আগের ও বর্তমান (বিএনবিসি ২০২০, সারণি ৮.১.২১ = IEC) রঙের কোড
+    পাশাপাশি, ডাইনে বাস্তব প্যানেল — যার বারে আগের লাল-হলুদ-নীল।"""
     ph_w = 470
     ih = _ih("ph_panel.jpg", ph_w - 32)
     top, ph = 104, max(ih + 78, 396)
@@ -452,23 +454,27 @@ def d07_colour():
     s.title("বারের রং ও সাজানোর ক্রম", T_TITLE)
 
     panel(s, 60, top, 630, ph, "রঙের কোড", STEEL)
-    rows = [(C_L1, "L1", "লাল", "ফেজ ১"),
-            (C_L2, "L2", "হলুদ", "ফেজ ২"),
-            (C_L3, "L3", "নীল", "ফেজ ৩"),
-            (C_N, "N", "কালো", "নিউট্রাল"),
-            (C_PE, "PE", "সবুজ-হলুদ", "আর্থিং")]
-    y0 = top + 70
-    for i, (c, tag, colname, role) in enumerate(rows):
-        yy = y0 + i * 60
-        s.rect(96, yy, 300, 34, c, "#00000033", 1.6, 4)
-        if tag == "PE":                       # দ্বিরঙা — হলুদ ডোরা
-            for k in range(9):
-                s.path(f"M {110 + k * 34} {yy + 34} L {124 + k * 34} {yy}",
-                       C_L2, 7)
-            s.rect(96, yy, 300, 34, "none", "#00000033", 1.6, 4)
-        s.text(414, yy + 26, tag, T_NAME, NAVY, 700, "start")
-        s.text(474, yy + 26, colname, T_BODY, STEEL, 700, "start")
-        s.text(660, yy + 26, role, T_BODY, NAVY, 700, "end")
+    BROWN, BLACK, GREYC = "#7A4A21", "#232323", "#8D9AA8"
+    rows = [("L1", C_L1, "লাল", BROWN, "বাদামি"),
+            ("L2", C_L2, "হলুদ", BLACK, "কালো"),
+            ("L3", C_L3, "নীল", GREYC, "ধূসর"),
+            ("N", C_N, "কালো", C_L3, "নীল"),
+            ("PE", C_PE, "সবুজ-হলুদ", C_PE, "সবুজ-হলুদ")]
+    xo, xn, sw_w = 150, 418, 100          # আগের / বর্তমান কলামের শুরু
+    s.text(xo + 4, top + 96, "আগের কোড", T_SMALL, GREY, 700, "start")
+    s.text(xn + 4, top + 96, "বিএনবিসি ২০২০", T_SMALL, NAVY, 700, "start")
+    y0 = top + 118
+    for i, (tag, c_old, n_old, c_new, n_new) in enumerate(rows):
+        yy = y0 + i * 52
+        s.text(88, yy + 25, tag, T_NAME, NAVY, 700, "start")
+        for x0, c, nm in ((xo, c_old, n_old), (xn, c_new, n_new)):
+            s.rect(x0, yy, sw_w, 32, c, "#00000033", 1.6, 4)
+            if tag == "PE":                   # দ্বিরঙা — হলুদ ডোরা
+                for k in range(3):
+                    s.path(f"M {x0 + 12 + k * 32} {yy + 32} "
+                           f"L {x0 + 26 + k * 32} {yy}", C_L2, 7)
+                s.rect(x0, yy, sw_w, 32, "none", "#00000033", 1.6, 4)
+            s.text(x0 + sw_w + 12, yy + 24, nm, T_BODY, STEEL, 700, "start")
 
     panel(s, 710, top, ph_w, ph, "বাস্তব প্যানেল", GREEN)
     s.image_fit(726, top + 64, ph_w - 32, ph - 78, f"{IMG}/ph_panel.jpg", 6)

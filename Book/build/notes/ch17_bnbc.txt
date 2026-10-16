@@ -1,0 +1,119 @@
+BNBC 2012 Part 8 Chapter 1 — clauses relevant to CCTV cabling
+source: https://law.resource.org/pub/bd/bnbc.2012/gov.bd.bnbc.2012.08.01.pdf
+
+======================================================================
+#### 1.1.1 scope names CCTV
+======================================================================
+Electrical and Electronic Engineering Installations include Lighting and 
+Illumination, Fans Cooling/Heating system, Normal and Standby power supply system, Supply system for the Lifts, 
+Telecommunications Systems, Data Communication Systems, Fire Alarm System, CCTV monitoring System, Cable 
+Television Distribution System, Electronic Access Control System, Burglar Alarm System.   
+Electrical wiring / cabling form a major part in the above mentioned installation works.  Electrical wiring / cabling 
+must  be  reasonably  safe  to  persons  and  property.  Installations,  alteration,  or  extension  of  Electrical  wiring  / 
+cabling systems conforming to the provisions of this code shall be deemed to be reasonably safe to persons and 
+property.  
+1.1.2 Guiding Sources of the Codes of Electrical and Electronic Engineering Installations 
+Significant  Modification,  Upgradation  and  Addition
+
+======================================================================
+#### 1.3.18.1 vertical service shaft
+======================================================================
+1.3.18.1 Vertical Service Shaft for Electrical Risers 
+
+Part 8 
+Building Services 
+ 
+ 
+8‐42 
+ 
+Vol. 3 
+For buildings over six‐storey or 20 m high there shall, in general, be a minimum of one vertical electrical service 
+shaft of 200 mm x 400 mm size for every 1500 m2 floor area. The electrical service shaft shall exclusively be used 
+for the following purposes:  
+Electric supply feeder cables or riser mains, 
+Busbar Trunking, 
+telephone cables, 
+Data Cables, 
+fire alarm cables, 
+CCTV cables,  
+Other signal cables, 
+Area fuse/circuit breakers, 
+Floor Distribution board / sub‐distribution boards for individual floors.  
+The construction of the floors of the duct area shall be constructed in such a way so that the empty space after 
+putting the cables/ busar trunking / pipes / conduits in position the remaining open space is filled up with RCC 
+slab(s) or any other non inflammable material so that fire or molten PVC can not fall from one floor to the next 
+lower floor(s). For this purpose arrangements need to be made during the main floor casting. 
+Free and easy access to the electrical shaft room in each floor must be available for operation, maintenance and 
+emergency shut downs. 
+Vertical cables other than electrical cables shall be placed at a sufficient distance from the nearest electrical cable. 
+A vertical separating brick wall between electrical and non electrical wall is preferable.  
+Vertical Service Shaft for Electrical Risers as mentioned above must not be placed adjacent to the Sanitary Shafts. 
+They should be placed at significant separation in order to ensure that the Vertical Service Shaft for Electrical 
+Risers remains absolutely dry. 
+1.3.18.2 L.T. Riser Main Cables 
+For low rise building Riser Main Cables will serve to bring L.T. connection to the Floor Distribution Boards (FDBs) 
+of each floor from the Main Distribution Board. For a 5 storied building or lesser having a floor space of less than 
+600 m2  in each floor the riser cables may be PVC insulated cables through PVC or GI pipes.  
+For bringing the riser main cables a common vertical wall and holes or slots in the floors must be given by the 
+building construction people. 
+However, for lar
+
+======================================================================
+#### 1.3.39.2 conduit clearance
+======================================================================
+1.3.39.2 Concealed Telecommunication Cable Wiring 
+2 pair PVC insulated PVC sheathed annealed copper telecommunication cable shall be drawn through sufficient 
+number  of  pre‐laid  19mm  /  25mm  /  38mm  PVC  conduits  to  establish  Telecommunication  Network  inside  a 
+building. A clearance of at least 40% must be maintained inside the PVC conduits. Sufficient number of 18SWG GI 
+sheet made pull boxes (with Perspex sheet / ebonite sheet cover plates) at all suitable places must be placed for 
+the ease of pulling these cables. 
+2 pair PVC insulated PVC sheathed annealed copper telecommunication cable shall be used for wiring between a 
+Telephone DP / Patch panel and a Telecommunication outlet. The extra pair shall remain for future maintenance. 
+The minimum size of the copper wire of this cable shall be 0.5mm. The copper shall be preferably tinned. 
+1.3.39.3 Surface Telecommunication Cable Wiring 
+Surface  wiring  should  not  be  a  choice  during  designing  a  building  wiring.  However,  if  the  building  is  already 
+constructed  or  under  compulsory  conditions  or  for  extension  of  an  existing  network  one  may  go  for  surface 
+wiring. The same 2 pair PVC insula
+
+======================================================================
+#### 1.3.40 TV / RF and video cables
+======================================================================
+1.3.40 Television Antennas / Cable Television system 
+In a multistoried residential / Office building, television antennas shall be placed  at one suitably sited antenna 
+location on roof top and connect these to individual flats/ residences/ Offices in the same building by coaxial 
+cables through concealed conduits.  
+1.3.40.1 Cable work for Television Antennas / Cable Television system 
+Vertical duct and easy entry to each flats/ offices must be provided as sharp bending of these cables is difficult 
+and harmful to the cables. These cables must not be placed in the same conduit with power cables. A distance of 
+at least 350mm must be maintained if a portion runs in parallel with the power cable conduits. 
+RF and Video cables shall be PVC sheathed Co‐axial Cables shall be made with solid Copper centre conductor, 
+foamed polythene insulated and further sealed Alluminium foil taped and Copper wire braided.  
+1.3.40.2 Television Antenna Outlets / Cable Television system outlets 
+Wall mounted Television coaxial cable outlets shall contain high quality coaxial connectors / jacks. The outlet box 
+shall have a back‐box which may be made of the same polymer material as the front panel or 18 SWG GI sheet or 
+18 SWG MS sheet made but painted with two coats of synthetic enamel paint. 
+1.3.41 Data Communication Network for LAN and Internet Services inside a Building 
+Data  Communication  Network  for  LAN  and  Internet  Services  inside  a  Building  may  be  installed  using  Cat  6 
+
+
+======================================================================
+#### 1.3.41 data communication Cat 6
+======================================================================
+1.3.41 Data Communication Network for LAN and Internet Services inside a Building 
+Data  Communication  Network  for  LAN  and  Internet  Services  inside  a  Building  may  be  installed  using  Cat  6 
+unshielded  twisted  pair  (UTP)  cables  in  a  concealed  manner  following  the  concealed  wiring  power  cables 
+installation  procedure  mentioned  in  the  wiring  methods  section  of  this  document.  Each  of  the  cables  will  be 
+terminated at one end at the 8P8C ( RJ45) connector based data socket outlet board in the required rooms at the 
+power socket level. On the other end, the cable will be terminated in the patch panel. From the patch panel up to 
+the data socket outlet the cable shall be in one piece i.e., no joints will be allowed. As a result the concealed 
+conduit  work  needs  to  be  done  carefully  to  have  a  straight  line  path  and  without  any  bend  in  the  roof  slab. 
+Sufficient pull boxes will be required in the roof slab. Pull box will also be needed close to the vertical bend near 
+the bend and ceiling at any downward drop of the conduit. The conduits must have 20 SWG GI pull wires during 
+laying for pulling the cables later. 
+Because  of  the  nature  of  these  cables  more  clearances  are  needed  inside  the  PVC  conduits  compared  to  the 
+power cables. 
+If  the  conduits  are  running  parallel  to  the  power  cables  then  there  should  be  at  least  a  distance  of    410mm 
+between these two.  
+Recently Cat. 7 cables are emerging as a better choice in place of Cat. 6 cables. 
+1.3.42 Fire Detection and Alarm System insi
+

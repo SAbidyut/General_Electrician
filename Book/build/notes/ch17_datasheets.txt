@@ -1,0 +1,1168 @@
+==================== ch17 primary sources, extracted 2026-09-20 ====================
+
+#################### Dahua DHI-NVR4108/4116HS-8P-4KS2 (NVR) datasheet 20190115
+url: https://www.dahuasecurity.com/asset/upload/uploads/soft/20190115/DHI-NVR4108_4116HS-8P-4KS2_datasheet_20190115.pdf
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+Lite series | DHI-NVR4108/4116HS-8P-4KS2
+System Overview
+Dahua NVR4000-4KS2 is introduced as the first Lite series NVR 
+that supports for 4K and H.265 encoding technology with excellent 
+performance at an affordable price. For applications where image 
+details are highly required, it delivers the capability of 4K resolution 
+processing. The NVR can be served as edge storage, central storage or 
+backup storage with an intuitive shortcut operation menu for remote 
+management and control.
+Due to its cost-effective and easy-to-install design, this NVR is ideal for 
+a wide range of applications such as public safety, water conservancy, 
+transportation, city centers, education, and financial institutions. 
+The NVR is compatible with numerous third-party devices making it 
+the perfect solution for surveillance systems that work independently 
+of video management system (VMS). It features an open architecture 
+that supports for multi-user access and is compatible with ONVIF 2.4 
+protocol, enabling interoperability with IP cameras.
+  
+Functions
+4K Resolution
+4K resolution is a revolutionary breakthrough in image processing 
+technology. 4K delivers four times the resolution of standard HDTV 
+1080p cameras and offers superior picture quality and image details. 4K 
+resolution improves the clarity of a magnified scene to view or record 
+crisp forensic video from large areas.
+www.dahuasecurity.com
+· Smart H.265+/H.265/Smart H.264+/H.264
+· Max 80Mbps Incoming Bandwidth
+· Up to 8MP Resolution for Preview and Playback
+· Up to 2ch@4K/8ch@1080P decoding
+· HDMI/VGA simultaneous video output
+· Support IPC UPnP, 8PoE ports
+DHI-NVR4108/4116HS-8P-4KS2
+ 8/16 Channel Compact 1U 8PoE 4K&H.265 Lite Network Video Recorder
+8Mp
+Intrusion
+People Counting
+Heat Map
+COUNTING
+Tripwire
+H.265
+Smart H.265+
+Smart H.265+ is the optimized implementation of the H.265 codec that 
+uses a scene-adaptive encoding strategy, dynamic GOP, dynamic ROI, 
+flexible multi-frame reference structure and intelligent noise reduction to 
+deliver high-quality video without straining the network. Smart H.265+ 
+technology reduces bit rate and storage requirements by up to 70% 
+when compared to standard H.265 video compression.
+Intelligent Video System
+Working with IVS-enabled IP cameras, the NVR recognizes and records
+video that contains IVS data on all IP channels. The NVR records standard
+intelligence at-the-edge features, as well as premium IVS features that
+detect abandoned or missing objects, Tripwire violations, and intrusion
+violations. The NVR is also capable of recording business analysis data –
+Facial Detection, People Counting, and Heat Map – from IP cameras with
+built-in Intelligent Business Analytics.
+ANR (Automatic Network Replenishment Technology)
+Network Video Recorders with the ANR function automatically store 
+video data on an IP camera SD card when the network is disconnected. 
+After recovery of the network, the NVR automatically retrieves the video 
+data stored on the camera.
+DMSS
+The DMSS app is available on the iOS App Store and Google Play. It 
+makes surveillance easy and simple, allowing you to remotely access NVR 
+devices, view live video, receive event push notifications, and search for 
+recorded videos from an iPhone, iPad, or Android phone at anytime from 
+virtually anywhere!
+
+www.dahuasecurity.com
+Lite Series |  DHI-NVR4108/4116HS-8P-4KS2
+Technical Speciﬁcation
+System
+Main Processor
+Quad-core embedded processor
+Operating System
+Embedded LINUX
+Aduio and Video
+IP Camera Input
+8/16 Channel
+Two-way Talk
+ 1 Channel Input, 1 Channel Output, RCA
+Display
+Interface
+1 HDMI, 1 VGA
+Resolution
+HDMI: 3840×2160, 1920×1080, 1280×1024, 
+1280×720
+VGA: 1920×1080, 1280×1024, 1280×720
+Decoding Capacity
+2ch@4K(30fps)/8ch@1080P(30fps)
+Multi-screen Display
+8CH: 1/4/8/9 
+16CH: 1/4/8/9/16
+OSD
+Camera title, Time, Camera lock, Motion detection, 
+Recording
+Recording
+Compression
+Smart H.265+/H.265/Smart H.264+/H.264
+Resolution
+8Mp/ 6Mp/ 5MP/ 4MP/ 3MP/ 1080P/ 1.3MP/ 720P 
+etc.
+Record Rate
+80Mbps
+Bit Rate
+16Kbps ~ 20Mbps Per Channel
+Record Mode
+Manual, Schedule (Regular, Continuous), MD 
+(Video detection: Motion Detection, Tampering, 
+Video Loss), Stop
+Record Interval
+1 ~ 120  min (default: 60 min), Pre-record: 
+1 ~ 30  sec, Post-record: 10 ~ 300 sec
+Video Detection and Alarm
+Trigger Events
+Recording, PTZ, Tour, Video Push, Email, Snapshot, 
+Buzzer and Screen Tips
+Video Detection
+Motion Detection, MD Zones: 396 (22 × 18), 
+Video Loss and Tampering
+Alarm input
+ N/A
+Alarm output
+N/A
+Playback and Backup
+Playback
+8CH: 1/4/9 
+16CH: 1/4/9/16
+Search Mode
+Time /Date, MD and Exact Search
+ (accurate to second), Smart search
+Playback Function
+Play, Pause, Stop, Rewind, Fast play, Slow Play, 
+Next File, Previous File, Next Camera, Previous 
+Camera, Full Screen, Backup Selection, Digital 
+Zoom
+Backup Mode
+USB Device/Network
+  
+Third-party Support
+Third-party Support
+Arecont Vision, Airlive, AXIS, Canon, Dynacolor, 
+JVC, LG, Panasonic, Pelco, PSIA, Samsung, Sanyo, 
+Sony, Watchnet and more
+Network
+Interface
+1 RJ-45  Port (10/100Mbps)
+Ethernet Port
+1 Independent 100Mbps Ethernet Port
+PoE
+8 Ports(IEEE802.3at/af)
+Network Function
+HTTP, HTTPS, TCP/IP, IPv4/IPv6, UPnP, RTSP, UDP, 
+SMTP, NTP, DHCP, DNS, IP Filter, PPPoE, DDNS, FTP, 
+SNMP, IP Search (Support Dahua IP camera, DVR, 
+NVS, etc.), Easy4ip
+Max. User Access
+128 users
+Smart Phone
+iPhone, iPad, Android
+Interoperability
+ONVIF 2.4, SDK, CGI
+Storage
+Internal HDD
+1 SATA III Port, Up to 6 TB capacity for each HDD
+HDD Mode
+Single
+Auxiliary Interface
+USB
+2 ports(1 Rear USB2.0, 1 Front USB2.0)
+RS232
+N/A
+RS485
+N/A
+Electrical
+Power Supply
+DC48V/2A
+Power Consumption
+NVR: <8.3W (Without HDD)
+PoE: Max 25.5w for single port, 80w in total
+Environmental
+Operating Conditions
+-10°C ~ +55°C (+14°F ~ +131°F), 86 ~ 106kpa
+Storage Conditions
+-20°C ~ +70°C (-4°F ~ +158°F), 0 ~ 90% RH
+Construction
+Dimensions
+Compact 1U, 260mm×224.9mm×47.6mm
+(10.2" x 8.9" x 1.9")
+Net Weight
+0.8kg (1.76 lb) (without HDD)
+Gross Weight
+1.6kg(3.53 lb)(without HDD)
+Certifications
+CE
+EN55032, EN55024, EN50130-4, EN60950-1
+FCC
+Part 15 Subpart B, ANSI C63.4-2014
+UL
+UL60950-1
+
+Lite Series |  DHI-NVR4108/4116HS-8P-4KS2
+Rev 001.001
+© 2016 Dahua  . All rights reserved. Design and specifications are subject to change without notice
+Ordering Information
+Type
+Part Number
+Description
+4 Channel NVR
+ DHI-NVR4108HS-8P-4KS2
+4 Channel Compact 1U 8PoE 
+4K&H.265 Lite Network Video 
+Recorder 
+8 Channel NVR
+ DHI-NVR4116HS-8P-4KS2
+8 Channel Compact 1U 8PoE 
+4K&H.265 Lite Network Video 
+Recorder 
+www.dahuasecurity.com
+Dimensions (mm)
+Rear Panel
+
+
+#################### Dahua DH-XVR5108HS-4KL-X (DVR/XVR) datasheet 20201027
+url: https://www.dahuasecurity.com/asset/upload/uploads/soft/20201030/DH-XVR5108HS-4KL-X_datasheet_20201027.pdf
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+Lite Series | DH-XVR5108HS-4KL-X
+www.dahuasecurity.com
+DH-XVR5108HS-4KL-X
+8 Channel Penta-brid 4K Compact 1U Digital Video Recorder
+ Series
+Lite
+      Plug&Play
+P2P
+    4K
+       HDMI 
+         8CH
+Smart H.264+
+H.265
+System Overview
+With the surveillance operators pursuing to HD/UHD which further adds the 
+storage and transmission cost, HDCVI H.265+/H.265 has been released to 
+incredibly decrease the required bitrate while ensuring the video quality in 
+realizing high resolution surveillance such as 4MP/4K. 
+The Lite Series is designed for high cost performance and quality. The range 
+offers a great solution for users facing budget constraints who both require 
+quality and performance. And with the adoption of Smart H.265+/H.265, 
+the series improves encoding efficiency, saving on bandwidth/storage costs, 
+and significantly reducing the Total Cost of Ownership (TCO).
+Functions
+Smart H.265+                                                                                                        
+Smart Codec, H.265+ can reduce up to 90% bit rate and storage 
+requirements compared with H.264 without having to invest in new 
+cameras.
+HDCVI/AHD/TVI/CVBS Auto-detect
+The XVR can auto recognize the signal of front-camera without any setting. 
+It makes operation more friendly and convenient.
+                                                                                                                               
+8MP Resolution
+The XVR supports up to 8MP HD resolution (3840 x 2160) HDCVI camera 
+and IP camera input.
+Coaxial Audio/Upgrade/Alarm
+The integrated design can reduce wiring troubles which makes it much more 
+cost-effective and convenient for installation.
+· H.265+/H.265 dual-stream video compression
+· Supports HDCVI/AHD/TVI/CVBS/IP video inputs
+· Max 12 channels IP camera inputs, each channel up to 8MP; 
+Max 48Mbps Incoming Bandwidth
+· Smart Search and Intelligent Video System
+Long Distance Transmission 
+The HDCVI system supports long distance transmission over coaxial cable 
+and UTP, max. 700m for 4K/4MP, 800m for 1080P and 1200m for 720P. 
+Smart Fan Design
+The smart fan can automatically turn on or turn off  according to the 
+CPU temperature. This function can  effectively reduce the fan noise to 
+provide a better user experience.
+Intelligent Video System (IVS)
+With built-in intelligent video analytics, the XVR has the ability to detect 
+and analyze moving objects for improved video surveillance. The XVR 
+provides optional standard intelligence at the edge allowing detection of 
+multiple object behaviors such as abandoned or missing objects. IVS also 
+supports Tripwire analytics, allowing the camera to detect when a pre-
+determined line has been crossed.
+Face Detection
+It is a typical technology being used in a variety of applications  for 
+searching or identification of individuals.
+Smart Search
+This function helps you  get more motion detect video during a short 
+time through drawing a region when playback. It is very useful when an 
+emergency occurs.
+
+www.dahuasecurity.com
+Lite Series | DH-XVR5108HS-4KL-X
+Technical Speciﬁcation
+System
+Main Processor
+Embedded  Processor
+Operating System
+Embedded LINUX
+Video and Audio
+Analog Camera Input
+8 Channel, BNC
+HDCVI Camera 
+4K, 6MP, 5MP, 4MP, 1080P@25/30fps, 720P@50/60fps, 
+720P@25/30fps
+AHD Camera 
+5MP, 4MP, 3MP, 1080P@25/30, 720P@25/30fps
+TVI Camera 
+5MP, 4MP, 3MP, 1080P@25/30, 720P@25/30fps
+CVBS Camera 
+PAL/NTSC
+IP Camera Input
+8+4 Channel, each channel up to  8MP
+Audio In/Out
+1/1, RCA
+Two-way Talk
+Reuse audio in/out, RCA
+Recording
+Compression
+H.265+/H.265/H.264+/H.264
+Resolution
+4K, 6MP, 5MP, 4MP, 3MP, 4M-N, 1080P,  720P, 960H, D1, CIF
+Record Rate
+Main stream: 4K(1~7fps), 6MP(1~10fps), 5MP(1~12fps), 
+4MP/3MP(1~15fps), 4M-N/1080P/720P/960H/D1/CIF 
+(1~25/30fps)
+Sub stream:960H(1~15fps); D1/CIF(1~25/30fps)  
+Bit Rate
+32Kbps ~ 6144Kbps Per Channel
+Record Mode
+Manual, Schedule (General, Continuous), MD (Video detection: 
+Motion Detection, Video Loss, Tampering), Alarm, Stop
+Record Interval
+1 ~ 60  min (default: 60 min), Pre-record: 1 ~ 30  sec, Post-
+record: 10 ~ 300 sec
+Audio Compression
+G.711A, G.711U, PCM
+Audio Sample Rate
+8KHz, 16 bit  Per Channel
+Audio Bit Rate
+64Kbps Per Channel
+Display
+Interface
+1 HDMI, 1 VGA
+Resolution
+HDMI:3840×2160, 2560×1440, 1920×1080, 1280×1024, 
+1280×720
+VGA: 1920×1080, 1280×1024, 1280×720
+Multi-screen Display
+When  IP extension mode not enabled: 1/4/8/9
+When  IP extension mode  enabled: 1/4/8/9/16
+OSD
+Camera title, Time, Video loss, Camera lock, Motion detection, 
+Recording
+Network
+Interface
+1 RJ-45 Port (1000M)
+Network Function
+HTTP, HTTPS, TCP/IP, IPv4/IPv6, Wi-Fi, 3G/4G, UPnP, RTSP, UDP, 
+SMTP, NTP, DHCP, DNS, IP Filter, PPPoE,DDNS, FTP, Alarm Server, 
+P2P,IP Search (Supports Dahua IP camera, DVR, NVS, etc.)
+Max. User Access
+128 users
+Smart Phone
+iPhone, iPad, Android
+Interoperability
+ONVIF 16.12, CGI Conformant
+  
+Video Detection and Alarm
+Trigger Events
+Recording, PTZ, Tour, Video Push, Email, FTP, Snapshot, 
+Buzzer and Screen Tips
+Video Detection
+Motion Detection, MD Zones: 396 (22 × 18), Video 
+Loss,Tampering and Diagnosis
+Alarm input
+N/A
+Relay Output
+N/A
+Playback and Backup
+Playback
+1/4/9  
+Search Mode
+Time /Date, Alarm, MD and Exact Search (accurate to 
+second)
+Playback Function
+Play, Pause, Stop, Rewind, Fast play, Slow Play, Next File, 
+Previous File, Next Camera, Previous Camera, Full Screen, 
+Repeat, Shuffle, Backup Selection, Digital Zoom
+Backup Mode
+USB Device/Network
+Storage
+Internal HDD
+1 SATA Port, up to 10TB capacity
+eSATA
+N/A
+Auxiliary Interface
+USB
+2 USB Ports (1 USB 2.0,1 USB 3.0)
+RS232
+N/A
+RS485
+1 Port, for PTZ Control
+Electrical
+Power Supply
+DC12V/2A
+Power Consumption
+(without HDD)
+<10W 
+Construction
+Dimensions
+Compact 1U, 260×236×48mm(10.2"×9.3"×1.9")
+Device with PFH101
+Rack Mount Tray
+483mmx281mmx56mm (19.0"x11.1"x2.2")
+Net Weight
+(without HDD)
+0.9kg (2.0 lb) 
+Gross Weight
+1.6kg (3.5 lb)
+Installation
+Desktop installation
+Environmental
+Operating Conditions
+-10°C ~ +55°C (+14°F ~ +131°F), 10% ~ 90% RH
+Storage Conditions
+-20°C ~ +70°C (-4°F ~ +158°F) , 0~ 90% RH
+Third-party Support
+Third-party Support
+Dahua, Arecont Vision, AXIS, Bosch, Brickcom, Canon, CP 
+Plus, Dynacolor, Honeywell, Panasonic, Pelco, Samsung, 
+Sanyo, Sony, Videotec, Vivotek, and more
+Certifications
+Certifications
+FCC:  Part 15 Subpart B
+CE: CE-LVD: EN 60950-1/IEC 60950-1
+CE-EMC: EN 61000-3-2, EN 61000-3-3, EN 55032, EN 50130, 
+EN 55024
+UL: UL 60950-1
+   
+
+Lite Series | DH-XVR5108HS-4KL-X
+Rev 001.001
+© 2018 Dahua. All rights reserved. Design and specifications are subject to change without notice. 
+Ordering Information
+Type
+Part Number
+Description
+8 Channel XVR
+DH-XVR5108HS-4KL-X
+8 Channel Penta-brid 4K Compact 1U 
+Digital Video Recorder
+Accessory, 
+optional
+DH-PFH101
+Rack Mount Tray
+Dimensions (mm)
+www.dahuasecurity.com
+Rear Panel
+DH-XVR5108HS-4KL
+1
+2
+3
+4
+5 6 7 8
+9
+1
+VIDEO IN
+6
+RS485 Interface
+2
+AUDIO IN, RCA Connector
+7
+USB Interface 
+3
+AUDIO OUT, RCA Connector
+8
+DC 12V Power Input
+4
+HDMI Interface
+9
+VGA Interface
+5
+Network Interface
+Installation on Rack Mount Tray
+Rack Mount Tray
+Standard Cabinet
+1U Device
+
+
+#################### Dahua DH-IPC-HFW1230S-S5 (IP camera) datasheet 20210928
+url: https://material.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/IPC-HFW1230S-S5_datasheet_20210928.pdf
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+www.dahuasecurity.com
+DH-IPC-HFW1230S-S5
+2 MP Entry IR Fixed-Focal Bullet Netwok Camera
+· 2-MP 1/2.8" CMOS image sensor, low illuminance, high image 
+  definition. 
+· Outputs max. 2 MP (1920 × 1080) @25/30 fps.
+· H.265 codec, high compression rate, ultra-low bit rate.
+· Built-in efficient IR illuminator, and the max. illumination distance is   
+  30 m. 
+· ROI, SMART H.264+/H.265+, flexible coding, applicable to various 
+  bandwidth and storage environments.
+· Rotation mode, DWDR, 3D NR, HLC, BLC, digital watermarking,
+  applicable to various monitoring scenes. 
+· Abnormality detection: Motion detection, video tampering, network  
+  disconnection, IP conflict, and illegal access.
+· 12 VDC/PoE power supply.
+· IP67 protection.
+Series Overview
+With features of simple installation, easy operation, and high 
+performance-cost ratio, Dahua Entry series network camera is applicable 
+to small and medium-sized scenes, such as homes/residences, 
+small-sized retail stores, and other small and medium-sized enterprises.
+Functions
+Smart H.265+ & Smart H.264+
+With advanced scene-adaptive rate control algorithm, Dahua smart 
+encoding technology realizes the higher encoding efficiency than H.265 
+and H.264, provides high-quality video, and reduces the cost of storage 
+and transmission.
+Smart Illumination
+Dahua Smart Illumination technology can display image in the 
+environment of low illuminance or completely dark environment. 
+According to the distance of the targets, the camera adjusts 
+Illuminations intensity automatically to display the details of the moving 
+target.
+Motion Detection
+When moving objects appear in the monitoring image, Dahua Motion 
+Detection technology triggers alarm or records.
+Image Flip
+For narrow and long scenes, Dahua image flip technology flips the im­
+age by 90°/180°/270° to realize better surveillance in rotation mode.
+Entry Series | DH-IPC-HFW1230S-S5
+Cyber Security
+Dahua network cameras employ a series of security technologies, 
+including security authentication and authorization, access control 
+protocols, trusted protection, encrypted transmission and encrypted 
+storage. These technologies improve the camera's defense against 
+external cyber threats and prevent malicious programs from 
+compromising the device.
+Protection (IP67, Wide Voltage)
+IP67: The camera passes a series of strict test on dust and soak. It has 
+dust-proof function, and the enclosure can works normal after soaking 
+in 1 m deep water for 30 minutes. 
+Wide voltage: The camera allows ±30% (for some power supplies) 
+input voltage tolerance (wide voltage range), and it is widely applied to 
+outdoor environment with instable voltage.
+
+www.dahuasecurity.com
+Technical Speciﬁcation
+Camera
+Image Sensor
+1/2.8" CMOS
+Max. Resolution
+1920 (H) × 1080 (V)
+ROM
+16 MB
+RAM
+64 MB
+Scanning System
+Progressive
+Electronic Shutter Speed
+Auto/Manual 1/3 s–1/100,000 s
+Min. Illumination
+0.01 lux@F2.0 (Color,30 IRE)
+0.001 lux@F2.0 (B/W,30 IRE)
+0 lux (Illuminator on)
+S/N Ratio
+> 56 dB
+Illumination Distance
+30 m (98.4 ft) (IR)
+Illuminator On/Off Control
+Auto; manual
+Illuminator Number
+18 (IR LED)
+Pan/Tilt/Rotation Range
+Pan: 0°–360°
+Tilt: 0°–90°
+Rotation: 0°–360°
+Lens
+Lens Type
+Fixed-focal
+Lens Mount
+M12
+Focal Length
+2.8 mm; 3.6 mm
+Max. Aperture
+2.8 mm: F2.0
+3.6 mm: F2.0
+Field of View
+2.8 mm: Horizontal: 102°; Vertical: 54°; Diagonal: 120
+3.6 mm: Horizontal: 84°; Vertical: 45°; Diagonal: 100°
+Iris Control
+Fixed
+Close Focus Distance
+2.8 mm: 0.5 m (1.6 ft)
+3.6 mm: 0.8 m (2.6 ft)
+DORI 
+Distance
+Lens
+Detect
+Observe
+Recognize
+Identify
+2.8 mm
+38.6 m 
+(126.6 ft)
+15.4 m
+(50.5 ft)
+7.7 m 
+(25.3 ft)
+ 3.9 m
+(12.8 ft)
+3.6 mm
+ 49.7 m
+(163.1 ft)
+19.9 m
+(65.3 ft)
+  9.9 m 
+(32.5 ft)
+ 5.0 m
+(16.4 ft)
+Video   
+Video Compression
+H.265; H.264; H.264B; MJPEG (only supported by the sub 
+stream)
+Smart Codec
+Smart H.265+; Smart H.264+
+Video Frame Rate
+Main stream:
+1920 × 1080@1–25/30 fps
+Sub stream: 
+704 × 576@1–25 fps
+704 × 480@1–30 fps
+*The values above are the max. frame rates of each 
+stream; for multiple streams, the values will be subjected 
+to the total encoding capacity.
+Stream Capability
+2 streams
+Resolution
+1080p (1920 × 1080); 1.3M (1280 × 960);720p (1280 × 
+720); D1 (704 × 576/704 × 480); VGA (640 × 480); CIF 
+(352 × 288/352 × 240)
+Bit Rate Control
+CBR/VBR
+Video Bit Rate
+H.264: 32 kbps–6144 kbps
+H.265: 12 kbps–6144 kbps
+Day/Night
+Auto (ICR)/Color/B/W
+BLC
+Yes
+HLC
+Yes
+WDR
+DWDR
+White Balance
+Auto; natural; street lamp; outdoor; manual; regional 
+custom
+Gain Control
+Manual; auto
+Noise Reduction
+3D NR
+Motion Detection
+OFF/ON (4 areas, rectangular)
+Region of Interest (RoI)
+Yes (4 areas)
+Smart Illumination
+Yes
+Image Rotation
+0°/90°/180°/270° (Support 90°/270° with 1080p 
+resolution and lower)
+Mirror
+Yes
+Privacy Masking
+4 areas
+Alarm
+Alarm Event
+Network disconnection; IP conflict; illegal access; motion 
+detection; video tampering; security exception
+Network
+Network Port
+RJ-45 (10/100 Base-T)
+SDK and API
+Yes
+Cyber Security
+Video encryption; Configuration encryption; Digest; 
+WSSE; Account lockout; Security logs; Generation and 
+importing of X.509 certification; Trusted boot; Trusted 
+upgrade
+Network Protocol
+IPv4; IPv6; HTTP; TCP; UDP; ARP; RTP; RTSP; RTCP; SMTP; 
+FTP; DHCP; DNS; DDNS; NTP; Multicast
+Interoperability
+ONVIF(Profile S); CGI; P2P
+User/Host
+6 (Total bandwidth: 36 M)
+Storage
+FTP
+Browser
+IE; Chrome; Firefox
+Management Software
+Smart PSS; DSS; DMSS
+Mobile Client
+iOS; Android
+Certification
+Certifications
+CE-LVD: EN 62368-1
+CE-EMC: Electromagnetic Compatibility Directive 
+2014/30/EU
+FCC: 47 CFR FCC Part 15, Subpart B
+Power
+Power Supply
+12 VDC/PoE (802.3af)
+Power Consumption
+Basic: 1.5 W (12 VDC); 2.3 W (PoE)
+Max. (ICR +H.265+ IR intensity): 4.3 W (12 VDC); 5.5 W 
+(PoE)
+Environment
+Operating Temperature
+–40 °C to +60 °C (–40 °F to +140 °F)
+Entry Series | DH-IPC-HFW1230S-S5
+
+www.dahuasecurity.com
+Rev 001.001
+© 2021 Dahua. All rights reserved. Design and specifications are subject to change without notice.
+Pictures in the document are for reference only, and the actual product shall prevail.
+Operating Humidity
+≤ 95%
+Storage Temperature
+–40 °C to +60 °C (–40 °F to +140 °F)
+Protection
+IP67
+Structure
+Casing
+Metal + plastic
+Product Dimensions
+164.6 mm × Φ71.8 mm (6.5" × Φ2.8")
+Net Weight
+0.39 kg (0.9 lb)
+Gross Weight
+0.50 kg (1.1 lb)
+Dimensions (mm[inch])
+Ordering Information
+Type
+Model
+Description
+2 MP Camera
+DH-IPC-
+HFW1230S-S5
+2 MP Entry IR Fixed-Focal Bullet Netwok 
+Camera
+Accessories
+  (optional)
+PFA134
+Junction Box
+PFA152-E
+Pole Mount Bracket
+PFM321D
+12 VDC 1A Power Adapter
+PFM900-E
+Integrated Mount Tester
+Accessories
+Optional:
+Entry Series | DH-IPC-HFW1230S-S5
+PFM321D
+   12V DC 1A Power    
+            Adapter
+             PFA134
+         Junction Box
+          PFA152-E
+ Pole Mount Bracket
+  PFM900-E
+   Integrated Mount 
+Tester
+
+
+#################### Hikvision DS-1H18S/E(C) HD Video Balun
+url: https://assets.hikvision.com/prd/public/all/doc/m000054382/EN_Spec-of-DS-1H18S-EC-Datasheet.pdf
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+ 
+  
+ 
+ 
+DS-1H18S/E(C) HD Video Balun 
+ 
+1 channel passive video UTP balun   
+ 
+Pat press type terminal on top, clasp aside.   
+ 
+Support device camera/DVR with POC 
+ 
+Real-time transmit video signal, and high quality and stable video  
+ 
+Compatible with HDCVI/TVI/AHD/CVBS 
+ 
+Transmission distance: non-POC Camera Max. 250m；POC Camera Max. 150m. 
+ 
+Superior anti-interference  
+ 
+Features and Functions 
+
+ 
+ 
+ 
+Model 
+DS-1H18S/E(C) 
+Properties 
+Transmission Signal  
+1 channel 
+Transmission Distance  
+Non-POC Camera: Max 250m 
+POC Camera: Max 150m 
+Category Type  
+UTP CAT5/ 5E/ 6 (R<10Ω/100 M) 
+Video 
+Transmission 
+Properties and 
+Port 
+Coaxial Video Connector  BNC-M 
+Twisted-pair Video 
+Connector  
+Pat Push Interface 
+Compatible Format  
+HDCVI/TVI/AHD/CVBS 
+Resolution 
+720P/1080P/4MP/5MP/8MP 
+Ant-interference 
+>60db 
+Protection 
+ESD 
+contact discharge electricity level3 
+air discharge electricity level3 
+Per: IEC61000-4-2 
+Coaxial Cable Connector  
+2KV(common-code) Per:IEC61000-4-5 
+UTP Cable Connector 
+2KV(different-code),                         
+2KV(common-code)      
+Per:IEC61000-4-5 
+Impedance 
+BNC Male  
+75 ohms 
+UTP Cable  
+100 ohms 
+Physical 
+Properties 
+Shell  
+ABS 
+Color 
+Black 
+Dimensions  
+( L x W x H ) 
+150mm x 20mmx 22mm（balun with cable） 
+50mm x 20mmx 22mm（balun without cable） 
+Weight  
+32 g 
+Stability 
+MTBF  
+>10000 h 
+Environmental 
+Operating Temperature 
+-10-55ºC 
+Storage Temperature 
+-20-70ºC 
+Humidity 
+0-95% (non-condensing) 
+ 
+ 
+Specifications 
+
+ 
+ 
+Typical Application 
+ 
+  
+Available Model 
+DS-1H18S/E(C) 
+ 
+
+
+#################### Dahua DH-HAC-HFW1200T-A (HDCVI analog camera) datasheet 20180718
+url: https://www.dahuasecurity.com/asset/upload/product/20180829/DH-HAC-HFW1200T-A_Datasheet_20180718.pdf
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+Lite Series | DH-HAC-HFW1200T-A
+  System Overview
+Experience 1080P full HD video and the simplicity of using existing cabling 
+infrastructure with HDCVI. The Lite series 1080P HDCVI camera features a 
+compact design and offers a high quality image at a friendly price. It offers 
+various motorized/fixed lens models with a multi-language OSD and HD/
+SD switchable output. Its structural flexibility and high cost-performance 
+makes the camera an ideal choice for SMB solutions.
+  Functions
+4 Signals over 1 Coaxial Cable
+HDCVI technology supports 4 signals to be transmitted over 1 coaxial 
+cable simultaneously, i.e. video, audio*, data and power. Dual-way data 
+transmission allows the HDCVI camera to interact with the XVR, such as 
+sending control signal or triggering alarm. Moreover, HDCVI technology 
+supports PoC for construction flexibility.
+* Audio input is available for some models of HDCVI cameras. 
+Long Distance Transmission
+HDCVI technology guarantees real-time transmission at long distance 
+without any loss. It supports up to 800m(1080P)/1200m(720P) trans-
+mission via coaxial cable, and up to 300m(1080P)/450m(720P) via UTP 
+cable.*
+*Actual results verified by real-scene testing in Dahua's test laboratory.
+Simplicity
+HDCVI technology inherits the born feature of simplicity from traditional 
+analog surveillance system, making itself a best choice for investment 
+protection. HDCVI system can seamlessly upgrade the traditional ana-
+log system without replacing existing coaxial cabling. The plug and 
+play approach enables full HD video surveillance without the hassle of 
+configuring a network. 
+Smart IR
+The camera is designed with microcrystalline LED IR illumination for best 
+lowlight performance. Smart IR is a technology to ensure brightness 
+uniformity in B/W image under low illumination. Dahua’s unique Smart IR 
+adjusts to the intensity of camera's infrared LEDs to compensate for the 
+distance of an object, and prevents IR LEDs from overexposing images as 
+the object come closer to the camera.
+Multi-formats
+The camera supports multiple video formats including HDCVI, CVBS and 
+other two common HD analog formats in the market. The four formats can 
+be switched over through OSD menu or by PFM820(UTC controller). This 
+feature makes the camera to be compatible with most end users’ existing 
+HD/SD DVRs.
+Multi-language OSD
+OSD menu provides multiple image adjustments and function settings 
+to meet the requirements of different monitoring scenes. The OSD menu 
+includes configurations such as backlight mode, day/night, white balance, 
+privacy mask and motion detect. The camera supports 11 languages for 
+OSD menu, namely, Chinese, English, French, German, Spanish, Portuguese, 
+Italian, Japanese, Korean, Russian and Polish.
+Protection 
+The camera's outstanding reliability is unsurpassed due to its rugged design. 
+The camera is protected against water and dust with IP67 ranking, making it 
+suitable for indoor or outdoor environments.
+With working temperature range of -40 °C to +60 °C (-40 °F to +140 °F), the 
+camera is designed for extreme temperature environments.
+Supporting ±30% input voltage tolerance, this camera suits even the most 
+unstable power supply conditions. Its 4KV lightning rating provides pro-
+tection against the camera and its structure from the effects of lightning.
+www.dahuasecurity.com
+* The parameters and datasheets below can 
+only be applied to 1200-S4 series.
+· Max 30fps@1080P
+· HD and SD output switchable
+· Built-in mic
+· 3.6mm fixed lens (2.8mm, 6mm optional)
+· Max. IR length 30m, Smart IR
+· IP67, DC12V	
+	
+	
+DH-HAC-HFW1200T-A
+2MP HDCVI IR Bullet Camera
+Series
+ Lite
+30m IR
+DC 12V
+Temperature
+1080p
+IP67
+Audio
+
+www.dahuasecurity.com
+Lite Series | DH-HAC-HFW1200T-A
+Technical Specification
+Camera
+Image Sensor
+1/2.7" CMOS
+Effective Pixels
+1920(H)×1080(V), 2MP
+Scanning System
+Progressive
+Electronic Shutter Speed
+PAL: 1/25~1/100000s
+NTSC: 1/30~1/100000s
+Minimum Illumination
+0.02Lux/F1.85, 30IRE, 0Lux IR on
+S/N Ratio
+More than 65dB
+IR Distance
+Up to 30m (98feet)
+IR On/Off Control
+Auto / Manual
+IR LEDs
+1
+Lens
+Lens Type
+Fixed lens / Fixed iris
+Mount Type
+Board-in
+Focal Length
+3.6mm (2.8mm, 6mm Optional)
+Max Aperture
+F1.85
+Angle of View
+H: 87.5° (103°, 54.7°)
+Focus Control
+N/A
+Close Focus Distance
+500mm (900mm, 2000mm)
+19.69'' (35.43", 78.74'')
+Certifications
+Certifications
+CE (EN55032, EN55024, EN50130-4)
+FCC (CFR 47 FCC Part 15 subpartB, ANSI C63.4-2014)
+UL  (UL60950-1+CAN/CSA C22.2 No.60950-1)
+Interface
+Audio Interface
+Built-in Mic
+Eelectrical
+Power Supply
+12V DC ±30%
+Power Consumption
+Max 3.6W (12V DC, IR on)
+Environmental
+Operating Conditions
+-40°C ~ +60°C (-40°F ~ +140°F) / Less than 95% RH
+* Start up should be done at above -40°C (-40°F)
+Storage Conditions
+-40°C ~ +60°C (-40°F ~ +140°F) / Less than 95% RH
+Ingress Protection & Vandal 
+Resistance
+IP67
+Construction
+Casing
+Aluminium 
+Dimensions
+176mm×72.4mm×72.5mm (6.93"×2.85"×2.85")
+Net Weight
+0.36kg (0.79lb)
+Gross Weight
+0.46kg (1.01lb)
+DORI Distance
+Note: The DORI distance is a “general proximity” of distance which makes it easy to 
+pinpoint the right camera for your needs. The DORI distance is calculated based on 
+sensor specification and lab test result according to EN 62676-4 which defines the 
+criteria for Detect, Observe, Recognize and Identify respectively.
+DORI 
+Definition
+Distance
+Detect
+25px/m
+(8px/ft)
+2.8mm: 37m(122ft)
+3.6mm: 53m(175ft)
+6mm: 80m(262ft)
+Observe
+63px/m
+(19px/ft)
+2.8mm: 15m(49ft)
+3.6mm: 21m(70ft)
+6mm: 32m(105ft)
+Recognize
+125px/m
+(38px/ft)
+2.8mm: 8m(25ft)
+3.6mm: 11m(35ft)
+6mm: 16m(52ft)
+Identify
+250ppm
+(76px/ft)
+2.8mm: 4m(12ft)
+3.6mm: 5m(17ft)
+6mm: 8m(26ft)
+Pan / Tilt / Rotation
+Pan/Tilt/Rotation
+Pan: 0° ~ 360°
+Tilt: 0° ~ 90°
+Rotation: 0° ~ 360°
+Video
+Resolution
+1080P (1920×1080)
+Frame Rate
+25/30fps@1080P, 25/30/50/60fps@720P
+Video Output
+1-channel BNC high definition video output / CVBS 
+video output (Can switch)
+Day/Night
+Auto (ICR) / Manual
+OSD Menu
+Multi-language
+BLC Mode
+BLC / HLC / DWDR
+WDR
+DWDR
+Gain Control
+AGC
+Noise Reduction
+2D
+White Balance
+Auto / Manual
+Smart IR
+Auto / Manual
+  
+
+Lite Series | DH-HAC-HFW1200T-A
+Rev 001.001
+© 2018 Dahua. All rights reserved. Design and specifications are subject to change without notice. 
+www.dahuasecurity.com
+Ordering Information
+Type
+Part Number
+Description
+2MP Camera
+DH-HAC-HFW1200TP-A 2.8mm
+2MP HDCVI IR Bullet Camera, PAL
+DH-HAC-HFW1200TP-A 3.6mm
+DH-HAC-HFW1200TP-A 6mm
+DH-HAC-HFW1200TN-A 2.8mm
+2MP HDCVI IR Bullet Camera, 
+NTSC
+DH-HAC-HFW1200TN-A 3.6mm
+DH-HAC-HFW1200TN-A 6mm
+Accessories
+PFA134
+Junction box (For use alone or 
+with PFA152-E pole mount)
+PFA152-E
+Pole mount (For use with PFA134 
+junction box)
+PFM800-E
+Passive HDCVI Balun
+PFM800-4K
+Passive Video Balun
+PFM800B-4K
+Passive Video Balun 
+PFM321
+12V 1A Power Adapter
+PFM320D-015
+12V 1.5A Power Adapter
+PFM300
+12V 2A Power Adapter
+PFM820
+UTC Controller
+Dimensions (mm/inch)
+Accessories
+Optional:
+Juncon Mount
+Pole Mount
+PFA134 + PFA152-E
+PFA134
+PFA134 
+Junction box
+PFA152-E
+Pole mount
+PFM820
+UTC Controller
+PFM800-E
+Passive HDCVI Balun
+PFM321
+12V 1A Power Adapter
+PFM800-4K
+Passive Video Balun
+PFM800B-4K
+Passive Video Balun  
+PFM320D-015
+Power Adapter
+PFM300
+Power Adapter
+

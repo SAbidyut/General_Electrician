@@ -1,0 +1,3505 @@
+
+===== p1 =====
+'f {AqTsft <T ( -"iffi-"t )r{+]_{
+'R5rs, Wffi e qfiq q-"lq {EqrE'{
+1?Wq R.t"t
+ffiln-{GrIolT qffi-l ,]tqll
+<t(Erm{ qB<'ml, uIEl
+w\\av. powerd ivision. gov.bd
+{]-TO { ( - \q. o o. o o o o. o oo. ob g. Q q. o o o). Q6'. 8 rb8
+t\b q$ql-{"i ssel
+gTRqI:
+55 S6q5s qoqc
+frT;i: "fiB frElR( 'fiQwli{-aoQc" qR ?(r{& -\5r{-$vr ermatftb Ssl-t S{r€0l l
+E"ryw frT(T{ caftrs s1-{r{1 {]rq, "c{B ftfiR( 'nisqfsr-loQc" .{< i<r{& w{(rq ob/SQ/\oQG
+qff,RI{a[{aiTVqs of+ ugxfis c-rre|
+oQt qr-\9-1<-qEi, "rqtffifr( Ett's-ffs{-loQc" .qr e(r{Gr uwfq- Rp< R-O"t ,{<( sT st\eq$f{ {q{
+{t-R/{(Wa+1.'fifi{ em<qttrF Sflr'F q-ql fu{E (T q{KI{ S-{t -sffill
+x<1@: " FEfrEIR g. r11QsE1Q-4- qoq6' "
+sK Q(6g& qffit
+frfiT{ rrqrT?r{B<
+mlT-oQ-815Q5cc\b
+?-m?q, re-2@pd.gov.bd
+nv<qr@
+o5 I 6-rlTTl{lCr6<llqt"tRurqor<r+qt"r+ tRulqn 1x+nfi0</T<wcoPrfi), RTrq RsTE I
+oe I frr$r q{TfrS, sqll e ffi -ft<'t, 1?5r< f+o"tt
+stRct:
+Q\b q$qEl6t 58et
+{lf,S' {( - 19. o o. o o o o. ooo. obrb. Qq. o o o5. lG'. 8\b8 /5 (s)
+ss Grqm lolc
+q{fre: *x sMrd lcuritur< sfi{llr< {{):
+o: t pa6q-Et T.sk-rr{ qofg qF-<, R5n, q1-qlfr e rtfrq qE iq ro.flm lB"rcnBl Trclrcs"{ qm w{&T s.{);
+oe I rF{ Tr{Tcl{ .!o-g {F<, TG-rfi qd{, RTIq R-qq;
+oe t q&k@ qE< t+<nEGrTqT Etffi) {rslqtm <ifuolg T'f-fl\61, f<Te, fu."t;
+tSRfrT{<R{F)
+frfix< {qrTft {G-<
+Kpw
+r sqrr{)
+
+===== p2 =====
+ 
+ 
+ 
+ 
+NET METERING GUIDELINE – 2025 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Sustainable and Renewable Energy Development Authority (SREDA) 
+Power Division 
+Ministry of Power, Energy and Mineral Resources 
+Government of the People’s Republic of Bangladesh 
+ 
+
+===== p3 =====
+1 
+ 
+Contents 
+1 
+Background _____________________________________________________________3 
+1.1 
+Objective of the Guideline _________________________________________________ 3 
+2 
+Definitions and Operating Procedure ________________________________________4 
+2.1 
+Definitions ______________________________________________________________ 4 
+2.2 
+What is Net Metering and How It Works? ____________________________________ 9 
+3 
+Net Metering Guidelines _________________________________________________ 11 
+3.1 
+Eligibility of Applicants __________________________________________________ 11 
+3.2 
+Classification of Consumers ______________________________________________ 12 
+3.3 
+Capacity of Renewable Energy Systems and Limits on Export of Electrical Energy _ 13 
+3.4 
+Energy Accounting and Settlement _________________________________________ 13 
+3.5 
+Structure of Net Metering ________________________________________________ 15 
+3.6 
+Metering Arrangement __________________________________________________ 15 
+3.7 
+Application Procedure ___________________________________________________ 17 
+3.8 
+Approved Equipment ____________________________________________________ 20 
+3.9 
+Involvement of Distribution Utilities ________________________________________ 21 
+3.10 
+Capacity enhancement of stakeholders ______________________________________ 21 
+4 
+Interconnection Requirements ____________________________________________ 22 
+4.1 
+Description of the Renewable Electricity Generation System under Net Metering ___ 22 
+4.1.1 
+Feeding method __________________________________________________________ 22 
+4.1.2 
+Equipment standards ______________________________________________________ 22 
+4.1.3 
+Connection types _________________________________________________________ 23 
+4.2 
+General Conditions of Interconnection ______________________________________ 24 
+4.2.1 
+Normal voltage operating range _____________________________________________ 24 
+4.2.2 
+Voltage fluctuation _______________________________________________________ 25 
+4.2.3 
+Power Factor of Electricity Generated from Renewable Energy _____________________ 25 
+4.2.4 
+Reactive power compensation _______________________________________________ 26 
+4.2.5 
+Injection of direct current __________________________________________________ 26 
+4.2.6 
+Harmonic _______________________________________________________________ 26 
+4.2.7 
+Voltage unbalance ________________________________________________________ 26 
+4.2.8 
+Short circuit level ________________________________________________________ 26 
+4.3 
+Protection System _______________________________________________________ 27 
+4.3.1 
+Smart inverter ___________________________________________________________ 27 
+4.3.2 
+Frequency ______________________________________________________________ 27 
+4.3.3 
+Synchronization __________________________________________________________ 27 
+4.3.4 
+Anti-islanding inverter _____________________________________________________ 28 
+4.3.5 
+Inverter fault current contribution: ___________________________________________ 28 
+4.3.6 
+Protection schemes: _______________________________________________________ 28 
+4.3.7 
+Failure of system protection or control equipment: _______________________________ 29 
+4.3.8 
+Frequency Withstand Capability _____________________________________________ 29 
+4.3.9 
+Voltage Disturbance ______________________________________________________ 29 
+4.3.10 
+Utility interface disconnect switch ___________________________________________ 30 
+4.4 
+Safety Requirements ____________________________________________________ 30 
+4.4.1 
+Operation _______________________________________________________________ 30 
+4.4.2 
+Labeling ________________________________________________________________ 30 
+5 
+Amendment of the Guideline _____________________________________________ 31 
+ 
+ 
+
+===== p4 =====
+2 
+ 
+ 
+6 
+Annex 1: Application Template ___________________________________________ 32 
+i 
+Applicant Information ___________________________________________________ 32 
+ii 
+Information on the Renewable Energy / Electricity Generation System ___________ 33 
+iv 
+Applicant’s Declaration __________________________________________________ 35 
+7 
+Annex 2: Detailed Description of the Net Meter ______________________________ 37 
+8 
+Annex 3: Net Metering System Checklist ___________________________________ 38 
+9 
+Annex 4: Net Metering Agreement Form ___________________________________ 44 
+10 Annex 5: Examples of Energy Accounting and Billing Process in Net Metering ____ 50 
+11 Annex 6: Important Issues about the Agreement between Consumer and System 
+Installer in the OPEX Model _________________________________________________ 55 
+12 Annex 7: Billing Format for Net-Metered Consumers as Published by the 
+Commission ______________________________________________________________ 56 
+13 Annex 8: Implementation of Net Metering on Pre-payment/Smart Meters ________ 57 
+14 Annex 9: Verification Committee for Installing a Renewable System with Capacity 
+Exceeding the Contracted Load ______________________________________________ 58 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+===== p5 =====
+3 
+ 
+1 
+Background 
+Electricity is essential for the socio-economic progress and for improving the living standard 
+of the people. Bangladesh has already achieved 100% electrification. To ensure universal 
+electricity access and energy security, the Power Division has adopted energy diversification 
+as one of its key strategic approaches. Under this strategy, initiatives have been taken to 
+generate environment-friendly electricity from renewable resources along with conventional 
+fossil fuels. A significant increase in the use of renewable energy is also one of the core 
+objectives of the UN Sustainable Development Goal 7 (SDG 7) . Besides, 20% of total 
+electricity demand from renewable sources by 2030 and 30% by 2040 is set as target as per 
+the direction of the Renewable Energy Policy, 2025 . 
+ 
+The main sources of RE are – solar energy, wind energy, hydro, biogas, biomass, geothermal, 
+wave and tidal energy. Due to its geographical location, solar is the most prospective 
+renewable energy source in Bangladesh. A total of 1,350 MW of electricity generation 
+capacity has been established so far by utilizing solar energy, majority of which come from 
+solar parks, solar home systems, rooftop solar, and solar irrigation programs. But since more 
+than 2 acres of land is required to generate 1 MW of electricity from solar energy, it has been 
+difficult to arrange vast stretches of land to build large scale solar power plants.  Therefore, 
+the prospect of generating electricity by installing solar systems on unused rooftops of 
+various 
+grid-connected 
+facilities—such 
+as 
+residential 
+buildings 
+and 
+industrial 
+establishments—is being given serious consideration. Installing rooftop solar systems will 
+significantly increase the contribution of renewable energy to overall power generation. 
+Moreover, introducing incentive schemes for on-grid electricity consumers to install such 
+systems will further encourage solar-based renewable energy production. 
+To encourage renewable energy–based distributed generation, initiatives have been taken to 
+introduce the net metering scheme. Under the net metering system, consumers use the 
+electricity generated from renewable energy systems installed on their own premises and 
+export the surplus electricity to the distribution grid. The exported electricity is credited 
+against the consumer’s monthly electricity bill, and any remaining credit is adjusted in the 
+following month. This process reduces electricity costs for consumers. Currently, over 50 
+countries worldwide, including several SAARC member states, have adopted the net 
+metering scheme. So far, in accordance with this guideline, more than 3,763 net-metered 
+rooftop solar systems have been connected to the  six electricity distribution utilities’ network 
+across the country, with a total combined capacity of 185 megawatts. As it reduces electricity 
+expenses, consumers are likely to be encouraged to adopt the system. Under these 
+circumstances, the Power Division has formulated and updated the “Net Metering Guidelines 
+– 2025” to facilitate on-grid electricity consumers in availing net metering benefits through 
+the installation of renewable energy systems. Based on implementation experience, the 
+guidelines will be revised and refined as necessary in the future. 
+1.1 
+Objective of the Guideline 
+ 
+This guideline has been formulated for the expansion of renewable energy and to utilize the 
+electricity generated at consumer’s premises under the net metering system. 
+ 
+ 
+
+===== p6 =====
+4 
+ 
+2 
+Definitions and Operating Procedure 
+2.1 
+Definitions  
+Unless there is anything repugnant in the subject or context, the terms used in this guideline 
+shall express the meanings specified below: 
+ 
+Term 
+Definition 
+AC  
+Alternating Current  
+BEPZA 
+ 
+Bangladesh Economic Zones Authority 
+ 
+BEZA 
+ 
+Bangladesh Export Processing Zones Authority 
+ 
+Billing cycle or billing 
+period 
+The time period for which a consumer’s electricity bill is prepared by 
+the distribution utility. 
+BNBC  
+Bangladesh National Building Code 
+BPDB  
+ 
+Bangladesh Power Development Board 
+Bulk Tariff 
+The rate determined by the Commission at which the electricity 
+distribution utility generally purchases electricity from the bulk 
+supplier (BPDB). 
+Capacity of the 
+renewable energy–based 
+distributed generation 
+system  
+The rated output AC capacity (VA) of the renewable energy–based 
+distributed system. The aggregate AC output (VA) of the inverters, in 
+case of a solar PV system 
+CAPEX Model 
+A model under which the consumer installs a renewable energy 
+system through self-investment and self-management and enjoys the 
+benefits of net metering.
+Commercial consumer 
+A consumer categorized and connected as a commercial consumer by 
+the distribution utility  
+Commercial Operation 
+Commencing Date 
+(COD) 
+The date of signing the agreement under clause 3.7(l) following the 
+verification of electricity generation from the renewable energy 
+system installed in accordance with the guideline under clause 
+3.7(m).
+Commission/BIRC 
+Commission established under Bangladesh Energy Regulatory 
+Commission Act, 2003 (Act No. 13) or any subsequent amendment 
+order thereof. 
+Connection Point 
+The point where the renewable energy system is connected to the 
+consumer’s internal network.  
+ 
+ 
+
+===== p7 =====
+5 
+ 
+Consumer 
+Any individual or organization who is connected as electricity 
+customer by the utility. 
+Contract/Final 
+Agreement 
+The bilateral contract signed between the consumer and the 
+respective distribution utility under the CAPEX model, and the 
+tripartite agreement signed among the consumer, the respective 
+distribution utility, and the OPEX investor (third party) under the 
+OPEX model, in accordance with Annex-4 of this guideline, for the 
+implementation of net metering operation following the installation 
+of solar or other renewable energy systems. 
+Credit Unit 
+For each billing period, the net exported electricity, calculated using 
+the imported units, exported units, and the previously accumulated 
+(credit) units in accordance with the guideline, at the end of the prior 
+billing period — which shall be zero or a positive value. 
+DC:AC Ratio 
+The ratio of the total capacity of solar modules (in kilowatt-peak or 
+megawatt-peak under Standard Test Conditions, representing DC 
+capacity) to the system’s AC capacity. This ratio generally depends 
+on system design and the solar irradiance at the specific location.
+Distribution Area 
+The geographical area specified under the license of a distribution 
+utility for electricity distribution.
+Distribution network 
+A distribution system comprising of electrical lines, cables, 
+switchgears, and associated equipment and capable of supplying 
+electricity at 33 kV or lower voltage levels 
+Distribution System 
+Maintenance Charge 
+The charge payable for the services provided by the distribution 
+utility in facilitating the use of solar or renewable energy, which is 
+determined as a fixed percentage of the net exported electricity 
+during the consumer’s billing period.
+Distribution utility 
+ 
+An authority licensed by the Commission to distribute electricity 
+within its designated service area. 
+Electricity Bill 
+The monthly or supplementary bill issued by the distribution utility in 
+favor of a consumer.
+Electricity Import / 
+Consumption 
+ 
+The electricity drawn by a consumer from the distribution utility’s 
+network. 
+ 
+Electricity 
+Supply/Export  
+ 
+The electricity generated from renewable energy sources and 
+supplied by the consumer to the distribution utility’s grid. 
+ 
+Eligible consumer 
+An electricity consumer who abides by all the rules and regulations of 
+the utility and is in compliance with the terms and conditions of 
+Section 3.3 of this guideline.  
+Extra High Voltage 
+132,000 volt or 230,000 volt 
+Grid Code 
+“Bangladesh Energy Regulatory Commission (Electricity Grid Code) 
+Regulations, 2023” or its latest version 
+
+===== p8 =====
+6 
+ 
+Grid System 
+Maintenance Charge 
+The service charge payable to the national grid operator, as specified 
+in the guideline, for facilitating the use of electricity generated from 
+solar or other renewable energy sources by the consumer — 
+determined as a fixed percentage of the net exported electricity from 
+the distribution utility to the national grid. 
+Guideline 
+Refers to the most recent updated version of the “Net Metering 
+Guideline – 2025”
+High Voltage/pressure 
+33,000 volt 
+Industrial consumer 
+A consumer categorized and connected as an industrial consumer by 
+the distribution utility.  
+Interconnection point 
+The point of connection between the utility and the consumer 
+kV 
+Kilovolt or 1000 volt 
+kW 
+Kilowatt 
+kWh 
+Kilowatt hour 
+kWp 
+It refers to the peak power — that is, the maximum direct current 
+(DC) power that can be produced under Standard Test Conditions 
+(STC).
+LCOE 
+An index that represents the average cost of electricity generation per 
+unit (kilowatt-hour) over the lifetime of a solar or renewable energy 
+system. It is calculated by dividing the total lifetime cost of 
+installation, maintenance, financing, and operation by the total 
+amount of electricity generated during that period.
+Licensee  
+An individual/entity that has obtained a license under the Bangladesh 
+Energy Regulatory Commission Act, 2003.
+Low voltage 
+230/400 Volt 
+Maximum demand 
+The maximum level of the simultaneous power demand of all the 
+electrical equipment and system of a consumer’s installation 
+expressed in kW or kVA units.  
+Medium 
+Voltage/Pressure 
+11,000 volt 
+MW 
+Megawatt or 1000 kilowatt 
+MWp 
+1 MWp = 1,000 kilowatt-peak 
+Net Energy Metering 
+A mechanism whereby an eligible consumer installs a renewable 
+energy system primarily for his own use and the excess energy may 
+be exported to the grid, for which credit is to be received that may be 
+used to offset part of the electricity bill issued by the Utility for the 
+applicable billing period.   
+ 
+ 
+
+===== p9 =====
+7 
+ 
+Net Exporter 
+A situation in which, during any billing period, the amount of 
+electricity exported by the consumer is more than the amount of 
+electricity imported. 
+Net Importer 
+A situation in which, during any billing period, the amount of 
+electricity exported by the consumer is less than the amount of 
+electricity imported. 
+Net meter 
+An energy meter capable of recording both import and export of 
+electricity. 
+Net Zero 
+ 
+A situation in which, during any billing period, the amount of 
+electricity imported and exported by the consumer is equal. 
+OPEX Contract 
+A bilateral agreement between the OPEX investor and the electricity 
+consumer prior to applying to the distribution utility for installation 
+of a solar or renewable energy system under the OPEX model, in 
+accordance with Annex-6 of this guideline.
+OPEX Investor 
+An organization or company that carries out an OPEX agreement for 
+the installation of a solar system under the OPEX model of this 
+guideline.
+OPEX model 
+A model under which a renewable energy system is installed at a 
+consumer’s premises by an entity other than the consumer, under a 
+tripartite agreement among the utility, the consumer, and the OPEX 
+investor. The system’s generated electricity is then supplied to the 
+consumer. 
+PCC 
+The point or busbar within the consumer’s premises where electricity 
+generated from renewable energy sources — after passing through 
+the RE Accounting Meter — is connected with the utility’s supply 
+(refer to Sample Diagram 5).
+pf 
+ 
+Power Factor 
+PFI  
+Power Factor Improvement Unit 
+Prosumer 
+The electricity consumer who produces and consumes electric 
+energy.  
+RE 
+Renewable Energy 
+RE Accounting Meter 
+The energy meter, as described in clause 3.6(h) of this guideline, used 
+to measure the total electricity generated from a renewable energy 
+system installed through an agreement. 
+ 
+Renewable energy 
+generator 
+Machine or equipment that converts renewable energy into electrical 
+energy 
+Residential consumer 
+A consumer categorized and connected as residential consumer by 
+distribution utility 
+
+===== p10 =====
+8 
+ 
+Rooftop 
+Any empty space on the roof, façade, shed of any building, parking 
+lot, garage, boundary wall of any factory/industrial building, the 
+premises or empty space within the boundary of the 
+building/industry, which is under the control of the consumer, or any 
+suitable land where Utility meters exist or any other suitable area 
+accepted by the utility. 
+Rooftop solar PV 
+system 
+The solar PV system installed on the consumer’s rooftop that can 
+convert sunlight directly into electrical energy through photovoltaic 
+technology. 
+Sanctioned load/ 
+demand 
+The amount of maximum power in kW/kVA/MW/MVA or 
+horsepower approved by the distribution utility for supply to the 
+consumer.  
+Self-Consumption Meter
+ 
+An optional energy meter used to measure the total amount of 
+electricity consumed by the consumer. 
+Settlement period  
+The three-month period at the end of which a consumer receives 
+payment for their accumulated credit in kilowatt-hours. 
+Settlement Unit 
+The accumulated credit units of the consumer at the end of the 
+settlement period. 
+SID  
+A unique identification number assigned by the distribution utility 
+after the execution of the final agreement, upon entry of system data 
+into the national renewable energy database. This unique number 
+shall be used for all references related to the system after installation.
+Solar Accounting Meter The energy meter, as described in clause 3.6(h) of this guideline, used 
+to measure the total electricity generated from a solar system. 
+SREDA 
+Sustainable and Renewable Energy Development Authority 
+STC 
+Standard Test Conditions [Irradiance- 1000W/m², Cell Temperature- 
+25°C, Air Mass - 1.5]  
+Tariff Structure order 
+An order issued by the Commission to the licensee authorized for 
+electricity distribution. 
+ 
+ 
+ 
+
+===== p11 =====
+9 
+ 
+2.2 
+What is Net Metering and How It Works? 
+Net Energy Metering (NEM) is a system in which a prosumer or OPEX investor connects 
+his/her solar or renewable energy system to the distribution grid. As a result, the consumer 
+supplies excess electricity generated from his/her system to the national grid and 
+subsequently draw electricity from the grid at the prescribed tariff rate. At the end of each 
+billing cycle, the consumer is required to pay for the net imported electricity only. If the 
+amount of exported electricity exceeds the imported amount, the surplus is carried forward as 
+a credit. At the end of the settlement period, the consumer receives payment from the 
+distribution utility for the credited electricity units. 
+Under the Net Energy Metering (NEM) process, a bi-directional meter records electricity 
+flow in both directions separately. This enables the measurement and adjustment between the 
+electricity imported from the grid by the consumer and the electricity exported to the grid 
+from the solar PV system or any other renewable energy source, in compliance with the 
+provisions of this guideline. The import and export data are stored in the meter and 
+transmitted to the central billing server of the distribution utility. For each billing period, the 
+electricity bill is prepared based on the net electricity consumption, calculated by subtracting 
+the exported electricity and the previously credited units from the total electricity imported 
+from the grid, as described in the guideline. If the electricity supplied from the grid exceeds 
+the total of the electricity exported from the renewable energy system and the previous credit, 
+the consumer is required to pay only for the net imported electricity. Conversely, if the 
+electricity exported from the renewable energy system and the previous credit exceed the 
+electricity imported from the grid, the surplus is credited to the consumer’s account in 
+kilowatt-hours and carried forward to the next billing period. In such a case, the consumer 
+does not have to pay any energy charges for that month. 
+At the end of the settlement period, the prosumer receives payment from the distribution 
+utility for all the credits accumulated in kilowatt-hours, calculated at the rate specified in this 
+guideline, after which the credit balance is reset to zero and begins a new cycle. The 
+operation of an ideal Net Metering System is illustrated below through a PV system–based 
+net metering setup: 
+
+===== p12 =====
+10 
+ 
+  
+Figure 1: An Ideal Net Metering System 
+ 
+In this context, the Levelized Cost of Electricity (LCOE) for electricity consumed by the 
+customer depends on several factors, including the consumer’s tariff category, the type of 
+renewable energy technology used, the installed capacity, and the limitations in power 
+transmission. During the establishment of such an electrical interconnection, the prosumer 
+must comply with all technical specifications and safety requirements prescribed by the 
+competent authority to ensure safe and standardized interconnection. 
+In accordance with this guideline, renewable energy systems under the Net Metering 
+mechanism can be installed under two models — the CAPEX model and the OPEX model. 
+Under the CAPEX model, the consumer installs a renewable energy system at their own 
+investment and under their own management, thereby availing the full benefits of Net 
+Metering. Conversely, the OPEX model refers to a system whereby a renewable energy 
+facility is installed by a legally authorized third party under a tripartite agreement executed 
+between the utility, the consumer, and the OPEX investor. The electricity generated from the 
+system is supplied to the consumer as per the terms of that agreement. If the electricity 
+consumer is unwilling or unable to install a solar system under the CAPEX model, they may, 
+following due process, engage an OPEX developer company by determining the tariff and 
+necessary conditions, and execute a bilateral agreement allowing the installation of the solar 
+system under the OPEX model. Such bilateral agreement shall be referred to as an OPEX 
+Agreement, which must be concluded prior to submission of the application to the 
+distribution utility. Under this model, the electricity consumer bears no financial or 
+operational risk; all installation, operation, and maintenance activities related to the solar 
+system are undertaken by the OPEX investor company. The consumer purchases electricity 
+generated from the solar system at the rate and under the conditions specified in the contract. 
+The OPEX tariff is generally lower than the retail tariff of the distribution utility.  
+ 
+ 
+
+===== p13 =====
+11 
+ 
+The success of the Net Metering system fundamentally depends on the integrity of the 
+interconnection process, through which electrical energy is supplied to the distribution grid in 
+compliance with the statutory safety provisions under applicable laws. Although 
+interconnection standards are generally presented separately from the measurement 
+parameters of the Net Metering Guidelines, their significance within the Net Energy Metering 
+framework is of utmost importance. 
+3 
+Net Metering Guidelines  
+3.1 
+Eligibility of Applicants  
+An electricity consumer shall be considered eligible for Net Metering subject to fulfillment of 
+the following conditions: 
+ 
+A. He shall have to be a legitimate consumer of the distribution utility responsible for 
+supply of electricity in the area concerned 
+B. While submitting the application for a new connection, an applicant may also submit 
+application for net metering in pursuance of this guideline; 
+C. The applicant shall not have any outstanding arrears prior to submitting the 
+application for net metering; 
+D. Electricity to be produced ONLY from renewable energy sources would be brought 
+under the scope of net metering;   
+E. The applicant must either be the owner or have legal permission from the owner(s) or 
+their legal representative(s) for installing the proposed renewable energy system in the 
+premises of the owner.  
+F. Roof of any building, parking lot, garage, commercial or industrial establishment or 
+shed owned by the consumer or any empty space or boundary wall outside of the 
+building but within the premises owned by the consumer or any other suitable area 
+accepted by the Utility and where Utility meter exists is fit for installation of 
+renewable energy system for net metering. 
+G. The consumer shall consume the electricity generated by the renewable energy system 
+and after consumption supply the remaining amount to the grid;  
+H. Under the net metering scheme, in order to supply the electricity generated from 
+renewables to the grid, connection shall be established at the existing electrical line in 
+compliance with the interconnection rules and standards set by the Utility or any other 
+existing authority;  
+I. Instructions given in section 3.3 of this guideline shall have to be followed while 
+determining capacity of the renewable energy system. 
+J. Consumers who installed rooftop solar systems prior to the issuance of this Net 
+Metering Guideline may apply to convert their existing systems into Net Metering 
+systems. For such legacy systems (subject to proof of installation date through official 
+utility or government documentation), compliance requirements for solar module 
+standards may be relaxed; 
+ 
+
+===== p14 =====
+12 
+ 
+K. For industries and other establishments located within Economic Zones (EZs) or 
+Export Processing Zones (EPZs) that are not direct electricity consumers of the 
+distribution utility where the relevant authority acts as the utility’s customer and may 
+have an associated third-party captive generator. this guideline shall apply to the 
+distribution utility, its direct customer, and the OPEX investor (if applicable).In such 
+cases, the distribution utility shall maintain a Net Metering Agreement with the 
+BEZA/BEPZA authority in accordance with this guideline. BEZA/BEPZA may have 
+additional agreements with other stakeholders (e.g., industries, conventional-energy 
+captive generators, etc.), and such inter-party transaction processes and conditions 
+shall be standardized—either in unified or zone-specific form—and published on the 
+official BEZA/BEPZA website.  
+ 
+Note: A prosumer may supply electricity generated from their own system to any other user 
+through a self-constructed distribution line, provided that the supply network of the electricity 
+distribution utility is not used for this purpose. All related expenses must be borne by the 
+prosumer. However, if the recipient of such electricity is a registered customer of any 
+electricity distribution company, prior authorization from that company shall be required. 
+ 
+3.2 
+Classification of Consumers 
+Under the purview of this guideline, the following classes of consumers from the BERC published list 
+of retail electricity tariff may apply to the utility concerned for net metering benefits subject to 
+fulfillment of conditions mentioned in section 3.1 of the guideline: 
+ 
+ 
+In future, if BERC revises the consumer categories in the retail electricity tariff schedule, the 
+corresponding revised consumer categories shall likewise be applicable. 
+ 
+Low tension (LT): 230/400V 
+Medium tension (MT): 
+11kV 
+High tension (HT): 
+33kV 
+Very 
+High 
+Tension (EHT): 
+132/230  
+(a) LT-A: Residential 
+(b) LT-B: Pumps used for 
+irrigation/agriculture 
+(c) LT-C1: Small industries 
+(d) LT-D1: Educational, 
+religious and charitable 
+organizations, and hospitals 
+(e) LT-D2: Street lights, water 
+pump, battery charging station. 
+(f) LT-D3: battery charging 
+station  
+(g) LT-E: Commercial and 
+office 
+(a) MT-1: Residential 
+(b) MT-2: Commercial 
+and offices 
+(c) MT-3: Industry 
+(d) MT-4: General 
+(e) MT-7: battery 
+charging station  
+(f) MT-8: Pumps used 
+in 
+irrigation/agriculture 
+(a) HT-1: General  
+(b) HT-2: 
+Commercial and 
+offices 
+(c) HT-3: Industry 
+All classes of 
+consumers 
+
+===== p15 =====
+13 
+ 
+3.3 
+Capacity of Renewable Energy Systems and Limits on Export of 
+Electrical Energy   
+The maximum admissible capacity of the renewable energy system and the limit on export of 
+electrical energy shall depend on the nature of the consumer and the pattern of use. Owing to 
+technical constraints, the following initial conditions have been applied for determining 
+system capacity and export limits: 
+ 
+A. Any single-phase or three-phase consumer shall be deemed eligible for Net Metering 
+subject to compliance with Clauses 3.1 and 3.2; 
+ 
+B. The AC output of the renewable energy converter must not exceed the consumer’s 
+sanctioned load; 
+ 
+C. For medium to extra-high voltage consumers, the capacity of the renewable electricity 
+generation system installed under Net Metering must not exceed 80% of the rated 
+capacity of the transformer or the aggregate capacity of the parallel transformers; 
+ 
+D. If a consumer intends to install a renewable energy system with capacity exceeding 
+the contracted load limit, a separate application shall be submitted to the concerned 
+distribution entity. If deemed appropriate, the distribution entity shall seek the opinion 
+of the Grid Stability Committee (as referenced in Annex-9). Based on the 
+Committee’s recommendation, the Power Division shall issue a decision. 
+ 
+Based on experience gained from future deployment of Net Energy Metering systems, the 
+Power Division, Ministry of Power, Energy and Mineral Resources may redetermine 
+permissible capacities. 
+ 
+3.4 
+Energy Accounting and Settlement  
+ 
+The following procedure shall be followed in case of energy accounting and its settlement: 
+A. For each billing period, the concerned distribution utility shall prepare and send the 
+electricity bill to the consumer in the format of Annex-7 (excluding pre-payment/smart 
+meters). In case of pre-payment/smart meters, Annex-8 shall be followed. After 
+adjustment under Clause 3.5, any credited units (kWh) remaining shall be carried 
+forward to the next billing period; any net import shall be billed to the consumer. At the 
+end of the settlement period (every three months), if any kWh credit remains, the utility 
+shall settle the amount with the consumer in accordance with this guideline; 
+ 
+B. Each bill prepared by the utility for a billing period shall separately state: 
+i. 
+Quantity of electricity received (imported) from the utility’s grid; 
+ii. 
+Quantity of electricity sent (exported) to the distribution grid from the installed 
+renewable energy system; 
+
+===== p16 =====
+14 
+ 
+iii. 
+Previous month’s credit units, the billing units for the current month as calculated 
+under the guideline, the credit units calculated for the current month, and, in the 
+final month of a settlement period, the settlement units and their computed value; 
+ 
+C. A prosumer shall be considered to be a net importer if the net amount of energy 
+received (imported) is more than the net amount of energy sent (exported) by him 
+during a billing period. In that case, the distribution utility concerned shall bill that 
+prosumer for his/her energy use after making adjustments with credits of the previous 
+month of the same settlement period. 
+D. A prosumer shall be considered to be a net exporter if the net amount of energy 
+received (imported) is less than the net amount of energy sent (exported) by him during 
+a billing period. In that case, the additional amounts of kilowatt- hour energy shall as 
+credits add to the accumulated credits (if any) from the previous billing period of the 
+same settlement period and be carried forward to the next billing period. In this case, 
+the prosumer shall have to pay the bill for electricity demand charge, meter charge and 
+all other fixed charges. 
+E. Energy accounting shall be according to the tariff specification procedure described in 
+section 3.5 of this guideline. 
+F. Unadjusted credits may be carried forward up to the settlement period. The settlement 
+period shall end quarterly (i.e., after March, June, September, and December). If, at 
+settlement, no credit units remain, the utility shall have no payment obligation to the 
+consumer, and the consumer shall pay the utility’s bill as usual; 
+G. Where credit units remain at the end of the settlement period, the utility shall pay the 
+prosumer at the tariff determined under Clause 3.5. Payment shall be made to the bank 
+account specified in the application/contract (BEFTN/NPSB) or to a mobile financial 
+services account (e.g., Nagad/bKash/Rocket), or the prosumer may collect a cheque 
+from the utility, as selected at the time of application; 
+H. Under the OPEX model, the electricity consumer shall, pursuant to the mutual contract, 
+pay the OPEX investor for electricity generated by the installed system based on the 
+“RE Accounting Meter.” A Self-Consumption Meter may be used to verify meter 
+readings and resolve discrepancies. The consumer’s accounting with the distribution 
+utility shall nonetheless follow the processes set out in sub-clauses (a)–(g); 
+I. For OPEX systems, if the consumer is a net exporter at the end of the settlement period, 
+the utility shall pay the consumer for credit units; the consumer-OPEX investor 
+reconciliation shall be undertaken in accordance with the OPEX agreement; 
+J. If the electricity consumer fails to pay the OPEX installer for two consecutive months, 
+the installer may lodge a complaint with the distribution utility. Upon verification, if 
+found valid, the utility may take action consistent with line disconnection provisions 
+under the Electricity Act, 2018; 
+K. If an industrial/commercial consumer’s establishment is permanently closed, then, 
+initially, electricity from the OPEX Net Metering system may—with prior approval of 
+the utility—be supplied to another consumer on the same feeder using the utility’s 
+distribution lines, accounting for system loss from delivery to draw-off points, or may 
+be supplied directly to the distribution utility at the tariff specified in Clause 3.5(c). For 
+
+===== p17 =====
+15 
+ 
+supply to another consumer, the line loss (on 0.4 kV: per km; on 11 kV: 1% per 5 km; 
+on 33 kV: 1% per 10 km) and transformer loss (2.5%, if applicable) shall be applicable 
+and be adjusted monthly with the new consumer; 
+L. If the monthly maximum AC output (kW or MW) from the consumer’s rooftop solar 
+system exceeds the approved AC capacity of the renewable system, the consumer shall 
+first receive a written warning. Upon recurrence, the utility may initiate termination of 
+the Net Metering agreement. Such consumers, if net exporters at settlement, shall not 
+receive any value for settlement units; 
+M. As an incentive for distribution utilities, 10% of the net exported electricity during a 
+billing period shall be taken as Distribution System Maintenance Charge. The 
+remaining 90% of the net exported electricity shall be credited to the consumer’s 
+account. 
+ 
+3.5 
+Structure of Net Metering  
+The tariff structure, according to which the utility shall prepare the bill, settle accounts by 
+making proper adjustments or collecting dues at the end of every billing period and 
+settlement period, are described in this section:  
+a) 
+For each billing period, the utility shall undertake accounting and settlement of electrical 
+energy in accordance with the Tariff Order issued by the Bangladesh Energy Regulatory 
+Commission (BERC); 
+b) 
+Only consumers who have executed agreements as per Annex-4 shall, at the end of the 
+settlement period, receive payment from the distribution utility at bulk rates for 
+settlement units (accumulated credit). For consumers at 33 kV or below, the 33 kV bulk 
+tariff as determined by BERC for the respective utility shall apply; for consumers above 
+33 kV, the bulk rate applicable to their voltage level shall apply;  
+c) 
+For consumers whose consumption is recorded separately for peak and off-peak hours, 
+adjustment of exported units shall first be made against off-peak units of the billing 
+period, and the remaining balance shall be adjusted against peak-hour units; 
+d) 
+If BERC revises the tariff structure during any settlement period, the revised tariff shall 
+be applicable for the remaining billing periods of that settlement period and to the annual 
+reconciliation at the end of the settlement period;  
+e) 
+Illustrative examples of accounting for net zero, net exporter, and net importer scenarios 
+during a billing period, as well as end-of-settlement accounting and sample bills, are 
+provided in Annex-5 of this guideline. 
+ 
+3.6 
+Metering Arrangement 
+ 
+Metering shall be undertaken subject to the following conditions: 
+ 
+(a) The utility shall install at the interconnection point a suitable single/three-phase bi-
+directional smart meter capable of separately recording imported and exported energy. If an 
+existing meter can meet Net Metering requirements through re-programming, installation of 
+new meter is not necessary; 
+
+===== p18 =====
+16 
+ 
+(b) The Net Meter shall comply to Annex-2 specifications or be approved by the competent 
+authority (the concerned distribution utility or SREDA). For pre-payment/smart meters, 
+metering and billing shall follow Annex-8; 
+(c) For consumers subject to separate peak/off-peak tariffs, a smart meter capable of separate 
+peak/off-peak recording shall be installed; 
+(d) 
+The 
+distribution 
+utility 
+shall 
+be 
+responsible 
+for 
+procurement, 
+testing, 
+installation/replacement, maintenance, and meter reading of Net Meters. A prosumer may 
+procure a Net Meter and have it installed through the utility; in such case, the brand and 
+model must be approved by the utility or competent authority (e.g., SREDA). The consumer 
+shall ensure meter security; 
+(e) The consumer shall bear the cost of the Net Meter and related accessories; 
+(f) Net Meter readings shall constitute the primary basis for accounting. For OPEX billing, 
+the “RE/Solar Accounting Meter” shall also be treated as a primary basis; 
+(g) Implementation of Net Metering on pre-payment/smart meters shall follow the 
+instructions in Annex-8; 
+(h) For both CAPEX and OPEX models, installation of an “RE Accounting Meter” or “Solar 
+Accounting Meter” is mandatory, with functionality to record monthly maximum AC output 
+(kW or MW) for at least the current month and preceding two months. Where multiple such 
+meters exist due to spatial separation, the aggregate maximum shall be treated as the monthly 
+maximum. A Self-Consumption Meter shall be optional in both models. Mandatory meters 
+shall be tested and sealed by the utility; tampering shall be punishable under the Electricity 
+Act, 2018; 
+(i) The utility shall, ensure the use of Automatic Meter Reading (AMR) technology as early 
+as possible; 
+(j) For medium and high-voltage consumers whose metering is on the low-voltage side (but 
+who are billed at MV/HV tariffs), transformer losses for exported energy shall be computed 
+at the same rate as for imports; 
+(k) The utility may arrange monthly installment supply of grid-tied inverters and Net Meters 
+for consumers; 
+(l) Where a utility feeder hosts Net Metering systems with adequate capacity (potential for 
+export to the grid), the utility shall, as required, convert the relevant grid sub-station 
+distribution meters to bi-directional. Such meters shall reconcile electricity exported to the 
+national grid from the utility’s network against electricity imported by the utility from the 
+single buyer (BPDB) during the billing period. In this reconciliation, 5% of net exported 
+electricity shall be treated as Grid System Maintenance Charge and the remainder shall be 
+adjusted. Based on the contribution of variable renewable energy integration (e.g., BESS), a 
+portion of the above 5% shall be transferred from the bulk supplier (BPDB) to the national 
+grid operator at rates determined by the Commission; 
+(m) If electricity from sources other than the renewable energy system and the consumer’s 
+grid connection is synchronized within the consumer’s premises, and, at 15-minute intervals, 
+the energy exported to the utility network by the Net Meter exceeds the net flow toward the 
+PCC recorded by the RE Accounting Meter for the same interval, the excess portion shall not 
+be adjustable by the utility for that billing period; 
+
+===== p19 =====
+17 
+ 
+(n) In the situation described in sub-clause (m), both the Net Meter and the RE Accounting 
+Meter must retain time-of-use (TOU) data at not less than 15-minute intervals for a minimum 
+of three (3) months. The consumer shall submit TOU data for the completed billing period 
+from these meters to the utility, which the utility shall verify; 
+(o) If it is necessary to measure electricity flowing from the PCC toward the solar plant (for 
+self-consumption or other purposes), a bi-directional RE Accounting Meter capable of 
+separate import/export measurement shall be used. 
+3.7 
+Application Procedure 
+The eligible consumer, who intend to install and/or connect their renewable energy 
+generation systems with the grid and benefit from net metering shall follow the procedure 
+mentioned in this section.  
+a. The eligible consumer shall submit an application to the head of the relevant office of the 
+concerned distribution utility, quoting the consumer number. For OPEX model 
+installations, prior to applying to the utility, and following due process (tender or 
+negotiation, as applicable), the electricity consumer and the OPEX investor shall execute 
+a bilateral OPEX agreement for purchase of electricity generated from solar/renewable 
+sources, in accordance with Annex-6; 
+b. At the time of submission, the consumer shall use the application template in Annex-1 to 
+file a hard-copy application, or submit online in a similar format via 
+https://nem.powerdivision.gov.bd. All fields of the template must be completed and all 
+supporting documents shall be attached with the application ; 
+c. For hard-copy submissions, upon receipt of the fully completed application and 
+supporting documents (including proof of payment, where applicable), the utility shall 
+issue a dated acknowledgement; 
+d. For online submissions, the applicant shall receive SMS and email confirmations. The 
+applicant shall also be able to view the application status and next steps online and shall 
+receive SMS and email notifications upon completion of each stage; 
+e. The applicant and the concerned distribution utility shall reach agreement regarding 
+installation (where no prior comparable system exists) of the proposed rooftop renewable 
+generation, interconnection, verification and compliance confirmation, approval, and 
+execution of the Net Energy Metering agreement; 
+f. Upon successful completion of all actions under sub-clause (e), the utility shall issue a 
+Net Energy Metering Permission in favor of the applicant; otherwise, the applicant shall 
+be informed in writing of the reasons and required actions. For online processing, the 
+email notification shall be considered as permission letter. If any non-renewable system 
+exists at the premises, it shall be explicitly stated in the permission, and the consumer 
+must demonstrate during verification per sub-clause (k) that such system will not 
+participate in Net Metering; 
+g. Within ten (10) working days of the submission of the application mentioned in sub-
+clause (a), the utility shall complete the above-mentioned process and issue the 
+permission letter under sub-clause (f). Where permission under Clause 3.7(f) is issued 
+for a 33 kV or higher-voltage consumer, the utility shall notify the Grid Operator and the 
+
+===== p20 =====
+18 
+ 
+bulk supplier/single buyer (BPDB) concerned zonal office by providing a copy of the 
+permission;  
+h. Within the prescribed timeframe, the applicant shall initiate installation of the renewable 
+energy system (where new installation is required) and arrange the necessary 
+interconnection with the assistance of the utility; 
+i. The applicant shall complete the Net Energy Metering Checklist as per Annex-3; 
+j. Within eight (8) months of receiving the permission letter, the consumer shall complete 
+installation of the renewable energy system along with the required energy meters, 
+submit the completed Net Metering System Checklist to the utility, and apply for 
+verification of compliance with this guideline and the standards set by the competent 
+authority. For online processing, the signed checklist shall be uploaded and apply for 
+going to the next step by ticking the checkbox; 
+k. The utility shall inspect and commission the system to ensure conformity of the 
+components and interconnection parameters with the standards in accordance to this 
+guideline and by the utility. If found compliant, the utility shall schedule a date for 
+agreement signing and notify the consumer by SMS/email (for online cases); 
+l. The Net Energy Metering Agreement shall be prepared in accordance with the template 
+in Annex-4. For online processing, a PDF copy of the completed agreement shall be 
+available for download by the applicant or the utility. On the scheduled date, the 
+applicant shall execute the agreement with the utility. For the OPEX model, a tripartite 
+agreement shall be executed including the OPEX investor ;  
+m. Within fifteen (15) working days of the application submission referenced in sub-clause 
+(j), the utility shall complete all formalities and execute the agreement referenced in sub-
+clause (l). The date of execution shall be treated as the Commercial Operation Date 
+(COD). If the system is found non-compliant, the applicant shall be informed within this 
+period with the reasons and required actions; 
+n. The utility shall upload a scanned copy of the signed agreement referenced in sub-clause 
+(m) to the online application system; 
+o. Any cost of modifications required in the utility’s system for installation of the 
+consumer’s renewable energy system shall be borne by the applicant; 
+p. If services are not provided by the utility within the timelines specified in this guideline, 
+the concerned consumer may lodge a complaint with SREDA (online or hard-copy) with 
+appropriate evidence. Similarly, if the consumer considers the rejection reasons or 
+directions provided by the utility to be inconsistent with this guideline, the consumer 
+may file a review application with SREDA (online or hard-copy) with evidence. A 
+Committee constituted by SREDA shall review the complaint or review application and 
+inform the decision to the utility, which shall be treated as final in this matter. 
+ 
+ 
+ 
+ 
+ 
+ 
+
+===== p21 =====
+19 
+ 
+Steps 
+Net Metering Applicant 
+Distribution Utility 
+Maximum 
+Time 
+Allowed
+Submitting Application 
+ 
+ 
+5 days 
+Evaluation of Application 
+  
+ 
+ 
+7 days 
+System 
+Installation 
+ 
+ 
+8 months 
+Evaluation of Installed System 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+15 days 
+Figure 2: Processing of application for net energy metering  
+Collection of application 
+form and checklist from 
+Utility’s office or website
+No
+Yes
+Submit application along 
+with relevant documents
+Acknowledge receipt  
+Resubmit application after 
+taking necessary steps 
+Signing of contract and commencement of commercial operation 
+Evaluation of the premises, 
+interconnection point & 
+distribution system  
+Issuance of approval for 
+installing RE system
+Installation of RE 
+system & submission 
+of application for 
+evaluation 
+Compliance with 
+regulation? 
+Inspection of RE facility & assessment as 
+per the assigned standards 
+Is there any 
+necessity for & 
+cost involved in 
+changing the 
+distribution 
+system?
+Inform the applicant by letter 
+Set a date for contract signing 
+No
+Yes
+
+===== p22 =====
+20 
+ 
+3.8 
+Approved Equipment 
+Based on reports issued by testing laboratories enlisted by the Sustainable and Renewable 
+Energy Development Authority (SREDA), clearance for the equipment used in renewable 
+energy systems implemented under Net Metering—namely solar modules, inverters, charge 
+controllers, and Net Meters—shall be provided by SREDA, or a model-wise approved list 
+shall be published on SREDA’s website. A separate approval shall be required for each 
+model of such equipment. The following arrangements shall apply: 
+ 
+(a) SREDA shall publish on its website the list of mandatory Bangladesh Standards and the 
+equivalent IEC standards applicable to solar equipment under the Net Metering program, ; 
+ 
+(b) Importers or manufacturers shall import or produce solar modules, inverters, charge 
+controllers, and Net Meters only upon obtaining full compliance (type test) reports from 
+accredited laboratories and certificates from accredited certification bodies against the 
+mandatory Bangladesh Standards or equivalent IEC standards. Accreditation by the 
+Bangladesh Accreditation Board or by Mutual Recognition Arrangement (MRA) signatories 
+to the International Laboratory Accreditation Cooperation (ILAC) shall be acceptable for 
+laboratories. For certification bodies, accreditation by the Bangladesh Accreditation Board or 
+by Multilateral Recognition Arrangement (MLA) signatories to the International 
+Accreditation Forum (IAF) shall be acceptable; 
+ 
+(c) The domestic and international laboratories and certification bodies referenced in sub-
+clause (b) shall have their accreditation certificates verified and be enlisted with SREDA. 
+Enlisted laboratories and certification bodies shall log in to SREDA’s online system to 
+upload their issued test reports and certificates and shall certify full compliance with the 
+mandatory standards; 
+ 
+(d) Until accredited laboratories are established domestically for solar equipment testing, 
+SREDA shall enlist suitable domestic laboratories for sample testing and verification against 
+standards, and shall prescribe sample-testing parameters drawn from the mandatory 
+standards. When accredited domestic laboratories become readily available, sample testing 
+must be conducted at such accredited laboratories; 
+ 
+(e) Upon completion of sample testing as per sub-clause (d) and verification of the full type-
+test report from an accredited laboratory for the respective model, the testing and verification 
+reports shall be submitted directly to SREDA by logging in to the online system, along with a 
+recommendation for enlistment of the respective model, subject to availability; 
+ 
+(f) SREDA shall enlist the product model on the basis of the type-test (full compliance) 
+certificate and the sample-test report; 
+ 
+(g) Enlisted solar equipment shall have datasheets and descriptions publicly available on the 
+manufacturer’s official website. 
+ 
+ 
+
+===== p23 =====
+21 
+ 
+3.9 
+Involvement of Distribution Utilities 
+a. Following the Renewable Portfolio Standard (RPS), a portion of each distribution 
+utility’s total electricity demand shall be generated/imported from renewable energy; 
+ 
+b. Each distribution utility shall establish a dedicated organizational structure for 
+renewable electricity, with adequate numbers of engineers, officers, and staff 
+appointed/assigned with full responsibility, so that application processing, feasibility 
+studies (where applicable), approvals, and post-installation inspections for rooftop 
+solar Net Metering systems are not delayed; 
+ 
+c. Pursuant to Clause 3.7 (l) (agreement execution), the distribution utility shall 
+promptly enter the installed system’s data into the National Renewable Energy 
+Database (managed by SREDA at https://ndre.sreda.gov.bd) and obtain a unique 
+System Identification Number (SID), which shall be used henceforth as the system’s 
+identifier in all instances. The distribution utility shall ensure that no duplicate entries 
+are created for the same system; 
+ 
+d. For each system bearing an SID, the distribution utility shall provide to SREDA, via 
+entries in the National Renewable Energy Database, the monthly/annual electricity 
+generated (in kWh or MWh based on the RE Accounting Meter) and the electricity 
+exported to the distribution network (in the same units based on the Net Meter); 
+ 
+e. If the annual energy generated by a system installed under this guideline is 35% less 
+than the expected quantity, the distribution utility shall provide the consumer with 
+advisory guidance; if it is below 50%, the distribution utility shall formally request the 
+consumer in writing to undertake remedial measures. A summary of such systems 
+shall be communicated by the distribution utility to SREDA and the Power Division 
+at the end of each settlement period; 
+ 
+f. Each utility under the Power Division may identify prospective consumers within its 
+jurisdiction (e.g., universities, hospitals, schools/colleges and other educational 
+institutions, shopping malls, prisons, industrial facilities, etc.) and may undertake 
+activities as an investor under the OPEX model; 
+ 
+g. Distribution utilities shall regularly monitor the power quality of their feeders. 
+ 
+3.10 Capacity enhancement of stakeholders 
+ 
+a. To promote the expansion of renewable energy through the Net Metering system, the 
+Power Division shall develop skilled human resources by providing necessary training 
+programs. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+===== p24 =====
+22 
+ 
+ 
+4 
+Interconnection Requirements 
+4.1 
+Description of the Renewable Electricity Generation System under 
+Net Metering  
+4.1.1 Feeding method 
+To reduce the amount of electricity imported from the utility, a consumer may decide to 
+install a renewable electricity generation system under the net metering scheme. 
+A diagram illustrating such an electricity interconnection arrangement is shown below: 
+ 
+ 
+Figure 3: Schematic diagram of indirect connection with the grid 
+In the above diagram, the amount of electricity consumed from the grid and the amount of 
+electricity exported to the grid shall be measured by M1, the total electricity consumption by 
+the consumer shall be measured by M2 and the electricity generated by the renewable energy 
+generation system shall be measured by M3. In the case of net metering, M1 must be bi-
+directional and capable of recording Time-of-Use (ToU) readings. If the rooftops within the 
+consumer premises are located at greater distances from one another, considering safety and 
+technical aspects, the AC outputs of the solar systems installed on the individual rooftops 
+may be connected to their respective Consumer Distribution Boards (Consumer DBs). In 
+such cases, there will be multiple M3 meters, and the cumulative total of their readings shall 
+be considered as the overall M3 reading. 
+4.1.2 Equipment standards  
+Major components to be installed in Rooftop Solar PV and other Renewable Energy System 
+shall comply with the national standards in terms of design, operation, maintenance and 
+environmental standards. In addition, the grid tied inverters or other renewable energy 
+converters shall comply with the latest edition of IEC 61727 (at present IEC 61727:2004) or 
+
+===== p25 =====
+23 
+ 
+latest edition of IEEE 1547 (at present IEEE 1547:2018) or equivalent SREDA approved 
+standards for Utility interface.  
+. 
+4.1.3 Connection types 
+Two types of connections may be specified according to the output voltage level of the 
+inverter. The connection types are presented below with corresponding schematics:  
+: 
+ 
+Figure 4.1: Type A electrical connection [Low Voltage Consumer] 
+Type A is applicable for Utility’s consumers with connection to LV network. RE/PV 
+connection point shall be done at the consumer’s DB/MSB/SDB. In case of three phase 
+consumers, only three phase inverters can be used in this system.  
+ 
+Figure 4.2: Type B connection [Medium and High Voltage Consumer] 
+Type B connection is applicable for Utility’s consumer with connection to MV network. 
+RE/PV connection point shall be done at the consumer MSB/ DB / SDB. In case of three 
+phase consumers, only three phase inverters can be used in this system.  This diagram with 
+some modifications shall be applicable for the very high voltage consumers. 
+4
+3 Phase, 4 Wire, 
+11 kV Line 
+
+===== p26 =====
+24 
+ 
+ 
+ 
+ 
+.  
+Figure 5: Type C connection [special type of Low Voltage consumers] 
+For consumers having the distribution Utility’s Mother Meter and Sub Meter connected to the 
+LV network shall have Type C connection. Circuit breakers and isolators similar to those 
+shown in Figure 4 shall be applicable. Three-phase inverters shall be used for such 
+connections. Medium and high voltage consumers may also be connected in this way after 
+carrying out all the necessary changes. For determining the system capacity, cumulative 
+supplied load of all the meters shall be taken into consideration.  
+ 
+4.2 
+General Conditions of Interconnection  
+ 
+If the interconnection requires any enhancement of the existing Utility supply infrastructure 
+such as cable, fuse, switchgear, and transformer and protection scheme, the consumer shall 
+bear the cost of such modification. 
+The quality of the power at the point of interconnection shall not be lower than the existing 
+quality of supply as mentioned in subsection 4. Quality of supply is measured as per the 
+standards of voltage, flicker, frequency, harmonics and power factor, as specified by relevant 
+and concerned authorities. Deviation from these standards represents out-of-bounds 
+conditions and the net metered system shall be able to sense the deviation and disconnect 
+itself from the distribution network accordingly. 
+Prosumers connected under this guideline using renewable energy sources must comply with 
+the applicable Distribution Code and Grid Code according to their voltage level. 
+ 
+The net metered consumer shall have to meet the following requirements in order to ensure 
+that the interconnection does not adversely affect the quality of supply. 
+4.2.1 Normal voltage operating range  
+Acceptable limit of voltage in case of supplying electricity to the distribution grid from 
+renewable energy source under the net metering scheme is as follows:   
+i. 
+Renewable energy systems connected with a low-voltage (LV) interconnection 
+shall operate within the voltage range specified in Table 1. 
+ 
+
+===== p27 =====
+25 
+ 
+ 
+ 
+Table 1: Normal operating condition at Low Voltage interconnection 
+Nominal voltage [V] 
+Steady state voltage limit 
+400 
+-15% to +10% 
+230 
+-15% to +10% 
+ii. 
+Renewable energy systems connected with a medium and high voltage 
+interconnection shall operate within the voltage range specified in Table 2. 
+Table 2: Normal operating condition at Medium and High Voltage interconnection 
+Nominal voltage [kV] 
+Steady state voltage limits 
+11 
+-15% to +10% 
+33 
+-15% to +10% 
+iii. 
+The range of voltage and other issues mentioned in the national grid will be 
+followed in case of very high voltage i.e. at 132 kV or 230 kV voltage level. 
+4.2.2 Voltage fluctuation 
+Due to the inherent variability of renewable energy sources, the electricity generation from 
+renewable systems under net metering may fluctuate. As a result, when electricity from 
+renewable sources is supplied to the distribution network, it may cause voltage variations at 
+the interconnection point and within other buses of the grid. 
+The maximum allowable voltage fluctuation due to such variability shall be 6% for low, 
+medium, and high voltage systems. If the fluctuation exceeds this limit, electrical equipment 
+at the utility or consumer end may overheat. Therefore, an appropriate voltage regulation 
+mechanism must be adopted to minimize such fluctuations when necessary.  
+4.2.3 Power Factor of Electricity Generated from Renewable Energy 
+The power factor is defined as the ratio of applied active power to apparent power. The 
+inverter configuration of the renewable energy system shall be set (with the assistance of a 
+Power Factor Improvement (PFI) unit, if required) so that the monthly average power factor 
+recorded in the utility billing meter remains within the limits prescribed by the Commission 
+for that consumer category. 
+i. 
+When the inverter operates at a load exceeding 20% of its rated output, the 
+renewable energy system must be capable of operating at any leading or lagging 
+power factor greater than 0.85. If a smart inverter is used, it shall automatically 
+adjust to ensure that voltage rise due to power factor remains within allowable 
+limits. 
+ii. 
+The required plant power factor shall be determined during the technical 
+assessment phase.  
+ 
+ 
+
+===== p28 =====
+26 
+ 
+4.2.4 Reactive power compensation 
+For renewable electricity generation systems under net metering operating at unity power 
+factor (pf = 1), all reactive power for the consumer load shall be imported from the utility, 
+while real power will be a combination of on-site generation and imported utility power. 
+Since self-generation typically requires a higher proportion of reactive power, the utility tariff 
+meter may show a low power factor reading. To avoid this, consumers must comply with the 
+instructions outlined in Section 4.2.3. In OPEX model solar systems, the required amount and 
+conditions for reactive power to be drawn from the plant shall be explicitly included in the 
+OPEX agreement.  
+4.2.5 Injection of direct current 
+The amount of DC current injected by the PV system into the Utility interface shall under any 
+operating conditions never exceed 1% of the rated inverter output current. 
+4.2.6 Harmonic 
+The harmonic of a wave is a component frequency of a wave that is an integer multiple of the 
+fundamental frequency. In the presence of non-linear loads (e.g., computer power supplies, 
+electronic devices), alternating current may become distorted due to harmonic frequencies. 
+Harmonics are measured as a percentage of the fundamental frequency or by calculating 
+Total Harmonic Distortion (THD). Excessive harmonics can damage electrical systems and 
+connected loads. To prevent such damage, the following measures must be ensured: 
+i. 
+The PV system output shall have low current-distortion levels so that other equipment 
+connected to the Utility system is not adversely affected. 
+ii. 
+Total harmonic current distortion shall be less than 5% of the rated inverter output at 
+the cable connected to the interconnection point. 
+4.2.7 Voltage unbalance  
+Voltage unbalance is defined as the ratio of negative sequence voltage component and 
+positive sequence voltage component.  
+i. 
+Infrequent short duration peaks with a maximum value of 2% over 1-minute duration 
+may be permitted for voltage unbalance.  
+ii. 
+When multiple single-phase PV units are installed, the unbalance shall be 
+distributed evenly among the three phases of the power system. 
+iii. 
+The unbalanced voltage shall not exceed 1% more than 5 times within any 30-
+minute period at the terminals of the consumer’s installation.  
+4.2.8 Short circuit level 
+The distribution utility must ensure that the short-circuit level of the network is appropriate in 
+accordance with the equipment ratings. The maximum sub-transient three-phase symmetrical 
+short-circuit current of the network must remain within 90% of the short-time make-and-
+break capacity of the equipment. The distribution utility shall be responsible for verifying 
+compliance with this requirement. Table 3 presents the standard equipment rating values 
+commonly used by the utility. 
+ 
+ 
+
+===== p29 =====
+27 
+ 
+Table 3: Typical equipment rating in distribution network 
+Nominal voltage [kV] 
+Rated voltage [kV] 
+Fault current [kA] 
+33 
+36 
+25 
+11 
+12 
+20 
+0.4 
+1.0 
+31.5 
+4.3 
+Protection System 
+The safety system of a renewable energy generation setup installed under the Net Metering 
+framework must be designed in such a way that it can isolate any faulty section from the 
+properly functioning part of the system when required. The prosumer shall design their 
+protection system to ensure adequate safety based on their operational needs. However, Net 
+Metering customers must comply with the protection requirements imposed by the utility, 
+ensuring that any fault within the renewable energy generation system does not propagate 
+beyond the system boundary. 
+4.3.1 Smart inverter  
+The network may become unstable due to voltage fluctuation at the interface of distribution 
+network and RE resulting from increase or decrease of load at the user end. This may happen 
+especially in case of high level of penetration of distributed generation. 
+Advanced inverters, also known as smart inverters have a number of additional features along 
+with the capability of converting direct current into alternating current. Smart inverters have 
+the capability to assist in retaining grid stability when necessary. These features include: 
+ Reactive power control 
+ Active power control 
+ Grid management 
+The inverter used in a consumer’s system must comply with the requirements outlined in 
+Sections 4.3.3 to 4.3.9 of this guideline.  
+4.3.2 Frequency  
+ 
+The distribution utility must maintain system frequency, and the PV system shall operate in 
+synchronization with the utility’s frequency. The utility shall operate within a ±1% band of 
+50 Hz, and the inverter must be capable of generating power within a ±4% frequency range. 
+ 
+4.3.3 Synchronization 
+Synchronization is the process of being coherent within allowable limits. The energy 
+generation system under the net metering scheme shall have to be equipped with automatic 
+synchronization system. In case of solar PV, synchronization has to be done at the inverter. 
+ 
+ 
+ 
+
+===== p30 =====
+28 
+ 
+4.3.4 Anti-islanding inverter  
+i. 
+Anti-islanding or non-islanding inverters are unable to supply electricity in the absence 
+of grid electricity. To ensure the safety of the solar PV system, it shall not be allowed to 
+remain energized during outage of Utility grid (loss of mains). Within 2 seconds of 
+power outage, the prosumer’s electricity generating system from the PV system shall 
+have to be automatically disconnected, which is possible through an anti-islanding 
+inverter. The grid-tied inverter used in the net metering system shall have to be capable 
+of anti-islanding as per IEC 62116 (Utility interconnected photovoltaic inverters – Test 
+procedure of islanding prevention).  
+ii. 
+Inverters used by the NEM consumer shall provide the following anti-islanding detection 
+techniques:  
+a. Under voltage 
+b. Over voltage 
+c. Under frequency 
+d. Over frequency 
+It shall also include at least one of the following active anti islanding techniques: 
+a. Negative-sequence current injection,  
+b. Impedance measurement,  
+c. Slip mode frequency shift,  
+d. Frequency bias, etc. 
+iii. 
+During the commissioning test, the NEM consumer shall have to prove whether the plant 
+has anti- islanding capacity or not.  
+4.3.5 Inverter fault current contribution:  
+The inverter fault current is generally regulated by the inverter control. According to IEC 
+61727 or IEEE 1547, the typical range of short circuit current is between 100% and 200% of 
+the rated inverter current. The net metering consumer shall have to ensure that the inverter 
+used by him meets the requirements of IEC 61727 or IEEE 1547. 
+4.3.6 Protection schemes:  
+The fundamental conditions for developing a protection scheme are as follows: 
+i. 
+No harm shall be allowed to the distribution network or any other consumer thereof 
+due to any internal fault existing in the renewable energy system installed under the 
+net metering scheme; 
+ii. 
+Adequate safety measures must be in place to prevent damage to the renewable 
+system due to faults in the distribution network; 
+iii. 
+In addition to the above, the net metering consumer must maintain all supplementary 
+safety measures necessary for both the distribution network and the renewable 
+generation system. 
+ 
+ 
+
+===== p31 =====
+29 
+ 
+4.3.7 Failure of system protection or control equipment:  
+In the event of any system malfunction, the renewable energy system installed under the Net 
+Metering scheme must be disconnected from the distribution network. The situations in 
+which the renewable energy system installed under the net metering scheme must be 
+disconnected from the distribution network are as follows: 
+i. 
+Failure of protection equipment 
+ii. 
+Failure of control equipment 
+iii. 
+Loss of control power  
+ 
+4.3.8 Frequency Withstand Capability 
+ 
+The renewable energy system installed under net metering must meet the Frequency 
+Withstand Capability requirements specified in the Grid Code, for both under-frequency and 
+over-frequency events. 
+ 
+4.3.9 Voltage Disturbance  
+i. 
+The inverter of the renewable energy system installed under the net metering scheme 
+shall have the technical ability to sense any abnormal voltage according to standards 
+mentioned in table 4. If there is any fluctuation in transformer, wiring or feeder circuit 
+voltage, the inverter shall take measures according to Table 4. 
+Table 4: Voltage disturbance 
+Voltage at interconnection 
+Maximum trip time (s) 
+V < 50% 
+0.10 
+50% ≤ V < 85% 
+2.00 
+85% ≤ V ≤ 110% 
+Continuous operation 
+110% < V < 135% 
+2.00 
+135% ≤ V  
+0.05 
+ii. 
+The inverters shall remain functional within the range from -15% to +10% of the 
+nominal voltage of the distribution Utility. 
+iii. 
+Voltage may be affected due to voltage disturbance caused by transmission network 
+switching and distribution switching on nearby feeder. Therefore, inverters shall have 
+to be able to ride through voltage disturbance bands ranging from 50% to 85% and 
+from 110% to 135%. This shall help stabilize the Utility’s system.  
+iv. 
+Loss-of-mains shall be indicated by a voltage drop of less than 50%. 
+v. 
+Over voltage and under voltage detection shall be provided for all 3 phases.  
+ 
+
+===== p32 =====
+30 
+ 
+4.3.10  Utility interface disconnect switch  
+To ensure the safety of both the system and personnel while performing work on the 
+distribution utility line, a Utility Interface Disconnect Switch must be installed to allow the 
+renewable energy system set up under Net Metering to be disconnected from the utility 
+supply. A standard switch may be used for this purpose, provided that it is manual and 
+lockable. In addition, the switch must possess the following characteristics: 
+ 
+ 
+The position of the switch must be clearly indicated. 
+ 
+It must be easily visible and accessible to personnel performing maintenance or 
+operational duties. 
+ 
+When in the “OFF” position, the contact points must be visibly separated 
+4.4 
+Safety Requirements 
+ 
+The installation of renewable energy systems under the grid-connected Net Metering 
+framework must adhere to both national and international safety standards. For the safe 
+operation of a grid-connected system, due consideration must be given to the system topology 
+and the earthing (grounding) arrangements. 
+4.4.1 Operation  
+i. 
+In the interest of safety for operating personnel and the public, both the distribution 
+utility and the Net Metering customer must maintain proper coordination. When any 
+work or testing is carried out at the interface/connection point, necessary 
+arrangements must be made to isolate the system from the distribution grid and to 
+ensure proper earthing. 
+ii. 
+When any work or testing is performed at the interface between the distribution 
+network and the renewable energy system—including rooftop solar systems under 
+Net Metering—both the distribution utility and the Net Metering customer must 
+strictly comply with all statutory laws, rules, regulations, license conditions, utility 
+safety rules, and the existing Grid Code and Distribution Code of the country to 
+ensure safety. 
+4.4.2 Labeling 
+Labels or markings on equipment and associated cables must be placed in clearly visible 
+locations so that operators can easily identify them and exercise caution during operation or 
+maintenance. This is essential because certain parts of the renewable electricity generation 
+system may remain electrically energized. 
+ 
+ 
+ 
+ 
+ 
+ 
+
+===== p33 =====
+31 
+ 
+5 
+Amendment of the Guideline 
+The Government may, as and when necessary, amend and refine this Guideline. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+===== p34 =====
+32 
+ 
+6 
+Annex 1: Application Template 
+ 
+To 
+………………………… 
+………………………… 
+i 
+Applicant Information 
+ 
+Consumer category: 
+_______________________________________________________________________________________________  
+ 
+Select the system installation model: 
+ 
+☐ CAPEX model 
+          ☐ OPEX model 
+ 
+ 
+In the case of a system installed under the OPEX model, the following information 
+about the investing organization must be provided: 
+Name of the organization/company:  
+ 
+Registration No.   
+Trade License No. 
+Address:  
+ 
+ 
+ 
+If the applicant (consumer) is an individual: 
+Name:  
+Address:  
+ 
+Nationality:  
+National ID:  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Passport no. (If non-Bangladeshi): 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Telephone: 
+ 
+Mobile: 
+ 
+Email:  
+ 
+ 
+Alternative contact person:  
+Name:  
+Address:  
+ 
+Relationship:  
+Nationality:  
+
+===== p35 =====
+33 
+ 
+National ID:  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Passport no. (If non-Bangladeshi): 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Telephone: 
+ 
+Mobile: 
+ 
+Email:  
+ 
+ 
+If the applicant (consumer) is an entity: 
+Name of the Organization/Company:  
+ 
+Registration no.:   
+Trade License no.  
+Address:  
+ 
+Mailing Address (if different):  
+ 
+ 
+Contact Person: 
+Name:  
+Designation: 
+Address:  
+Nationality: 
+National ID:  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Passport no. (If non-Bangladeshi): 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Telephone: 
+ 
+Mobile: 
+ 
+Email:  
+ 
+ii Information on the Renewable Energy / Electricity Generation 
+System 
+2.1 Installation Site Address 
+Site Address: 
+ 
+                                                                                                                                
+Post code:  
+ 
+District:  
+ 
+Ownership of 
+site:  
+☐ Fully Owned 
+☐ Mortgaged to a bank 
+☐ Leased property 
+GPS Location of the Installation Site:  
+Latitude*:  
+ 
+Longitude:  
+ 
+ 
+* Latitude and longitude have to be written with 6 (six) digits after the decimal point (e.g.23.039612, 
+90.401387) to clearly identify the location as shown in the examples.  
+ 
+ 
+ 
+
+===== p36 =====
+34 
+ 
+2.2 Information about installation  
+Utility & concerned 
+office:  
+ 
+Consumer No. / Billing 
+Account No.: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Tariff Category:  
+ 
+Sanctioned Load: 
+ 
+Current Meter No. (if 
+any):  
+ 
+Proposed system 
+capacity:  
+AC 
+(Kw) 
+ 
+DC 
+(Kwp)  
+ 
+DC : 
+AC ratio 
+ 
+2.3 Information about the installation premises:  
+Voltage Level at 
+the Connection 
+Point:  
+☐ Low 
+Voltage  
+(Single 
+Phase) 
+☐ Low 
+Voltage  
+(Three 
+Phase) 
+☐ Medium 
+Voltage 
+(Three 
+Phase-11 
+kV) 
+☐ High 
+Voltage 
+(Three 
+Phase-33 
+kV) 
+☐ Very 
+High 
+Voltage 
+(Three 
+Phase-
+132 
+kV) 
+☐ Very 
+High 
+Voltage 
+(Three 
+Phase-
+230 
+kV) 
+Voltage at Point 
+of Common 
+Coupling (RE):  
+ 
+ 
+ 
+ 
+ 
+ 
+ONLY for Commercial and Industrial Category:  
+ 
+ 
+Low Voltage  
+Whole Current <= 100A, Fuse Rating:  
+ 
+ 
+or, CT Rating:  
+ 
+ 
+Medium Voltage: CT Rating:                           PT Rating:  
+Renewable 
+Energy System  
+☐ New Project 
+☐ Existing 
+Project 
+ 
+ 
+Types of Building
+(House/ Shop/ Office/ 
+Others etc.) 
+Types of 
+Installation:  
+☐ Rooftop or 
+facades of Building 
+☐ Car Park or 
+Garage  
+☐ Others:  
+ 
+ 
+Use of Battery 
+Storage:  
+☐ Yes 
+☐ No 
+ 
+ 
+If yes, please provide detailed design:  
+ 
+ 
+Battery Capacity:  
+Technology  
+ 
+ 
+ 
+Brand and Model: 
+ Country of 
+Origin 
+ 
+ 
+ 
+
+===== p37 =====
+35 
+ 
+Description of 
+Inverter (If 
+applicable) 
+ 
+2.4 Technical Self-Assessment [ONLY for Commercial and Industrial Category] 
+Daytime Peak Demand (09 am to 05 pm) 
+ kWac 
+Daytime Lowest Demand (09 am to 05m) 
+ kWac 
+Weekends / Holidays Peak Demand (09 am to 05 pm) 
+kWac 
+Weekends / Holidays Lowest Demand (09 am to 05 pm) 
+kWac 
+ 
+ 
+ 
+ 
+ 
+iii Method for Receiving Settlement Payments 
+ 
+The applicant shall select one of the following methods. The account name must match 
+the electricity consumer’s name. 
+ 
+□Method 1: Bank 
+Account (BEFTN/NPSB) 
+ 
+□ Method 2: Mobile 
+Banking Account (Nagad / 
+bKash / Rocket) 
+□ Method 3: Cheque 
+ 
+1. Account name:  
+2. Account number (13 
+digits):  
+3. Bank name:  
+4. Branch name:  
+5. Routing number:  
+1. □ Nagad / □ bKash / 
+□ Rocket 
+2. Account name:  
+3. Account number:  
+ 
+1. Account name:  
+ 
+ 
+iv Applicant’s Declaration 
+*To be completed by an (individual) applicant 
+I, 
+..………………………………………………………..........................................., 
+National 
+ID 
+No./ 
+Passport 
+No.: 
+…………………............……………………………… 
+and 
+address: 
+…………………............……………………………… do hereby declare that: 
+ 
+i. 
+I hereby authorize.................................................................................... (name of 
+the 
+authorized 
+person) 
+with 
+National 
+ID 
+No./Passport 
+No.: 
+
+===== p38 =====
+36 
+ 
+.............................................................................. to process all matters related to 
+net metering on my behalf;  
+OR  
+I hereby authorize................................................................................. (name of 
+the 
+authorized 
+organization) 
+with 
+registered 
+address 
+at 
+…………………….……………............................................................................
+to process all matters related to net metering on my behalf; its Registration No.: 
+.............................................................................. and name & address of the 
+registering authority;  
+OR 
+I, National ID/Passport No. .............................................................................. 
+declare myself as the competent person to process all matters related to net 
+metering.; 
+ 
+ii. 
+I hereby certify that the authorized person or organization (if any) is competent 
+to comply with this Guideline and all instructions issued by the competent 
+authority in this regard; 
+iii. 
+I hereby certify that only approved equipment under this Guideline will be 
+installed in the proposed renewable energy/electricity system, and compliance 
+with the stated specifications and national standards will be verified.  
+ 
+iv. 
+I hereby certify that electricity generated from any source other than renewable 
+energy shall not be net-metered, and compliance shall be ensured as per the 
+Guideline. 
+ 
+v. 
+I hereby warrant that I have not committed any offense punishable under the 
+Electricity Act, 2018 or any other law or regulations relating to electricity 
+supply and licensing. 
+ 
+vi. 
+I hereby certify that all information provided herein is true and correct to the 
+best of my knowledge and belief. 
+ 
+vii. 
+I acknowledge that if any information provided herein is found to be false, the 
+distribution utility reserves the right to forfeit the application fee and to take any 
+action against me as deemed appropriate. 
+ 
+viii. 
+I hereby undertake to comply with all applicable laws, rules, regulations, and 
+Government instructions relevant to this application; 
+ 
+…..……………………………… 
+Signature 
+ 
+
+===== p39 =====
+37 
+ 
+7 
+Annex 2: Detailed Description of the Net Meter 
+1. If existing unidirectional electric meters cannot be reprogrammed to meet the 
+requirements of this guideline for bidirectional operation, they must be replaced with 
+new bidirectional meters.  
+2. The existing meter board and related meter wiring (if necessary) must be replaced either 
+with the assistance of the distribution utility or by a technician authorized by the 
+distribution utility. The location where the meter is installed must be accessible to the 
+utility’s personnel.  
+3. The consumer shall bear all costs associated with the interconnection including the cost 
+of meter replacement, supply upgrading, and system connection/ modification.  
+4. The installed net meter system must have a remote online monitoring facility. 
+Both the net metering consumer and the OPEX investor shall grant online monitoring 
+access to the utility.   
+(a) 
+Minimum Technical Specifications for Net Metering Measurement: 
+No.
+Technical 
+Parameters 
+Low Voltage Level Connectivity 
+Whole current meters 
+CT operated 
+1 
+Measured 
+quantities 
+kWh, kVAh, kVA, Power Factor kWh, kVAh, kVA, Power Factor 
+2 
+Accuracy class 
+0.5 
+0.2 
+3 
+Import and export 
+capability 
+Import & Export 
+Import & Export 
+4 
+Communication 
+port/protocol 
+Optical / RS-232 / DLMS / 
+MODBUS / Wireless 
+Optical / RS-232 / DLMS / 
+MODBUS / Wireless 
+Net Metering shall be implemented at the applicable voltage level for the allocated load and 
+tariff category in accordance with the Retail Tariff Order issued under the Bangladesh Energy 
+Regulatory Commission Act. In this regard, the Net Metering customer must comply with the 
+standards and requirements set by the distribution utility. 
+(b) 
+Prepayment/Smart Meter:  
+Pre-payment/Smart meter customers must have a metering system capable of recording and 
+storing the amount of electricity imported from and exported to the distribution grid. The 
+meter must also have the capability to perform billing calculations in accordance with this 
+guideline. In this regard, Annex–8 of the guideline must be followed. 
+ 
+
+===== p40 =====
+38 
+ 
+8 
+Annex 3: Net Metering System Checklist 
+1. Applicant information 
+Name (Person/ 
+Organization):  
+ 
+Address:  
+ 
+ 
+Utility account no. 
+ 
+Meter no. 
+ 
+Sanctioned load 
+ 
+a. Contact person: 
+Name:  
+ 
+Designation: 
+ 
+Address:  
+ 
+ 
+Nationality: 
+ 
+National ID:  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Passport no. (If non-Bangladeshi): 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Telephone: 
+ 
+Mobile: 
+ 
+Email:  
+ 
+2. Components used 
+a. Solar PV panels 
+Manufacturer (Company, origin)
+Brand
+Model No.
+Rated capacity (wp)
+Standard Compliance: 
+BDS IEC 61215-1:2022, BDS IEC 
+61215-2:2022, 
+BDS IEC 61730-1:2019, BDS IEC 
+61730-2:2019 or latest versions
+ 
+ 
+Description of compliance certificate 
+(mandatory) in support of national 
+standards developed by BSTI (BDS 
+ 
+
+===== p41 =====
+39 
+ 
+IEC 61215 and others)
+Other applicable compliance 
+standards
+ 
+Approval No. & reference for use in 
+Net Metering Program
+ 
+Number of Panels
+Total installed capacity
+b. Inverters 
+Manufacturer  
+(Company name, origin)
+ 
+Brand
+Model no.
+Rated capacity (wp)
+Standard Compliance: 
+BDS IEC 61727:2020, BDS IEC 
+62116:2020, 
+BDS IEC 62109-1:2016, BDS IEC 
+62109-2:2016 or latest versions
+ 
+Other applicable compliance 
+standards
+ 
+Available and selected operating 
+options for power factor control
+ 
+Approval No. & reference for use in 
+Net Metering Program
+ 
+Number of inverters 
+Installed capacity (Total)
+ 
+Note: The list of mandatory standards for solar modules and inverters may be updated 
+periodically. Please refer to the latest version available on the SREDA website 
+(www.sreda.gov.bd). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+===== p42 =====
+40 
+ 
+c. Mounting system     
+General Information 
+ 
+Manufacturer 
+(company, origin)
+ 
+Type & description 
+(where applicable)
+ 
+Type of rooftop and mounting system 
+Mounting location 
+□ RCC roof
+□ Tin shed
+□ Open space within premises
+□ Others 
+Rooftop angle(s)
+Design type
+□ Seasonal tracking
+□ Daily tracking
+□ Fixed
+□ Others
+Type, material, and 
+load per square 
+meter of mounting 
+structure
+ 
+☐ I/We hereby certify that all BNBC and building ownership regulations, as well as technical 
+specifications related to building structures, have been complied with 
+ 
+d. Cables/ power lines 
+General description 
+ 
+ 
+PV string cable / power line 
+Manufacturer
+Type
+Cross-section
+PV Array Cables / Power Lines (DC) 
+Manufacturer
+Type
+Cross-section
+Inverter supply cable / power line (AC) 
+Manufacturer
+Type
+Cross-section
+ 
+ 
+ 
+
+===== p43 =====
+41 
+ 
+e. Feed-in Management/ communication  
+General information 
+Features 
+☐ Data collection, storage, circulation☐ Effective power reduction   
+☐ Others : ___________ 
+Implementation with 
+☐ Permanent inverter settings ☐ Feed-in management system 
+☐ Other measures: ___________ 
+Manufacturer (company, 
+origin)
+ 
+Type & description (where 
+applicable) 
+ 
+Does the system display effective feed-in levels to network operator? ☐ Yes ☐ No 
+ 
+3. Information regarding planning and installation 
+General 
+☐ The PV system has been installed in accordance with all existing technical regulations and 
+standards.
+☐ The PV system was built with minimal shadowing effect. 
+☐ A shading analysis was incorporated into the yield forecast if degree of shading is notable. 
+Structural information 
+☐ For rooftop-mounted systems, load-bearing capacity of the structure has been assessed by 
+a qualified person or firm (with address and phone):
+☐ In case of roof-mounted system, the aging condition of the rooftop surface has been 
+assessed by a qualified person or firm (with address and phone):
+☐ Anchoring and loading applications have been performed in accordance with 
+manufacturer’s instructions or mounting system guidelines.
+☐ The fastening of the modules was carried out in accordance with the manufacturer’s 
+guidelines.
+☐ If any alternative means has 
+been used for mounting or 
+installation of the system, 
+please specify the details.: 
+ 
+☐ Roof perforations were carried out in accordance with technical rules and standards. 
+Building details:
+Building height
+Meter
+Wind load zone
+Maximum wind speed for zone
+Meter/Second
+
+===== p44 =====
+42 
+ 
+Cable
+Meter
+Edge Distance
+Meter
+Roof Ridge
+ 
+Meter
+ 
+Fire Protection Measures 
+ 
+☐ Smoke and heat exhaustion systems are fully functional. 
+☐ Firewalls and fire compartments have been considered as per applicable fire protection 
+regulations. 
+☐ Other measures: 
+ 
+ 
+Electrical safety, choice and installation of electrical equipment 
+The equipment and system have been installed in accordance with the general provisions of 
+IEC 60364-1 (DIN VDE 0100), as well as the specific provisions of IEC 60364-7-712:2017 
+(VDE 0100-712) and VDE-AR-N 4105 (or their equivalent IEC standards). The installation 
+has been inspected in compliance with IEC 62446 (VDE 0126-23). Along with other 
+characteristics, the following features have been found to be present:
+☐ The cables and power lines of the renewable energy system have been selected and 
+installed in accordance with IEC 60364-5-52 (VDE 0100-520) to ensure that there is no risk 
+of earth faults or short circuits.
+☐ The cables are securely attached to the frame, not in contact with the roof, and have not 
+been laid over any sharp edges. Appropriate strain relief has been provided at every 
+connection point. The cables located outside the building have been routed through covered 
+cable trays.
+☐ Adequate circuit breakers have been provided for the DC current circuits in accordance 
+with the manufacturer’s instructions, ensuring suitability and sufficient switching capacity.
+ 
+Lightning and voltage surge protection 
+Note: It is mandatory for a PV system to have a lightning protection system: 
+1. Lightening protection system is mandatory for buildings. Is there any 
+lightning protection system in the building? 
+☐ Yes ☐ No 
+2. Is there a test report for the lightning protection system? 
+☐ Yes ☐ No 
+3. Has the outside lightning protection system been adjusted accordingly? 
+☐ Yes ☐ No 
+4. Have distances between lightning protection components been measured? ☐ Yes ☐ No 
+5. Is the PV system within the protected area of the lightning protection 
+system?
+☐ Yes ☐ No 
+
+===== p45 =====
+43 
+ 
+6. Is the PV generator directly connected to the lightning protection system? ☐ Yes ☐ No 
+7. Has lightning protection equipotential bonding been carried out? 
+☐ Yes ☐ No 
+8. Has a Type 1 DC lightning arrester been installed near the PV string 
+cable entry?
+☐ Yes ☐ No 
+9. Has a Type 1 AC lightning arrester been installed at the inverter AC end? ☐ Yes ☐ No 
+10. Has a Type 1 AC arrester been installed at the building’s conduit entry? ☐ Yes ☐ No 
+11. Has a Type 2 DC surge arrester been installed at the inverter DC side? 
+☐ Yes ☐ No 
+12. Has a Type 2 AC surge arrester been installed at the inverter AC side? 
+☐ Yes ☐ No 
+13. Has a type 1-2-3 combination arrester been installed at the feed 
+conduit’s building entry point?
+☐ Yes ☐ No 
+14. Has equipotential bonding been completed for the mounting structure? 
+ 
+Note: Separate lightning protection = min. 4 mm² (unprotected cable 
+channels). Combined lightning protection = min. 16 mm²
+☐ Yes ☐ No 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+===== p46 =====
+44 
+ 
+9 
+Annex 4: Net Metering Agreement Form 
+This Agreement is prepared and executed on the ____ day of __________, ______, at 
+______________________________ (place of execution), by and between the electricity consumer 
+named 
+__________________________________, 
+Consumer 
+No. 
+________________________________, 
+under 
+__________________________________________________________________________________
+___________ 
+(name 
+of 
+distribution 
+office), 
+address 
+of 
+the 
+consumer 
+__________________________________________________________________________________
+__________________________________________________________________________________
+_____, hereinafter referred to as the First Party; 
+ 
+AND 
+ 
+__________________________________ (name of the Utility), _________________________ (head 
+office address), established under the authority of ___________________________________ 
+Act/Ordinance, or registered under the Finance Company Act, 2023 (Act No. 59) and operating as a 
+“Distribution Utility” under the Bangladesh Energy Regulatory Commission Act, 2003, hereinafter 
+referred to as the Second Party or Utility; this term shall include its authorized representatives and 
+successor entities; 
+ 
+AND 
+ 
+Whereas, ____________________ (name of company), _____________________ (address), 
+Company Registration No. ____________, Registering Authority ______________________, has 
+installed a solar system at the consumer’s premises under the OPEX model, hereinafter referred to as 
+the Third Party; 
+ 
+AND 
+ 
+Whereas, ______________________ (name of electricity consumer) has completed installation, 
+within his/her/its owned premises located at __________________ (location name), of a renewable 
+energy system of __________ kW AC (__________ kWp DC) capacity, connected at __________ 
+voltage level to the distribution grid of __________ (name of Utility), in accordance with the Net 
+Metering Guideline; 
+ 
+AND 
+ 
+Whereas, by Order No. __________ dated _, issued by _____________________ (name of 
+competent authority), approval has been granted for the development and installation of a 
+renewable energy system of ** kW AC ( kWp DC)** capacity at the premises owned by 
+__________ (name of electricity consumer), located at _____________________ address (including 
+
+===== p47 =====
+45 
+ 
+roof and/or principal premises), under __________________ (name of policy), to meet own 
+electricity demand; 
+ 
+AND 
+ 
+Whereas, the Distribution Utility has agreed to provide grid interconnection for the electricity 
+generated from the ___________ kW AC (___________ kWp DC) rooftop solar PV system of the 
+eligible consumer, subject to compliance by the concerned consumer with the terms of this Agreement 
+and with the applicable provisions of the following policy/rule/regulation/code (as amended from time 
+to time): 
+(List of relevant documents as specified by the Utility) 
+ 
+NOW, THEREFORE, the Parties hereby agree as follows: 
+1. 
+General Eligibility Requirements  
+i. 
+The First Party has fulfilled the conditions set forth in Clause 3.1 of the Net Metering 
+Guideline–2025. 
+ii. 
+The First Party and, where applicable, the Third Party shall duly comply with the 
+provisions regarding generation limits and export limits to the grid as governed by 
+Clause 3.3 of the Net Metering Guideline–2025. 
+iii. 
+The First Party and, where applicable, the Third Party agree that electricity export to 
+the grid from renewable energy sources shall be in full compliance with Government-
+regulated rules and any amendments issued from time to time 
+2. 
+Technical and Interconnection Requirement  
+i. 
+The First Party and, where applicable, the Third Party agree that the installed 
+renewable energy system shall conform to the Net Metering Guideline–2025, 
+applicable regulations, the prevailing Grid Code and Distribution Code, and any 
+subsequent amendments and specialized standards and requirements therein. 
+ 
+ii. 
+The First Party and, the Third Party (where applicable) agree that, prior to connecting 
+the rooftop solar PV system to the Utility’s distribution grid, a Utility Interface 
+Disconnect Switch (with both automatic and manual provisions) has been or will be 
+installed; and further agree to provide the Second Party access to and control over the 
+same for repair and maintenance of the distribution system. 
+ 
+iii. 
+The First Party and, the Third Party (where applicable) agree that, upon loss of grid 
+supply, the installed renewable system shall automatically disconnect, and no power 
+from the said system shall flow into the Utility’s distribution system. 
+ 
+iv. 
+All equipment connected to the distribution system shall be operated in accordance 
+with all relevant provisions specified in this Guideline. 
+ 
+
+===== p48 =====
+46 
+ 
+v. 
+The First Party and, the Third Party (where applicable) agree that the 
+interface/interconnection point and the metering point have been completed in 
+accordance with the instructions of the Second Party. 
+ 
+vi. 
+All Parties agree to comply with all Government-issued provisions concerning plant 
+operation and maintenance, drawings and diagrams, on-site duty schedule, harmonics, 
+synchronization, voltage, frequency, flicker, etc. 
+ 
+vii. 
+In order to enable the Second Party to fulfill its obligation to maintain a safe and 
+reliable distribution system, the First Party and, the Third Party (where applicable) 
+agree that if the Second Party determines that the consumer’s renewable energy 
+system is causing damage to the Utility’s assets or adversely impacting other 
+consumers, the First/Third Party shall, upon instruction from the Second Party, 
+disconnect the renewable energy system from the distribution grid and shall, at its 
+own cost, undertake corrective measures to the satisfaction of the Second Party. 
+viii. If, during a grid outage, back-feeding into the Utility’s grid from electricity 
+generated by the First/Third Party causes any accident resulting in injury or death 
+(human or animal), whether fatal/non-fatal, departmental/non-departmental, the entire 
+liability shall rest with the First/Third Party. In such exigencies, the Second Party 
+reserves the right to disconnect the First/Third Party’s system at any time. 
+ 
+3. 
+Permits and Approvals 
+Where approvals and clearances from authorities other than the concerned Utility are 
+required, the First/Third Party has obtained such approvals prior to connecting the 
+photovoltaic system to the distribution system. 
+4. 
+Access and Disconnection 
+i. 
+The Second Party shall have access at all times to metering equipment and to both 
+automatic and manual means of disconnecting the renewable system. 
+ 
+ii. 
+In emergencies, where neither the automatic nor any manual disconnection device 
+(e.g., switch or breaker) can be actuated, the Utility may disconnect the 
+consumer’s service connection at the premises. 
+ 
+iii. 
+In installations under the OPEX model, if the First Party fails to pay the Third 
+Party under the OPEX agreement for two (2) consecutive months, and the Second 
+Party verifies such default, the Second Party may disconnect the First Party’s 
+electricity connection. 
+5. 
+Responsibility  
+i. 
+For any damage or adverse impact arising from negligence or willful misconduct of 
+the First/Third Party in providing or operating the renewable energy connection, the 
+First/Third Party shall compensate the Second Party, and the First Party shall ensure 
+that. 
+
+===== p49 =====
+47 
+ 
+ii. 
+The Second Party shall not be obligated to provide any financial or other incentives to 
+the First Party beyond those stipulated in the Net Metering Guideline–2025, or any 
+Government incentives expressly provided thereunder”. 
+6. 
+Metering 
+Metering arrangements shall be as determined under Clause 3.6 and Annex 2 of the Net 
+Metering Guideline–2025, including any amendments made from time to time. 
+7. 
+Commercial Settlement/Arrangements 
+Commercial arrangements shall be executed in accordance with Clauses 3.4 and 3.5 of the 
+Net Metering Guideline–2025, and any subsequent amendments. 
+ 
+Settlement Unit Price shall be paid by the Distribution Utility to the electricity consumer 
+through the method selected below and, where applicable, to the account specified: 
+ 
+□ Method-1: 
+Bank 
+Account 
+(BEFTN/NPSB)
+□ Method-2: Mobile Banking 
+Account (Nagad/bKash/Rocket)
+□ Method-3: Cheque
+1. Account Name:  
+2. Account Number (13 digits):  
+3. Bank Name:  
+4. Branch Name:  
+5. Routing Number:  
+1. 
+□ Nagad / □ bKash / □ 
+Rocket 
+2. 
+Account Name:  
+3. 
+Account Number:  
+ 
+1. Account Name:  
+8. 
+Cost of Providing Interconnection 
+All costs for the installation of the rooftop solar system, including metering and 
+interconnection, have been borne by the First/Third Party. Where applicable, the First/Third 
+Party has borne, and shall continue to bear, the capital cost of system modifications and the 
+costs of system upgrades.   
+9. 
+Post-Installation Inspection, Testing, Calibration, and Maintenance upon First 
+Party’s Invitation 
+After installation, the Utility has carried out, upon the First Party’s invitation and through 
+mutual scheduling with the consumer, all required inspections and tests. The First and Third 
+Parties have provided the Second Party with all drawings, specifications, and test records of 
+the project or generating station (as applicable), and shall provide such documents in the 
+future as required. 
+10. Records 
+All Parties shall maintain complete and accurate records and any other data necessary for 
+proper operation of the rooftop solar system under this Agreement. For OPEX model 
+installations, a copy of the previously executed OPEX Agreement (as per Annex-6) between 
+the First and Third Parties shall be attached hereto and shall form an integral part of this 
+Agreement. 
+
+===== p50 =====
+48 
+ 
+11. Dispute Resolution 
+i. 
+Any dispute between any two Parties arising out of or in connection with this 
+Agreement shall first be attempted to be resolved amicably, promptly, fairly, and in 
+good faith through mutual discussions. 
+ 
+ii. 
+If such dispute is not resolved through discussions within sixty (60) days from the 
+date of its occurrence, or within an extended period mutually agreed by the Parties, 
+then: 
+ 
+a. Disputes between the First and Third Parties regarding billing for energy export or 
+the amount of billing shall be resolved by the Second Party (Utility). 
+ 
+b. Disputes between the First and Second Parties regarding billing for energy export 
+or the amount of billing shall be resolved by the Power Division/SREDA. 
+ 
+c. Disputes relating to regulations or their interpretation shall be resolved in 
+accordance with the decision of the Power Division; Ministry of Power, Energy 
+and Mineral Resources, or by any agency authorized by the Power Division 
+through due process. Such decision shall be considered final. 
+12. Contract Termination 
+i. 
+The First Party may, at any time, terminate this Agreement by giving the Second 
+Party thirty (30) days’ prior written notice. 
+ 
+ii. 
+The First/Third Party agrees that, upon any notice of breach issued by the Second 
+Party, the First Party shall take necessary remedial action within thirty (30) days from 
+receipt of such notice; failing which, upon expiry of thirty (30) days, the Second Party 
+may terminate this Agreement by written notice. 
+ 
+iii. 
+Within one (1) week after termination of this Agreement, the First Party shall 
+disconnect its renewable energy system from the Utility’s distribution grid to the 
+satisfaction of the Second Party. 
+ 
+iv. 
+The First/Third Party agrees that, if no electricity is generated from the renewable 
+energy system installed under this Guideline for a period of one (1) year, or within 
+any extended period granted by the Second Party, other than due to the Second 
+Party’s failure, the Second Party may terminate this Agreement by written notice. 
+ 
+v. 
+The First/Third Party agrees that, if any significant component of the system is 
+replaced or newly added with any non-approved component in violation of the 
+Guideline, the Second Party may terminate this Agreement by written notice. 
+ 
+ 
+
+===== p51 =====
+49 
+ 
+Notification 
+ 
+For all communications under this Agreement, the following officers shall be responsible: 
+ 
+On behalf of the Utility 
+On behalf of the 
+Electricity Consumer 
+On behalf of the OPEX 
+Investor 
+ 
+ 
+All Parties, acting through their duly authorized representatives, execute this Agreement for 
+implementation purposes, and copies hereof existing on the above-stated date have been 
+delivered to each Party. 
+ 
+FOR AND ON BEHALF OF 
+The Utility 
+FOR AND ON BEHALF OF 
+The Project Owner 
+FOR AND ON BEHALF 
+OF The OPEX Investor 
+Authorized Signatory 
+Authorized Signatory 
+Authorized Signatory 
+Witness 
+Witness 
+Witness 
+1. 
+1. 
+1. 
+2. 
+2. 
+2. 
+ 
+ 
+
+===== p52 =====
+50 
+ 
+10 Annex 5: Examples of Energy Accounting and Billing 
+Process in Net Metering 
+ 
+a. When, considering import, export and credit units during a monthly billing period, 
+the Billing Unit becomes zero 
+Assume Mr. Abdul Karim is a Bangladesh Power Development Board (BPDB) consumer 
+under MT-3: Industrial. His Sanctioned Load is 500 kW. He installed a 500 kW AC rooftop 
+solar system under net metering. 
+In November 2024, he imported (I) 50,000 units from the grid and, after self-consumption, 
+exported (E) 48,000 units to the grid. Since export is less than import, his net export is Enet = 
+0, hence no maintenance charge applies. His previous month (October 2024) credit was 2,000 
+units (C = 2,000). 
+Therefore, his Billing Unit (BU) is: BU = (I – E – C) = (50,000 – 48,000 – 2,000) = 0 units. 
+As import exceeds export, no credit remains at month-end. Mr. Karim’s bill for November 
+2024 is as follows: 
+ 
+Description of electricity 
+export/ import 
+Amount 
+Rate (in BDT) 
+Total bill (in BDT)
+Demand Charge 
+500 kW 
+BDT 
+90/kW/month 
+45,000 
+Units imported from grid 
+(I) 
+50,000 units 
+– 
+– 
+Units exported to grid (E) 
+48,000 units 
+– 
+– 
+Net export (Enet) 
+0 units 
+– 
+– 
+Adjustable export (Eadj) 
+0 units 
+– 
+– 
+Previous month’s credit 
+(C) 
+2,000 units 
+– 
+– 
+Net Billing Units (BU) 
+0 units 
+– 
+– 
+Credit carried forward (C) 
+0 units 
+– 
+– 
+Subtotal 
+– 
+– 
+45,000 
+VAT on subtotal 
+– 
+5% 
+2,250 
+Total bill (excl. late fee & 
+meter charge) 
+– 
+– 
+47,250 
+
+===== p53 =====
+51 
+ 
+Because Abdul karim’s monthly import is exactly offset by current-month export plus prior 
+credit, so he need not pay the energy charge in this month—only other fixed charges need to 
+be paid. 
+ 
+b. When, considering import, export and credit units during a monthly billing period, 
+the consumer is a net exporter):  
+Assume Mr. Abdus Salam is a DESCO consumer under LT-E: Commercial & Office with 
+Sanctioned 
+Load 
+= 
+20 
+kW 
+and 
+a 
+20 
+kW 
+AC 
+rooftop 
+solar 
+system. 
+In November 2024, he imported 500 units off-peak (Ioff-peak) and 1,000 units peak (Ipeak), 
+so I = 1,500 units. He exported E = 2,000 units. His previous month’s credit 
+was C = 200 units. Thus, Enet = (E – Ioff-peak – Ipeak) = (2,000 – 1,000 – 500) = 500 units. 
+After deducting 10% system maintenance from export energy (Enet), Mr. Abdul Salam’s 
+the amount of adjustable export energy: Eadj = 0.9 × 500 = 450 units. 
+Credit to carry forward next month (December 2024) is Eadj + C = 450 + 200 = 650 units. 
+Mr. Abdul Karim’s bill for the month of October, 2018 is shown below:  
+Import/Export Description 
+Off-peak 
+(Ioff-peak) 
+Peak (Ipeak) 
+Rate 
+Total 
+(BDT) 
+Demand Charge 
+20 kW 
+– 
+BDT 
+90/kW/month
+1,800 
+Imported units (I) 
+500 
+1,000 
+– 
+– 
+Exported units (E) 
+2,000 
+– 
+– 
+– 
+Net export (Enet) 
+500 
+– 
+– 
+– 
+Adjustable export (Eadj) 
+450 
+– 
+– 
+– 
+Previous credit (C) 
+200 
+– 
+– 
+– 
+Net Billing Units (BU) 
+0 
+0 
+0 × tariff 
+0 
+Credit carried forward (C) 
+650 
+– 
+– 
+– 
+Subtotal 
+– 
+– 
+– 
+1,800 
+VAT 
+– 
+– 
+5% 
+90 
+Total (excl. late fee & 
+meter charge) 
+– 
+– 
+– 
+1,890 
+ 
+After all the electricity imported by Mr. Abdus Salam this month has been offset against his 
+exported electricity, the remaining 650 units are retained as an adjustable credit, which will 
+be applied in the following month’s adjustment. He is not required to pay any energy charge 
+for this month and will only need to pay the applicable fixed charges. 
+ 
+
+===== p54 =====
+52 
+ 
+c. When, considering import, export and credit units during a monthly billing period, 
+the consumer is a net importer):   
+Let us consider that Ms. Rafia Begum is a residential electricity consumer under a Rural 
+Electrification Cooperative of the Bangladesh Rural Electrification Board (BREB). Her 
+sanctioned load is 10 kW. To avail of the net metering facility, she has installed a rooftop 
+solar system with a capacity of 10 kW AC. In April 2024, Ms. Rafia Begum imported 
+(consumed) 500 units (I) of electricity from the grid. During the same month, after meeting 
+her own consumption, she exported 350 units (E) of electricity to the grid from her solar 
+system. Since her imported electricity exceeds her exported electricity, there is no net 
+export, i.e., Enet = 0. Therefore, she is not required to pay any maintenance charge. As there 
+was no credit carried forward from the previous month (March 2024), C = 0. Hence, her 
+billing units (BU) for April 2024 are calculated as: BU = (I − E − C) = (500 − 350 − 0) = 150 
+units. Since her exported electricity is less than the imported amount, she will have no credit 
+units carried forward to the following month. 
+LT-A Residential slab tariffs: 
+ 
+The electricity bill for Ms. Rafia Begum for the month of April 2024 is shown below: 
+ 
+Bill after installation of the solar 
+system   
+Bill for the same consumption 
+before installation of the solar 
+system 
+Description of 
+Electricity 
+Import/Export
+Qty 
+Rate 
+(BDT) 
+Total 
+(BDT) 
+Qty 
+Rate 
+(BDT) 
+Total 
+(BDT) 
+Demand 
+Charge ( ) 
+10 kW  
+BDT 
+42/kW/mo 
+420 
+10 kW  
+BDT 
+42/kW/mo
+420 
+Imported units 
+(I) 
+500 
+– 
+– 
+500 
+– 
+– 
+Lifeline  
+0–50 units:  
+BDT 4.63 
+Step 1  
+0–75 units 
+BDT 5.26 
+Step 2  
+76–200 units 
+BDT 7.20 
+Step 3  
+201–300 units 
+BDT 7.59 
+Step 4  
+301–400 units 
+BDT 8.02 
+Step 5  
+401–600 units 
+BDT 12.67 
+Step 6  
+>600 units 
+BDT 14.61 
+
+===== p55 =====
+53 
+ 
+Exported units 
+(E) 
+350 
+– 
+– 
+– 
+– 
+– 
+Net 
+export 
+(Enet) 
+0 
+– 
+– 
+– 
+– 
+– 
+Adjustable 
+export (Eadj) 
+0 
+– 
+– 
+– 
+– 
+– 
+Previous credit 
+(C) 
+0 
+– 
+– 
+– 
+– 
+– 
+Net 
+Billing 
+Units (BU) 
+150 
+– 
+– 
+500 unit 
+– 
+– 
+Credit 
+carried 
+forward 
+0 
+– 
+– 
+– 
+– 
+– 
+Step 1 (0–75) 
+75 unit 
+5.26 
+395 
+75 unit 
+5.26 
+395 
+Step 
+2 
+(76–
+200) 
+75 unit 
+7.20 
+540 
+125 unit 
+7.20 
+900 
+Step 3 (201–
+300) 
+– 
+– 
+– 
+100 unit 
+7.59 
+759 
+Step 4 (301–
+400) 
+– 
+– 
+– 
+100 unit 
+8.02 
+802 
+Step 5 (401–
+600) 
+– 
+– 
+– 
+100 unit 
+12.67 
+1,267 
+Step 6 (>600) 
+– 
+– 
+– 
+– 
+– 
+– 
+Subtotal 
+150 unit 
+– 
+1,355 
+500 unit 
+– 
+4,543 
+VAT (5%) 
+– 
+– 
+67.75 
+– 
+– 
+227 
+Total 
+(excl. 
+late fee) 
+– 
+– 
+1,422.75 
+– 
+– 
+4,770 
+Since the total of Ms. Rafia Begum’s exported electricity and the previous month’s credit 
+units is less than her imported electricity, no energy credit will be carried forward. However, 
+whereas she previously paid electricity charges up to the fifth slab, she now pays only up to 
+the second slab due to the installation of the solar system. As a result, her current electricity 
+bill amounts to Tk. 1,422.75, which is Tk. 3,347.25 less than her previous bill (Tk. 4,770 − 
+Tk. 1,422.75 = Tk. 3,347.25). In other words, by installing the rooftop solar system, she has 
+saved Tk. 3,347.25, representing approximately 70% reduction in her electricity expenses. 
+
+===== p56 =====
+54 
+ 
+d. When a prosumer is a net exporter of electricity, the sample procedure for preparing the 
+electricity bill at the end of the settlement period (every three months) is shown below: 
+Ms. Aditi Chowdhury is an electricity consumer under the Dhaka Power Distribution 
+Company (DPDC) in the LT-C1: Small Industry category with a sanctioned load of 50 kW. 
+To avail of the net-metering facility, she has installed a 50 kW (AC) rooftop solar system. In 
+June 2024, she imported 4,500 units (I) of electricity from the grid and exported 4,000 units 
+(E) of electricity from her solar system after self-consumption. Since her imported electricity 
+exceeds her exported amount, there is no net export (Enet = 0), and thus no maintenance 
+charge applies. From the previous month (May 2024), she had a credit of 2,000 units (C = 
+2,000). Therefore, her billing units for June 2024 are calculated as BU = (I − E − C) = (4,500 
+− 4,000 − 2,000) = −1,500 units. The positive value of this difference, 1,500 units, will be 
+treated as the settled or exported electricity units. 
+ Description of electricity 
+export/ import 
+Amount 
+Rate (in BDT) 
+Total bill 
+(in BDT) 
+Demand Charge 
+50 kW 
+BDT 
+48/kW/month 
+2,400 
+Imported units in June (I) 
+4,500 
+– 
+– 
+Exported units in June (E) 
+4,000 
+– 
+– 
+Net export in June (Enet) 
+0 
+– 
+– 
+Adjustable export (Eadj) 
+0 
+– 
+– 
+Previous month’s credit (May 
+2024) (C) 
+2,000 
+– 
+– 
+Settled units 
+1,500 
+BDT 8.56/unit*
+–12,840 
+Credit for next month (C) 
+0 
+– 
+– 
+Subtotal 
+– 
+– 
+–10,440 
+VAT (5%) 
+– 
+– 
+522 
+Net payable/receivable 
+– 
+– 
+–9,918 
+ 
+* Bulk rate of DPDC: 8.56 BDT/unit 
+At the end of the settlement period, the distribution utility pays the prosumer the value of 
+settled units (BDT 12,840) minus other fixed charges and VAT; the net receivable here is 
+BDT 9,918, paid via the preset method (bank/MFS/cheque). 
+ 
+Note: At the close of each settlement period (March, June, September, December), if a 
+contracted prosumer is a net exporter, the distribution utility shall settle payment at the 
+BERC-determined bulk rate in accordance with the Guideline. 
+  
+
+===== p57 =====
+55 
+ 
+11 Annex 6: Important Issues about the Agreement 
+between Consumer and OPEX Investor Responsible 
+for System Installation in the OPEX Model 
+ 
+1. The consumer shall agree—per Net Metering Guideline-2025—to purchase all 
+electricity generated by the solar system from the RE Accounting Meter/Solar 
+Accounting Meter(s) at the price and terms stated in the OPEX agreement (generally 
+lower than the distribution utility’s retail tariff). The consumer shall determine the 
+tariff and select the OPEX investor through the appropriate process. 
+2. The tariff structure (flat or year-wise slabs) must be clearly stated in the agreement, 
+including clear change conditions to determine future tariffs unambiguously during 
+the contract term. 
+3. Payments shall be made via bank or comparable reliable channels with proper 
+evidence. The agreement must state account details (account name, number, bank, 
+branch, routing number) or equivalent. 
+4. Monthly meter readings of all meters shall be taken on time in the presence of 
+representatives from both Parties and preserved in records by both. 
+5. By mutual consent, the consumer shall provide a standby LC guarantee (or similar 
+security) covering at least 12 months; by mutual consent and with explicit contractual 
+provision, this may be waived—but the Third Party may face future risk. 
+6. If the consumer’s annual settled units are not zero, the adjustment terms must be 
+specified clearly in the OPEX agreement. 
+7. The quantity and conditions for drawing reactive power from the solar system shall be 
+included in the agreement. 
+8. Responsibilities assigned jointly to the consumer and the OPEX investor under Annex 
+4 and the Guideline must be apportioned clearly in the OPEX agreement. 
+9. The OPEX agreement shall have a fixed term, and a regular exit plan for the solar 
+system at end-of-term shall be specified. 
+10. For forced early termination at the consumer’s proposal, the Parties’ actions shall be 
+specified; similarly, for forced early termination at the OPEX investor’s proposal. 
+11. Subject to mutual consent and a specified fee, the distribution utility may collect 
+OPEX bills from the consumer on behalf of the OPEX investor. This provision must 
+be included, and a copy of the utility-OPEX collection agreement or the utility’s 
+consent letter attached. This fee may include the national grid operator’s grid system 
+maintenance charge. 
+
+===== p58 =====
+56 
+ 
+12. A copy of this bilateral OPEX agreement shall, after net-metering system installation, 
+be attached to the tripartite agreement under Annex 4 and deemed an integral part 
+thereof. 
+12 Annex 7: Billing Format for Net-Metered Consumers 
+as Published by the Commission 
+ 
+The current billing format as published by the Commission is provided hereunder and shall 
+be subject to revision by the Commission from time to time. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+===== p59 =====
+57 
+ 
+13 Annex 8: Implementation of Net Metering on Pre-
+payment/Smart Meters 
+ 
+1. The pre-payment/smart meter and/or its server system must be made bidirectional, 
+incorporating, in addition to existing parameters, the capability to record and store 
+data required by net metering, including Export, Import, Credit, Settlement Unit, 
+Settlement BDT Amount, etc. Historical data for Export, Import, Credit, Settlement 
+Unit must be stored by settlement period. 
+2. At the end of each settlement month (end of March, June, September, December), the 
+accumulated credit units shall be treated as settlement units, and credit shall be reset 
+to zero going forward. If settlement units are non-zero, the distribution utility shall 
+provide the consumer a detailed billing document per Annex 7 and pay the value of 
+settlement units via the specified method (bank/MFS/cheque). 
+3. Each month, the distribution utility shall notify the consumer via SMS/email/mobile 
+app/web portal and display on the meter: import, export, net export, previous credit, 
+current credit, settlement units and their value. Total import and export readings must 
+be recorded and displayed on the meter. 
+4. At the end of each billing period, all relevant registers shall be updated per the 
+Guideline after computing import units, export units, net export units, distribution 
+system maintenance charge, prior credit units, etc. Any consumer credit units must be 
+stored in the credit register. 
+5. Against consumer usage, adjustment shall first be made from credit units; once credit 
+reaches zero, deductions shall then occur from the recharged balance as per rules. No 
+deduction may be made from the recharged balance while credit units remain. 
+6. For slabbed consumers, slab calculation shall be based only on the units for which the 
+recharged balance is deducted. 
+7. Smart pre-paid meters used for net metering shall be re-programmable. If in future 
+BERC applies a separate export tariff, the same meter must support separate tariffs for 
+import and export. 
+8. In all cases (pre-payment/post-paid/smart), the distribution utility shall share import 
+and export data of each meter from the meter server with SREDA through an 
+automated online system. SREDA may verify such data as required. 
+9. New smart meters must incorporate the above provisions to enable activation by the 
+utility as needed. For existing meters, the utility shall enable these features through re-
+programming as required. 
+ 
+ 
+
+===== p60 =====
+58 
+ 
+14 Annex 9: Verification Committee for Installing a 
+Renewable System with Capacity Exceeding the 
+Contracted Load 
+ 
+If a consumer wishes to generate from renewable sources more than the contracted load, they 
+must submit a separate application to the relevant distribution entity. If deemed appropriate, 
+the distribution entity shall forward the case to the Grid Stability Committee for opinion. The 
+Power Division will decide based on the Committee’s recommendation. The outline of the 
+Committee is as follows: 
+ 
+1. Executive Engineer, NOD, LDC, PGCB PLC - 
+ 
+ 
+ 
+Convener 
+2. Representative, Bangladesh Power Development Board  -  
+ 
+Member 
+3. Representative, Bangladesh Rural Electrification Board  -   
+ 
+Member 
+4. Representative, Dhaka Power Distribution Company Ltd.  -  
+ 
+Member 
+5. Representative, Dhaka Electric Supply Company Ltd.  - 
+ 
+ 
+Member 
+6. Representative, West Zone Power Distribution Company Ltd.  - 
+ 
+Member 
+7. Representative, Northern Electricity Supply PLC  -  
+ 
+ 
+Member 
+8. Executive Engineer, IMD, LDC, PGCB PLC -  
+ 
+ 
+Member-Secretary 
+ 
+ 
+ 
+ 
+ 

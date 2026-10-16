@@ -1,0 +1,38 @@
+{
+ "ph_ah3": {
+  "title": "限時繼電器AH3-NC",
+  "author": "Honmingjun",
+  "licence": "CC BY-SA 4.0",
+  "source": "উইকিমিডিয়া কমন্স"
+ },
+ "ph_ah3_base": {
+  "title": "限時繼電器AH3-NC-01",
+  "author": "Honmingjun",
+  "licence": "CC BY-SA 4.0",
+  "source": "উইকিমিডিয়া কমন্স"
+ },
+ "ph_motor": {
+  "title": "Crouzet-timer1 hg",
+  "author": "Hannes Grobe",
+  "licence": "CC BY-SA 4.0",
+  "source": "উইকিমিডিয়া কমন্স"
+ },
+ "ph_pneu": {
+  "title": "Pneumatic pushbutton timer switch",
+  "author": "Andy Dingley",
+  "licence": "CC BY-SA 3.0",
+  "source": "উইকিমিডিয়া কমন্স"
+ },
+ "ph_ts_digital": {
+  "title": "Programmable switch clock for DIN rail",
+  "author": "Dmitry G",
+  "licence": "CC BY-SA 3.0",
+  "source": "উইকিমিডিয়া কমন্স"
+ },
+ "ph_ts_analog": {
+  "title": "Timer Quadro elettrico",
+  "author": "Antonio Mette",
+  "licence": "CC BY-SA 4.0",
+  "source": "উইকিমিডিয়া কমন্স"
+ }
+}

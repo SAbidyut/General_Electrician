@@ -1,0 +1,6 @@
+.DS_Store
+__pycache__/
+*.pyc
+venv/
+# merged book exceeds GitHub's 100 MB file limit; regenerate with Book/build/mkbook.py (PDF version is tracked)
+Book/জেনারেল ইলেকট্রিশিয়ান — সম্পূর্ণ বই (অধ্যায় ১–১৭).docx

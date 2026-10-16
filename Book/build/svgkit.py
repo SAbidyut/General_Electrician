@@ -51,7 +51,7 @@ def flush():
            "o.push([r.width,r.height]);}"
            "document.getElementById('wrap').outerHTML="
            "'<pre id=out>'+JSON.stringify(o)+'</pre>';</script>")
-    tmp = os.path.join(HERE, ".__measure.html")
+    tmp = os.path.join(HERE, f".__measure.{os.getpid()}.html")
     open(tmp, "w", encoding="utf-8").write(doc)
     out = subprocess.run(
         [CHROME, "--headless", "--disable-gpu", "--no-sandbox", "--dump-dom",

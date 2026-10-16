@@ -1063,7 +1063,7 @@ def d13_analog_wiring():
         s.path(f"M 196 {cams[i]} L {px - 40} {cams[i]} "
                f"L {px - 40} {py} L {px} {py}", VID, 3.6)
         bnc(s, 212, cams[i], 11)
-        s.text(400, cams[i] - 18, "কোঅক্স RG59", T_TINY, VID, 700,
+        s.text(310, cams[i] - 18, "কোঅক্স RG59", T_TINY, VID, 700,
                "middle")
 
     # ── ৩: বালুন জোড়া
@@ -1218,8 +1218,8 @@ def d14_ip_wiring():
                      "সুইচের তার যায় LAN পোর্টে",
            T_SMALL, POE, 700, "middle")
 
-    y = note_strip(s, 864, "NVR-এর PoE পোর্ট শুধু সরাসরি ক্যামেরার "
-                           "জন্য; বাইরের সুইচ লাগাতে হয় LAN পোর্টে")
+    y = note_strip(s, 864, "PoE বাজেট শেষ হলে বা দূরত্ব 100 মিটারের বেশি "
+                           "হলে বাইরের সুইচ লাগে")
     s.fit(y, 24)
     return s.save(f"{OUT}/d14_ip_wiring.svg")
 

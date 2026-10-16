@@ -320,13 +320,6 @@ def build():
            "এতে আট-দশটি মান লেখা থাকে, আর মডিউলের প্রায় সব হিসাব এই "
            "মানগুলো দিয়েই করা হয়। তাই প্রতিটি ঘরের অর্থ জানা দরকার।")
 
-    b.figure_row(
-        [(f"{A}/ph_back.jpg", "মডিউলের পেছন"),
-         (f"{A}/ph_label.jpg", "নেমপ্লেট")],
-        per_row=2, width_cm=7.2,
-        caption="Phaesun Sun Plus 165 P মডিউলের পেছনের দিক ও নেমপ্লেট")
-    n_lab = bn(b.fig_n)
-
     b.table(
         ["নেমপ্লেটের লেখা", "মান", "অর্থ"],
         [["Peak Power (Pmax)", "165 Wp",
@@ -348,6 +341,13 @@ def build():
         caption="Phaesun Sun Plus 165 P মডিউলের নেমপ্লেট",
         widths=[5.0, 2.6, 7.8])
     t_np = bn(b.tab_n)
+
+    b.figure_row(
+        [(f"{A}/ph_back.jpg", "মডিউলের পেছন"),
+         (f"{A}/ph_label.jpg", "নেমপ্লেট")],
+        per_row=2, width_cm=7.2,
+        caption="Phaesun Sun Plus 165 P মডিউলের পেছনের দিক ও নেমপ্লেট")
+    n_lab = bn(b.fig_n)
 
     b.para("Vmp ও Imp গুণ করলে Pmax পাওয়া যায়: 19.4 × 8.51 = 165.1 W। "
            "কারণ MPP হলো সেই বিন্দু, যেখানে ভোল্টেজ ও কারেন্টের গুণফল "

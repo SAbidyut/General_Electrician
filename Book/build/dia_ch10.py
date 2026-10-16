@@ -749,7 +749,7 @@ def d13_wiring():
     button(590, 84, "STOP", "NC, লাল", RED, REDBG, "12", "11")
     button(790, 70, "F1", "কন্ট্রোল ফিউজ", NAVY, PLATE, "", "", w=130)
 
-    # শিকলের খাড়া অংশ
+    # তারের ক্রমের খাড়া অংশ
     s.path(f"M {BXc} 320 L {BXc} {SY - 26}", NAVY, 3)      # START 13 → KT1 5
     node(s, BXc, H13, NAVY)
     s.path(f"M {BXc} {SY + SH + 26} L {BXc} 564", NAVY, 3)  # KT1 8 → STOP 12

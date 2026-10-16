@@ -258,7 +258,7 @@ def d01_system():
     s.rect(520, 320, 180, 140, PLATE, NAVY, 2.8, 8)
     s.text(610, 358, "DB", T_NAME, NAVY, 700, "middle")
     chip(s, 610, 398, "MCB")
-    chip(s, 610, 438, "MC")
+    chip(s, 610, 438, "KM1")
 
     # ডিবি → পাম্প (পাওয়ার কেবল)
     s.path("M 520 396 L 318 396", NEUT, 3.2)
@@ -742,7 +742,7 @@ def d11_levels():
         s.text(x + 39, 540, nm, T_TINY, NAVY, 700, "middle")
         s.path(f"M {x + 78} 585 L {x + 168} 585", LIVE, 3.0)
     s.rect(870, 561, 96, 48, "#FFFFFF", NAVY, 2.6, 8)
-    s.text(918, 593, "MC", T_BODY, NAVY, 700, "middle")
+    s.text(918, 593, "KM1", T_BODY, NAVY, 700, "middle")
     s.path("M 966 585 L 1020 585", NEUT, 3.0)
     s.text(1032, 592, "N", T_BODY, NEUT, 700, "start")
 

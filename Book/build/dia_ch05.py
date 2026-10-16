@@ -103,7 +103,7 @@ def d01_classification():
         bottom = max(bottom, y)
 
     y = note_strip(s, bottom + 26,
-                   "হাউস ওয়্যারিংয়ের কাজে ব্যবহৃত প্রায় সব মিটারই সেকেন্ডারি "
+                   "বৈদ্যুতিক কাজে ব্যবহৃত প্রায় সব মিটারই সেকেন্ডারি "
                    "ইন্ডিকেটিং ইনস্ট্রুমেন্ট")
     s.fit(y, 24)
     return s.save(f"{OUT}/d01_classification.svg")

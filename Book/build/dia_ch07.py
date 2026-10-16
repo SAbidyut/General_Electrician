@@ -417,7 +417,7 @@ def d08_nameplate():
         ty = PY + 124 + i * 56
         callout(s, PX - 42, ty, text, PX, ty, "end", T_CALL)
 
-    for i, text in enumerate(["অশ্বশক্তি", "ফুল-লোড কারেন্ট", "ঘূর্ণন গতি",
+    for i, text in enumerate(["আউটপুট (HP)", "ফুল-লোড কারেন্ট", "ঘূর্ণন গতি",
                               "ইনসুলেশন ক্লাস", "ডিউটি"]):
         ty = PY + 124 + i * 56
         callout(s, PX + PW + 42, ty, text, PX + PW, ty, "start", T_CALL)

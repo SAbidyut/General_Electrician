@@ -1072,6 +1072,40 @@ are untouched and their items in the review file are still open.
 - Edit tool: `scratchpad/rep.py` + pair files (exact-count find/replace); backups
   of every ch*.py/dia_ch*.py from before the pass are in the session scratchpad.
 
+## Full-book revision, 2026-10-16 — DONE (stages 1–3)
+
+The user approved a three-stage revision of the whole book (review in
+`Book/build/notes/language_review_2026-10-16.md`; the 15 book-wide decisions in
+its first table and the proposed headings were all approved and applied):
+
+1. **Stage 1 — factual/safety errors**, all 17 chapters (reports in
+   `notes/2026-10-16/fix_chNN.md`, brief `fixbrief.md`). New sections: ch13
+   ১৩.৬.৬ auto-manual, ch15 ১৫.১০ star-delta practice.
+2. **Stage 2 — language, headings, decisions**, all 17 chapters (brief
+   `notes/2026-10-16/s2brief.md`). Prose is impersonal, instructions "করুন";
+   em-dashes only as labels; terms সার্কিট/রেজিস্ট্যান্স/প্যারালাল/বাটন/ক্যাবল/HP;
+   objectives 7–9 ending "পারবে", summaries 9–12 bullets. Exercise headings
+   ("ক. বহুনির্বাচনী প্রশ্ন" …) were deliberately kept — mkbook.py matches them.
+   Chapter titles changed: ch05 "মেজারিং ইনস্ট্রুমেন্ট", ch15 "বাসবারের ব্যবহার ও
+   ক্যালকুলেশন". **Three-phase supply/motor leads drawn joined by one bar (a
+   phase-to-phase short) were found and fixed in ch06 d01, ch08 d01/d10/d14,
+   ch09 d08/d11, ch10 d13, ch12 d05, ch14 Q1 poles** — check any new power
+   circuit for this.
+3. **Stage 3** — all 17 rebuilt with zero page-foot gaps (pages: 33 23 21 24 22
+   20 28 34 33 29 31 27 27 36 34 49 53), copied into `Book/`, merged book rebuilt:
+   **536 pages**.
+
+Environment notes: `CHROME` and `LO_PROFILE` env vars (render.py, svgkit.py,
+layout.py); render.py pads the viewport and crops (headless Chromium clipped
+the bottom ~86 px); svgkit's measure file is per-process. LibreOffice needs
+`libreoffice-math` or equations come out blank, and LibreOffice 24.2 printed a
+bare "(" in OMML as "\(", so `_math_tokens` emits matched brackets as `<m:d>`.
+mkbook needs `pip install docxcompose`; the full merge took ~5 min here.
+BNBC 2020 text could not be reached (`notes/2026-10-16/bnbc2020_map.md`), so
+citations stay "২০১২" and the imprint says so. LibreOffice can silently drop a
+table's body rows when its header lands at a page foot (seen once in ch16) —
+`layout.py` does not catch it.
+
 ## Next step
 
 **All seventeen chapters are written and the full book is merged.** What is

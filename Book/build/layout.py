@@ -15,7 +15,11 @@ PT_CM = 28.3465
 
 def to_pdf(docx_path, outdir):
     os.makedirs(outdir, exist_ok=True)
-    subprocess.run(["soffice", "--headless", "--convert-to", "pdf",
+    # LO_PROFILE gives each concurrent build its own LibreOffice profile;
+    # two soffice processes sharing one profile make the second exit silently.
+    prof = os.environ.get("LO_PROFILE")
+    extra = [f"-env:UserInstallation=file://{prof}"] if prof else []
+    subprocess.run(["soffice", *extra, "--headless", "--convert-to", "pdf",
                     "--outdir", outdir, docx_path],
                    capture_output=True, text=True, timeout=600)
     stem = os.path.splitext(os.path.basename(docx_path))[0]

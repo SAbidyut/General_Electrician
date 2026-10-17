@@ -79,7 +79,7 @@ PH3 = "#1D5B8F"
 PHC = (PH1, PH2, PH3)
 
 FWDC = GREEN              # সামনের দিক
-REVC = "#7A4FA3"          # পিছনের দিক
+REVC = "#7A4FA3"          # পেছনের দিক
 MECH = "#4A5560"          # যান্ত্রিক অংশ
 
 
@@ -186,12 +186,12 @@ def km_box(s, x, y, w, h, tag, col=SYM, sub=None):
 # ── ১. কোথায় দিক বদলাতে হয় ──────────────────────────────────────────────
 def d01_idea():
     s = SVG(1240, 620)
-    s.title("দুই দিকে ঘোরানো লাগে যেখানে", T_TITLE)
+    s.title("দুই দিকে মোটর চালানোর প্রয়োগ", T_TITLE)
 
     cards = [("ক্রেন ও হয়েস্ট", "ওঠা ও নামা", FWDC),
              ("শাটার ও গেট", "খোলা ও বন্ধ", STEEL),
              ("লেদ ও ড্রিল", "কাটা ও প্যাঁচ ছাড়া", AMBER),
-             ("কনভেয়র", "সামনে ও পিছনে", REVC)]
+             ("কনভেয়র", "সামনে ও পেছনে", REVC)]
     W, GAP, X0, Y = 262, 24, 58, 130
     for i, (name, what, col) in enumerate(cards):
         x = X0 + i * (W + GAP)
@@ -210,13 +210,13 @@ def d01_idea():
         s.text(x + W / 2, cy + 8, "M", T_NAME, col, 700, "middle")
         s.text(x + W / 2, Y + 268, what, T_BODY, NAVY, 700, "middle")
 
-    y = note_strip(s, 500, "একই মোটর, একই সরবরাহ — কেবল দুটো ফেজের "
-                           "জায়গা বদলে দিলেই উল্টো দিকে ঘোরে")
+    y = note_strip(s, 500, "একই মোটর ও একই সরবরাহ; যেকোনো দুটি ফেজ "
+                           "অদলবদল করলে মোটর উল্টো দিকে ঘোরে")
     s.fit(y, 24)
     return s.save(f"{OUT}/d01_idea.svg")
 
 
-# ── ২. ফেজ ক্রম ও ঘূর্ণিয়মান ক্ষেত্র ────────────────────────────────────
+# ── ২. ফেজ ক্রম ও ঘূর্ণায়মান ক্ষেত্র ────────────────────────────────────
 def _waves(s, x0, y0, w, h, order, cols):
     """তিনটি সাইন — order = ফেজের কোণের ক্রম (ডিগ্রিতে)।"""
     s.rect(x0, y0, w, h, "#FFFFFF", LINE, 1.6, 8)
@@ -255,12 +255,12 @@ def _rotor(s, cx, cy, r, cw, cols, labels):
 
 def d02_sequence():
     s = SVG(1240, 760)
-    s.title("ফেজের ক্রম বদলালে ঘূর্ণিয়মান ক্ষেত্রও উল্টো দিকে ঘোরে",
+    s.title("ফেজ সিকোয়েন্স বদলালে চুম্বকক্ষেত্র উল্টো দিকে ঘোরে",
             T_TITLE)
 
     for k, (x0, ttl, order, cw, col) in enumerate(
-            [(46, "ক্রম L1 - L2 - L3", (0, -120, -240), True, FWDC),
-             (646, "ক্রম L1 - L3 - L2", (0, -240, -120), False, REVC)]):
+            [(46, "সিকোয়েন্স L1 - L2 - L3", (0, -120, -240), True, FWDC),
+             (646, "সিকোয়েন্স L1 - L3 - L2", (0, -240, -120), False, REVC)]):
         panel(s, x0, 92, 548, 520, ttl, col)
         _waves(s, x0 + 36, 158, 476, 200, order, PHC)
         for i, (nm, c) in enumerate(zip(("L1", "L2", "L3"), PHC)):
@@ -271,8 +271,8 @@ def d02_sequence():
                                           if cw else "উল্টো দিকে"),
                T_BODY, col, 700, "middle")
 
-    y = note_strip(s, 656, "তিনটি ফেজের মধ্যে যেকোনো দুটি বদলে দিলেই "
-                           "ক্রম উল্টে যায়")
+    y = note_strip(s, 656, "যেকোনো দুটি ফেজ অদলবদল করলে ফেজ সিকোয়েন্স "
+                           "উল্টে যায়")
     s.fit(y, 24)
     return s.save(f"{OUT}/d02_sequence.svg")
 
@@ -280,11 +280,11 @@ def d02_sequence():
 # ── ৩. কোন দুটি তার বদলাতে হয় ───────────────────────────────────────────
 def d03_swap():
     s = SVG(1240, 700)
-    s.title("বদলটা লাইনের তারে, মোটরের লিডে নয়", T_TITLE)
+    s.title("সরবরাহ লাইনে দুই ফেজ অদলবদল", T_TITLE)
 
     for k, (x0, ttl, feed, col, arrow) in enumerate(
             [(46, "সামনের দিক", ("L1", "L2", "L3"), FWDC, "cw"),
-             (646, "পিছনের দিক — L1 ও L3 বদল", ("L3", "L2", "L1"),
+             (646, "পেছনের দিক (L1 ও L3 অদলবদল)", ("L3", "L2", "L1"),
               REVC, "ccw")]):
         panel(s, x0, 92, 548, 470, ttl, col)
         TY, BY = 180, 330
@@ -304,8 +304,8 @@ def d03_swap():
                400, "middle")
         motor_sym(s, x0 + 274, BY + 168, 42, arrow)
 
-    y = note_strip(s, 594, "মোটরের ভেতরের সংযোগ (স্টার বা ডেল্টা) ছোঁয়া "
-                           "হয় না — বদল হয় কেবল বাইরের তিন তারে")
+    y = note_strip(s, 594, "মোটরের ভেতরের স্টার বা ডেল্টা সংযোগ বদলানো "
+                           "হয় না; অদলবদল হয় শুধু বাইরের তিন তারে")
     s.fit(y, 24)
     return s.save(f"{OUT}/d03_swap.svg")
 
@@ -313,7 +313,7 @@ def d03_swap():
 # ── ৪. দুটো একসঙ্গে লাগলে ───────────────────────────────────────────────
 def d04_danger():
     s = SVG(1240, 840)
-    s.title("দুই কন্টাক্টর একসঙ্গে টানলে — ফেজ-টু-ফেজ শর্ট", T_TITLE)
+    s.title("দুই কন্টাক্টর একসঙ্গে চালু হলে ফেজ-টু-ফেজ শর্ট", T_TITLE)
 
     KT, KB, JOIN = 300, 420, 520
     A0, B0, GAP = 300, 700, 84
@@ -338,9 +338,9 @@ def d04_danger():
         node(s, xr, yy, PHC[i])
 
     km_box(s, A0 - 46, KT - 6, 2 * GAP + 92, KB - KT + 12, "KM1", FWDC,
-           "টানা")
+           "চালু")
     km_box(s, B0 - 46, KT - 6, 2 * GAP + 92, KB - KT + 12, "KM2", REVC,
-           "টানাও")
+           "চালু")
     pole_set(s, A0, GAP, KT, KB, True, SYM, tags=False)
     pole_set(s, B0, GAP, KT, KB, True, SYM, tags=False)
 
@@ -349,11 +349,11 @@ def d04_danger():
 
     s.path(f"M 942 {JOIN} L {B0 + 20} {JOIN}", RED, 2.2, dash="8 6")
     s.text(944, JOIN + 8, "শর্ট সার্কিট কারেন্ট", T_CALL, RED, 700, "start")
-    s.text(600, JOIN + 148, "L1 আর L3 মিলেছে U নোডে — মাঝখানে কেবল "
+    s.text(600, JOIN + 148, "L1 ও L3 যুক্ত হয়েছে U বিন্দুতে; মাঝে শুধু "
                             "দুই জোড়া কন্টাক্ট", T_NAME, RED, 700, "middle")
 
-    y = note_strip(s, 720, "মাঝের ফেজ দুই দিকেই এক — বাইরের দুটো বদলায়, "
-                           "আর একসঙ্গে টানলে ওরাই মিলে যায়",
+    y = note_strip(s, 720, "মাঝের ফেজ দুই দিকেই একই থাকে; একসঙ্গে চালু "
+                           "হলে বাইরের দুই ফেজ সরাসরি যুক্ত হয়",
                    fill=REDBG, stroke=RED, tcolor=RED)
     s.fit(y, 24)
     return s.save(f"{OUT}/d04_danger.svg")
@@ -371,8 +371,9 @@ def d05_power():
     QX = [A0, A0 + GAP, A0 + 2 * GAP]
 
     # সরবরাহ ও Q1
-    s.path(f"M {A0 - 60} {SUP} L {A0 + 2 * GAP + 60} {SUP}", LIVE, 3)
-    s.text(A0 - 74, SUP + 9, "সরবরাহ", T_BODY, NAVY, 700, "end")
+    # প্রতিটি ফেজের আলাদা টার্মিনাল — তিন ফেজকে এক দাগে জুড়লে সেটা
+    # ফেজ-টু-ফেজ শর্ট বোঝায়
+    s.text(A0 - 40, SUP + 9, "সরবরাহ", T_BODY, NAVY, 700, "end")
     for i, x in enumerate(QX):
         node(s, x, SUP, PHC[i])
         s.text(x, SUP - 22, ("L1", "L2", "L3")[i], T_BODY, PHC[i], 700,
@@ -401,7 +402,7 @@ def d05_power():
     km_box(s, A0 - 46, KT - 6, 2 * GAP + 92, KB - KT + 12, "KM1",
            FWDC, "সামনের দিক")
     km_box(s, B0 - 46, KT - 6, 2 * GAP + 92, KB - KT + 12, "KM2",
-           REVC, "পিছনের দিক")
+           REVC, "পেছনের দিক")
     pole_set(s, A0, GAP, KT, KB, False, SYM)
     pole_set(s, B0, GAP, KT, KB, False, SYM)
 
@@ -420,27 +421,32 @@ def d05_power():
         s.path(f"M {x} {F_Y + 41} L {x} {F_Y + 62}", SYM, 3.6)
     s.text(A0 + 2 * GAP + 74, F_Y + 6, "F2 — ওভারলোড রিলে", T_BODY, AMBER,
            700, "start")
-    s.text(A0 + 2 * GAP + 74, F_Y + 36, "একটাই, দুই দিকের জন্য", T_SMALL,
+    s.text(A0 + 2 * GAP + 74, F_Y + 36, "দুই দিকের জন্য একটি", T_SMALL,
            GREY, 400, "start")
 
     # মোটর
+    # তিনটি লিড মোটরের বৃত্তে তিনটি আলাদা বিন্দুতে ঢোকে — এক বিন্দুতে
+    # মিললে ছবিটি তিন ফেজের শর্ট বোঝায়
     for i, (x, nm) in enumerate(zip(QX, ("U", "V", "W"))):
         s.path(f"M {x} {F_Y + 62} L {x} {MOT - 84}", SYM, 3.6)
-        if x != QX[1]:
-            s.path(f"M {x} {MOT - 84} L {QX[1]} {MOT - 52}", SYM, 3.6)
-        else:
-            s.path(f"M {x} {MOT - 84} L {x} {MOT - 52}", SYM, 3.6)
+        ex = QX[1] + (i - 1) * 30
+        ey = MOT - (46 if i == 1 else 35)
+        s.path(f"M {x} {MOT - 84} L {x} {MOT - 66} L {ex} {ey}"
+               if i != 1 else f"M {x} {MOT - 84} L {x} {ey}", SYM, 3.6)
         s.text(x - 18, MOT - 92, nm, T_SMALL, NAVY, 700, "end")
     motor_sym(s, QX[1], MOT, 46)
-    earth(s, QX[1] + 46, MOT)
-    s.text(QX[1] + 108, MOT + 8, "PE", T_BODY, GREEN, 700, "start")
+    # আর্থ মোটরের ফ্রেম থেকে একটু ডানে সরিয়ে — বৃত্তের গায়ে বসালে
+    # প্রতীকের দাগ "3 ~" লেখার উপর পড়ে
+    s.path(f"M {QX[1] + 46} {MOT} L {QX[1] + 100} {MOT}", GREEN, 3)
+    earth(s, QX[1] + 100, MOT)
+    s.text(QX[1] + 138, MOT + 8, "PE", T_BODY, GREEN, 700, "start")
 
     s.path(f"M 892 {JOIN + 16} L {B0 + 2 * GAP + 8} {JOIN + 2}", STEEL, 2.2)
     s.textlines(900, JOIN + 26, ["দুই কন্টাক্টরের একই নম্বরের",
-                                 "টার্মিনাল এক নোডে"], T_SMALL, NAVY, 700)
+                                 "টার্মিনাল এক বিন্দুতে"], T_SMALL, NAVY, 700)
 
-    y = note_strip(s, 942, "KM1 ক্রম না বদলে দেয়, KM2 বাইরের দুই ফেজ "
-                            "উল্টে দেয় — ওভারলোড রিলে দুজনের পরেই")
+    y = note_strip(s, 942, "KM1 ফেজ সিকোয়েন্স না বদলে দেয়, KM2 বাইরের দুই "
+                            "ফেজ অদলবদল করে; ওভারলোড রিলে দুটির পরে")
     s.fit(y, 24)
     return s.save(f"{OUT}/d05_power.svg")
 
@@ -448,7 +454,7 @@ def d05_power():
 # ── ৬. ক্রস-লিঙ্ক টার্মিনাল স্তরে ───────────────────────────────────────
 def d06_crosslink():
     s = SVG(1240, 780)
-    s.title("ক্রস-লিঙ্ক — কোন টার্মিনাল থেকে কোন টার্মিনালে", T_TITLE)
+    s.title("টার্মিনাল পর্যায়ে ক্রস-লিংক সংযোগ", T_TITLE)
 
     KT, KB = 380, 520
     A0, B0, GAP = 250, 700, 92
@@ -485,12 +491,12 @@ def d06_crosslink():
         s.text(xb + 34, yy + 8, f"{2 * i + 2} - {2 * i + 2}", T_SMALL,
                GREY, 400, "start")
 
-    s.text(620, 150, "উপরের লিঙ্ক তিনটি নেস্টেড — বাইরেরটা বাইরে, "
-                     "ভেতরেরটা ভেতরে, তাই কোনো তার আরেকটাকে কাটে না",
+    s.text(620, 150, "ওপরের তিনটি লিংক একটির ভেতরে আরেকটি বসানো, "
+                     "তাই কোনো তার অন্যটিকে কাটে না",
            T_BODY, GREY, 400, "middle")
 
-    y = note_strip(s, 740, "উপরে ক্রম উল্টে জোড়া, নিচে একই নম্বরে সোজা "
-                           "জোড়া — বাজারে তৈরি লিঙ্ক-বারও এভাবেই বসে")
+    y = note_strip(s, 740, "ওপরে উল্টো ক্রমে, নিচে একই নম্বরে সোজা সংযোগ; "
+                           "বাজারের তৈরি লিংক-বারও এভাবে বসে")
     s.fit(y, 24)
     return s.save(f"{OUT}/d06_crosslink.svg")
 
@@ -509,7 +515,8 @@ def _rung(s, y, items, coil_tag, coil_on, lamp_y, lamp_tag, lamp_col,
     """একটি দিকের রাং।  items = [(x, kind, closed, tag, tagpos, a, b), …]
 
     tagpos:  "top" — কন্টাক্টের মাথায়;  "low" — নিচে (বোতামের কন্টাক্টে,
-    কারণ মাথা দিয়ে বোতামের ছেঁড়া যান্ত্রিক রেখা নামে)।"""
+    কারণ মাথা দিয়ে বোতামের ছেঁড়া যান্ত্রিক রেখা নামে);  "upright" —
+    ড্যাশ-রেখার ডানে, ব্লেডের উপরে (নিচে ল্যাচ থাকলে)।"""
     cur, x = LIVE, 500
     for (ix, kind, closed, tag, tagpos, ta, tb) in items:
         s.path(f"M {x} {y} L {ix} {y}", cur, SW)
@@ -521,6 +528,10 @@ def _rung(s, y, items, coil_tag, coil_on, lamp_y, lamp_tag, lamp_col,
             s.text(ix + 46, y - 58, tag, T_SMALL, NAVY, 700, "middle")
         elif tagpos == "low":
             s.text(ix + 46, y + 76, tag, T_SMALL, NAVY, 700, "middle")
+        elif tagpos == "upright":
+            # বোতামের ড্যাশ-রেখার ডানে, ব্লেডের উপরে — বাঁয়ে বসালে আগের
+            # NC-র ঠেসের মাথায় লেগে যেত
+            s.text(ix + 56, y - 56, tag, T_SMALL, NAVY, 700, "start")
         elif tag:
             s.text(ix - 10, y - 26, tag, T_SMALL, NAVY, 700, "end")
         s.text(ix + 10, y + 36, ta, T_TINY, NAVY, 700, "middle")
@@ -594,13 +605,13 @@ def _ladder12(s, oy, state):
           [(BX1, "no", False, None, None, "13", "14"),
            (BX2, "nc", True, None, None, "21", "22"),
            (IX, "nc", not rev, "KM2", "top", "21", "22")],
-          "KM1", fwd, LF, "H1 — সামনে", FWDC, BX1, HF, "KM1 13-14", fwd)
+          "KM1", fwd, LF, "H1: সামনে", FWDC, BX1, HF, "KM1 13-14", fwd)
     # রাং ২ — পিছনের দিক
     _rung(s, RR,
           [(BX1, "nc", True, "FWD", "low", "21", "22"),
-           (BX2, "no", False, "REV", "left", "13", "14"),
+           (BX2, "no", False, "REV", "upright", "13", "14"),
            (IX, "nc", not fwd, "KM1", "top", "21", "22")],
-          "KM2", rev, LR, "H2 — পিছনে", REVC, BX2, HR, "KM2 13-14", rev)
+          "KM2", rev, LR, "H2: পেছনে", REVC, BX2, HR, "KM2 13-14", rev)
 
     # দুই বোতাম — উপরে ছবি, দুই রাংয়ে দুই কন্টাক্ট, মাঝে ছেঁড়া রেখা
     # FWD-এর রাং ১-এ NO (খোলা), রাং ২-এ NC (বন্ধ);  REV-এর উল্টোটা।
@@ -621,20 +632,20 @@ def _ladder12(s, oy, state):
 
 def d07_fwd():
     s = SVG(1240, 1120)
-    s.title("কন্ট্রোল সার্কিট — মোটর সামনের দিকে চলছে", T_TITLE)
+    s.title("কন্ট্রোল সার্কিট: মোটর সামনের দিকে চলছে", T_TITLE)
     ny = _ladder12(s, 70, "fwd")
-    y = note_strip(s, ny + 48, "KM1 টেনেছে, তাই KM1 21-22 খুলে গেছে — "
-                               "REV চাপলেও KM2 টানতে পারবে না")
+    y = note_strip(s, ny + 48, "KM1 চালু, তাই KM1 21-22 খোলা; KM1 না "
+                               "ছাড়া পর্যন্ত KM2 চালু হতে পারবে না")
     s.fit(y, 24)
     return s.save(f"{OUT}/d07_fwd.svg")
 
 
 def d08_rev():
     s = SVG(1240, 1120)
-    s.title("কন্ট্রোল সার্কিট — মোটর পিছনের দিকে চলছে", T_TITLE)
+    s.title("কন্ট্রোল সার্কিট: মোটর পেছনের দিকে চলছে", T_TITLE)
     ny = _ladder12(s, 70, "rev")
-    y = note_strip(s, ny + 48, "এবার উল্টো — KM2 টেনেছে, KM2 21-22 খুলেছে, "
-                               "KM1-এর পথ বন্ধ")
+    y = note_strip(s, ny + 48, "KM2 চালু, তাই KM2 21-22 খোলা; KM1-এর "
+                               "কয়েলে সরবরাহ যেতে পারে না")
     s.fit(y, 24)
     return s.save(f"{OUT}/d08_rev.svg")
 
@@ -642,10 +653,10 @@ def d08_rev():
 # ── ৯. তিন স্তরের ইন্টারলক ──────────────────────────────────────────────
 def d09_interlock():
     s = SVG(1240, 780)
-    s.title("ইন্টারলকের তিন স্তর — একটাও বাদ দেওয়া চলে না", T_TITLE)
+    s.title("ইন্টারলকের তিন স্তর", T_TITLE)
 
     W, X0, Y, H = 376, 40, 100, 470
-    for k, (ttl, col) in enumerate([("১. বোতামের ইন্টারলক", STEEL),
+    for k, (ttl, col) in enumerate([("১. পুশ বাটন ইন্টারলক", STEEL),
                                     ("২. অক্সিলিয়ারি NC", GREEN),
                                     ("৩. যান্ত্রিক ইন্টারলক", MECH)]):
         panel(s, X0 + k * (W + 24), Y, W, H, ttl, col)
@@ -653,21 +664,21 @@ def d09_interlock():
     # ১ — দুই কন্টাক্টের বোতাম
     x = X0 + 74
     s.rect(x + 52, 190, 84, 26, "#E3D5F0", REVC, 2.4, 6)
-    s.text(x + 94, 174, "REV বোতাম", T_SMALL, REVC, 700, "middle")
+    s.text(x + 94, 174, "REV বাটন", T_SMALL, REVC, 700, "middle")
     s.path(f"M {x + 94} 216 L {x + 94} 338", "#3B3B3B", 2.2, dash="7 5")
     s.path(f"M {x + 94} 374 L {x + 94} 420", "#3B3B3B", 2.2, dash="7 5")
     _nc(s, x + 20, 300, DEAD, opened=True)
     s.text(x + 66, 356, "21-22 খোলে", T_SMALL, NAVY, 700, "middle")
     _no(s, x + 20, 420, LIVE, closed=True)
     s.text(x + 66, 476, "13-14 বন্ধ হয়", T_SMALL, NAVY, 700, "middle")
-    s.text(X0 + W / 2, 528, "একসঙ্গে, তাই একটির", T_SMALL, GREY, 400,
+    s.text(X0 + W / 2, 528, "আগে 21-22 খোলে,", T_SMALL, GREY, 400,
            "middle")
-    s.text(X0 + W / 2, 556, "আগে অন্যটি হয় না", T_SMALL, GREY, 400,
+    s.text(X0 + W / 2, 556, "তারপর 13-14 বন্ধ হয়", T_SMALL, GREY, 400,
            "middle")
 
     # ২ — মিরর কন্টাক্ট
     x = X0 + W + 24 + 52
-    s.text(x + 136, 178, "KM1 টানলে", T_SMALL, NAVY, 700, "middle")
+    s.text(x + 136, 178, "KM1 চালু হলে", T_SMALL, NAVY, 700, "middle")
     coil_sym(s, x + 60, 208, 150, 60, "KM1")
     s.path(f"M {x + 135} 268 L {x + 135} {nc_tip(x + 90, 320, x + 135, opened=True)}", "#3B3B3B", 2.2, dash="7 5")
     _nc(s, x + 90, 320, DEAD, opened=True)
@@ -675,11 +686,11 @@ def d09_interlock():
     s.path(f"M {x + 182} 320 L {x + 250} 320 L {x + 250} 420 "
            f"L {x + 210} 420", DEAD, SW)
     coil_sym(s, x + 60, 390, 150, 60, "KM2")
-    s.text(x + 136, 486, "KM2 আর টানতে পারে না", T_SMALL, GREY, 400,
+    s.text(x + 136, 486, "KM2 চালু হতে পারে না", T_SMALL, GREY, 400,
            "middle")
-    s.text(X0 + W + 24 + W / 2, 528, "মিরর কন্টাক্ট — মেইন কন্টাক্ট",
+    s.text(X0 + W + 24 + W / 2, 528, "মিরর কন্টাক্ট: মেইন কন্টাক্ট",
            T_SMALL, GREY, 400, "middle")
-    s.text(X0 + W + 24 + W / 2, 556, "আটকে থাকলেও এটি বন্ধ হয় না",
+    s.text(X0 + W + 24 + W / 2, 556, "জোড়া লেগে গেলেও এটি বন্ধ হয় না",
            T_SMALL, GREY, 400, "middle")
 
     # ৩ — যান্ত্রিক লিভার
@@ -690,19 +701,19 @@ def d09_interlock():
                "middle")
         s.rect(cx - 26, 250 + (18 if pulled else 0), 52, 60, BOXG, IRON_D,
                2.2, 5)
-        s.text(cx, 392, "টানা" if pulled else "আটকানো", T_SMALL,
+        s.text(cx, 392, "চালু" if pulled else "আটকানো", T_SMALL,
                LIVE if pulled else RED, 700, "middle")
     s.poly([(bx + 46, 256), (bx + 216, 240), (bx + 216, 262),
             (bx + 46, 278)], "#C9D2DB", MECH, 2.6)
     s.circle(bx + 131, 259, 9, "#FFFFFF", MECH, 2.6)
-    s.text(bx + 131, 428, "দোলনা লিভার", T_SMALL, MECH, 700, "middle")
+    s.text(bx + 131, 428, "রকার লিভার", T_SMALL, MECH, 700, "middle")
     s.text(X0 + 2 * (W + 24) + W / 2, 528, "একটি টানলে লিভার ঘুরে",
            T_SMALL, GREY, 400, "middle")
     s.text(X0 + 2 * (W + 24) + W / 2, 556, "অন্যটির পথ আটকে দেয়",
            T_SMALL, GREY, 400, "middle")
 
-    y = note_strip(s, 616, "বোতাম ভুল ঠেকায়, NC কয়েল ঠেকায়, লিভার "
-                           "ধাতু দিয়ে ঠেকায় — তিনটিই দরকার")
+    y = note_strip(s, 616, "বাটন ভুল চাপা ঠেকায়, 21-22 কয়েলের সরবরাহ "
+                           "ঠেকায়, লিভার আর্মেচার আটকে রাখে")
     s.fit(y, 24)
     return s.save(f"{OUT}/d09_interlock.svg")
 
@@ -720,24 +731,24 @@ def _curve(s, px, ytop, h, pts, col, tmax, vmin=-1.0, vmax=1.0, zero=False,
 
 def d10_timing():
     s = SVG(1240, 1140)
-    s.title("সরাসরি উল্টো দিকে ফেললে কী হয়", T_TITLE)
+    s.title("প্লাগিং ও বিরতিসহ দিক বদল", T_TITLE)
     TMAX = 12
 
     panels = [
-        (92, "সরাসরি — চলন্ত অবস্থায় REV চাপা হয়েছে", RED,
+        (92, "প্লাগিং: চলন্ত অবস্থায় REV চাপা হয়েছে", RED,
          [(0.2, 5.1)], [(5.2, TMAX)],
          [(0, 0), (0.2, 0), (2.2, 1), (5.1, 1), (5.7, 0), (6.8, -1),
           (TMAX, -1)],
          [(0, 0.2), (0.15, 6), (2.2, 1), (5.1, 1), (5.2, 6), (6.8, 6),
           (7.6, 1), (TMAX, 1)],
-         "ভাঙা কারেন্ট 6 × Ie — উল্টো দিকে ঘোরা শুরুর আগ পর্যন্ত চলতেই থাকে"),
-        (572, "থামার সময় দিয়ে — REV-এর আগে মোটর থেমেছে", GREEN,
+         "কারেন্ট 6 × Ie পর্যন্ত ওঠে, উল্টো দিকে ঘোরা শুরু না হওয়া পর্যন্ত থাকে"),
+        (572, "বিরতিসহ: REV-এর আগে মোটর থেমেছে", GREEN,
          [(0.2, 5.0)], [(8.0, TMAX)],
          [(0, 0), (0.2, 0), (2.2, 1), (5.0, 1), (8.0, 0), (10.2, -1),
           (TMAX, -1)],
          [(0, 0.2), (0.15, 6), (2.2, 1), (5.0, 1), (5.05, 0), (7.95, 0),
           (8.1, 6), (10.2, 1), (TMAX, 1)],
-         "স্বাভাবিক স্টার্টিং কারেন্ট, কন্টাক্ট ও গিয়ারবক্স বাঁচে"),
+         "শুধু স্বাভাবিক স্টার্টিং কারেন্ট; কন্টাক্ট ও গিয়ারবক্সে চাপ কম"),
     ]
 
     for (py, ttl, col, km1, km2, spd, cur, note) in panels:
@@ -758,8 +769,8 @@ def d10_timing():
             s.text(1104, yc(v) + 7, lab, T_TINY, GREY, 400, "start")
         s.text(700, py + 430, note, T_BODY, col, 700, "middle")
 
-    y = note_strip(s, 1044, "একই কাজ, দুই রকম দাম — অপেক্ষার কয়েক সেকেন্ড "
-                            "কন্টাক্টরের আয়ু কেনে")
+    y = note_strip(s, 1044, "দিক বদলের আগে কয়েক সেকেন্ডের বিরতি "
+                            "কন্টাক্টরের আয়ু বাড়ায়")
     s.fit(y, 24)
     return s.save(f"{OUT}/d10_timing.svg")
 
@@ -769,7 +780,7 @@ def d11_panel():
     s = SVG(1240, 880)
     s.title("প্যানেলের ভেতর ও দরজা", T_TITLE)
 
-    panel(s, 40, 92, 700, 700, "ভেতরে — মাউন্টিং প্লেট")
+    panel(s, 40, 92, 700, 700, "ভেতরের মাউন্টিং প্লেট")
     s.rect(74, 150, 632, 590, "#F4F6F8", STEEL, 3, 6)
 
     # ডিন রেল ১ — Q1 ও কন্ট্রোল ফিউজ
@@ -797,15 +808,15 @@ def d11_panel():
     s.rect(112, 606, 556, 24, BOXG, IRON_D, 2, 3)
     for i in range(14):
         s.rect(122 + i * 39, 630, 30, 52, "#D7E2EC", STEEL, 1.8, 3)
-    s.text(390, 714, "টার্মিনাল ব্লক — বাইরের সব তার এখানে", T_SMALL,
+    s.text(390, 714, "টার্মিনাল ব্লক: বাইরের সব তার এখানে আসে", T_SMALL,
            GREY, 400, "middle")
 
     # ── দরজা ───────────────────────────────────────────────────────
-    panel(s, 764, 92, 436, 700, "দরজা — বাইরে থেকে যা দেখা যায়")
+    panel(s, 764, 92, 436, 700, "দরজার বাইরের দিক")
     s.rect(800, 150, 364, 590, "#FBFCFD", STEEL, 3, 8)
 
-    for cx, col, tag in ((892, FWDC, "H1 — সামনে"),
-                         (1072, REVC, "H2 — পিছনে")):
+    for cx, col, tag in ((892, FWDC, "H1: সামনে"),
+                         (1072, REVC, "H2: পেছনে")):
         s.circle(cx, 226, 32, "#FFFFFF", col, 3.2)
         s.circle(cx, 226, 19, "#F5C542" if col is FWDC else "#FFFFFF",
                  col, 2.4)
@@ -818,11 +829,11 @@ def d11_panel():
     s.circle(982, 566, 48, "#F6C9C4", RED, 3.6)
     s.circle(982, 566, 32, "#F6C9C4", RED, 2.6)
     s.text(982, 576, "STOP", T_BODY, RED, 700, "middle")
-    s.text(982, 662, "লাল ছত্রাকার মাথা — হাতের তালুতে চাপা যায়",
+    s.text(982, 662, "লাল মাশরুম হেড, হাতের তালু দিয়ে চাপা যায়",
            T_SMALL, GREY, 400, "middle")
 
-    y = note_strip(s, 812, "দুই বাতি দুই দিকের, আর STOP সবচেয়ে বড় ও "
-                           "সবচেয়ে নিচে — হাত আপনা থেকেই ওখানে যায়")
+    y = note_strip(s, 812, "দুই দিকের জন্য দুটি বাতি; বড় STOP বাটন সবার "
+                           "নিচে, যাতে জরুরি অবস্থায় দ্রুত চাপা যায়")
     s.fit(y, 24)
     return s.save(f"{OUT}/d11_panel.svg")
 

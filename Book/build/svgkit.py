@@ -11,7 +11,7 @@ overflowing their boxes or colliding with neighbours.
 import json, os, re, subprocess, hashlib, html, base64
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+CHROME = os.environ.get("CHROME", "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome")
 CACHE_PATH = os.path.join(HERE, ".textcache.json")
 FAMILY = "Kalpurush"
 
@@ -51,7 +51,7 @@ def flush():
            "o.push([r.width,r.height]);}"
            "document.getElementById('wrap').outerHTML="
            "'<pre id=out>'+JSON.stringify(o)+'</pre>';</script>")
-    tmp = os.path.join(HERE, ".__measure.html")
+    tmp = os.path.join(HERE, f".__measure.{os.getpid()}.html")
     open(tmp, "w", encoding="utf-8").write(doc)
     out = subprocess.run(
         [CHROME, "--headless", "--disable-gpu", "--no-sandbox", "--dump-dom",
@@ -64,8 +64,10 @@ def flush():
     vals = json.loads(m.group(1))
     for (t, s, w, f), (wd, ht) in zip(items, vals):
         _CACHE[_key(t, s, w, f)] = [round(wd, 2), round(ht, 2)]
-    json.dump(_CACHE, open(CACHE_PATH, "w", encoding="utf-8"),
+    tmp = f"{CACHE_PATH}.{os.getpid()}"
+    json.dump(_CACHE, open(tmp, "w", encoding="utf-8"),
               ensure_ascii=False, indent=0)
+    os.replace(tmp, CACHE_PATH)
     _PENDING = set()
 
 

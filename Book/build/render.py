@@ -8,8 +8,9 @@ shape Indic text correctly.
 """
 import os, re, subprocess, sys, glob, shutil
 
-CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+CHROME = os.environ.get("CHROME", "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome")
 SCALE = 3          # 3x → ~300 dpi at print size
+PAD = 400          # px of spare viewport height, cropped off after the shot
 
 
 def svg_size(path):
@@ -38,13 +39,18 @@ def render(svg, png=None, scale=SCALE):
            "--disable-lcd-text", "--font-render-hinting=none",
            f"--force-device-scale-factor={scale}",
            "--default-background-color=FFFFFFFF",
-           f"--screenshot={png}", f"--window-size={w},{h}",
+           # extra height, cropped below: some headless Chromium builds make
+           # the viewport shorter than --window-size and clip the bottom edge
+           f"--screenshot={png}", f"--window-size={w},{h + PAD}",
            "file://" + html]
     r = subprocess.run(cmd, capture_output=True, text=True)
     os.remove(html)
     if not os.path.exists(png):
         print("FAIL", svg, r.stderr[-600:], file=sys.stderr)
         return None
+    from PIL import Image
+    im = Image.open(png)
+    im.crop((0, 0, w * scale, h * scale)).save(png)
     return png
 
 

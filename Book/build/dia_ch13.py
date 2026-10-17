@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""অধ্যায় ২০ — ফ্লোট সুইচ : ডায়াগ্রাম।
+"""অধ্যায় ১৩: ফ্লোট সুইচের ডায়াগ্রাম।
 
 সার্কিট ও কানেকশন ডায়াগ্রাম ইনস্টিটিউটের নিজের ডেক থেকে হুবহু বসানো —
 `HW Connection Diagram All.pptx` স্লাইড ২৫–২৮ (`assets_ch20.py`)।  হাতে
@@ -252,17 +252,17 @@ def d01_system():
 
     # কন্ট্রোল কেবল:  ট্যাংক → ডিবি
     s.path("M 700 150 L 610 150 L 610 320", "#3B3B3B", 3.0, dash="10 7")
-    s.text(598, 240, "কন্ট্রোল কেবল", T_BODY, GREY, 700, "end")
+    s.text(598, 240, "কন্ট্রোল ক্যাবল", T_BODY, GREY, 700, "end")
 
     # ডিবি
     s.rect(520, 320, 180, 140, PLATE, NAVY, 2.8, 8)
     s.text(610, 358, "DB", T_NAME, NAVY, 700, "middle")
     chip(s, 610, 398, "MCB")
-    chip(s, 610, 438, "MC")
+    chip(s, 610, 438, "KM1")
 
     # ডিবি → পাম্প (পাওয়ার কেবল)
     s.path("M 520 396 L 318 396", NEUT, 3.2)
-    s.text(419, 368, "পাওয়ার কেবল", T_BODY, GREY, 700, "middle")
+    s.text(419, 368, "পাওয়ার ক্যাবল", T_BODY, GREY, 700, "middle")
 
     # পাম্প
     blk(s, 230, 396, "পাম্প", 176, 58, "#FFFFFF", STEEL, T_NAME, STEEL, 3.0)
@@ -274,7 +274,7 @@ def d01_system():
     s.text(230, 672, "আন্ডারগ্রাউন্ড রিজার্ভার", T_BODY, NAVY, 700, "middle")
     s.path("M 280 425 L 280 490", WATER_E, 5.0)
 
-    y = note_strip(s, 700, "ফ্লোট সুইচ চালায় কয়েল — পাম্পের কারেন্ট "
+    y = note_strip(s, 700, "ফ্লোট সুইচ কয়েল চালায়; পাম্পের কারেন্ট "
                            "যায় কন্টাক্টরের ভেতর দিয়ে")
     s.fit(y, 24)
     return s.save(f"{OUT}/d01_system.svg")
@@ -283,11 +283,11 @@ def d01_system():
 # ── ২. বাইরের অংশ ───────────────────────────────────────────────────────
 def d02_parts():
     return photo_callouts(
-        "d02_parts", "কেবল-ফ্লোট সুইচের অংশ", "ph_cable.jpg",
+        "d02_parts", "ক্যাবল-ফ্লোট সুইচের অংশ", "ph_cable.jpg",
         # লক্ষ্যের উচ্চতার ক্রমেই তালিকা — উল্টো থাকলে দুই লিডার
         # ফ্লোটের গা বেয়ে একে অন্যকে কাঁচি করে কাটে
-        left=[("কেবলের মুখ", 0.44, 0.12), ("ফ্লোট বডি", 0.18, 0.66)],
-        right=[("কাউন্টার-ওয়েট", 0.66, 0.24), ("তিন-কোর কেবল", 0.84, 0.76)],
+        left=[("ক্যাবলের মুখ", 0.44, 0.12), ("ফ্লোট বডি", 0.18, 0.66)],
+        right=[("কাউন্টার-ওয়েট", 0.66, 0.24), ("তিন-কোর ক্যাবল", 0.84, 0.76)],
         note="ওজনটি যেখানে বাঁধা, ফ্লোট তার চারপাশেই ওঠানামা করে",
         iw=720)
 
@@ -296,7 +296,7 @@ def d02_parts():
 def d03_inside():
     return photo_callouts(
         "d03_inside", "ফ্লোট সুইচের ভেতরে", "ph_cut_on.jpg",
-        left=[("কেবল", 0.14, 0.30), ("মাইক্রোসুইচ", 0.45, 0.40)],
+        left=[("ক্যাবল", 0.14, 0.30), ("মাইক্রোসুইচ", 0.45, 0.40)],
         right=[("ইস্পাতের বল", 0.63, 0.42), ("লিভার", 0.76, 0.55)],
         note="বল গড়িয়ে লিভারকে ঠেলে, লিভার মাইক্রোসুইচের পিন চাপে",
         iw=760)
@@ -305,10 +305,10 @@ def d03_inside():
 # ── ৪. দুই অবস্থা ───────────────────────────────────────────────────────
 def d04_states():
     return two_panel(
-        "d04_states", "কেটে খোলা সুইচ — দুই অবস্থায়",
+        "d04_states", "কেটে খোলা সুইচের দুই অবস্থা",
         ("অফ অবস্থা", "ph_cut_off.jpg"),
         ("অন অবস্থা", "ph_cut_on.jpg"),
-        "একই সুইচ, কেবল বলটির অবস্থান বদলেছে",
+        "একই সুইচ; শুধু বলের অবস্থান বদলেছে",
         lcol=GREY, rcol=GREEN)
 
 
@@ -316,7 +316,7 @@ def d04_states():
 def d05_action():
     """পানি নিচে ও পানি উপরে — কোন কন্টাক্ট বন্ধ থাকে।"""
     s = SVG(1240, 660)
-    s.title("ভাসা-ডোবার সঙ্গে কন্টাক্ট বদলায়", T_TITLE)
+    s.title("পানির উচ্চতা ও কন্টাক্টের অবস্থা", T_TITLE)
 
     PW, PH, PY = 564, 440, 96
     for i, (title_, low, col) in enumerate(
@@ -352,7 +352,7 @@ def d05_action():
 def d06_test():
     """তিন তারের কোনটি COM — কন্টিনিউইটি টেস্টে বেরিয়ে আসে।"""
     s = SVG(1240, 700)
-    s.title("তিন তারের কোনটি COM", T_TITLE)
+    s.title("কন্টিনিউইটি টেস্টে COM, NO ও NC শনাক্তকরণ", T_TITLE)
 
     # বাঁয়ে ফ্লোট সুইচ ও তিন তার
     fx, fy = 210, 250
@@ -395,7 +395,7 @@ def d06_test():
         cx = gx + 100 + i * 200
         chip(s, cx, 400, f"{a} = {b}", GREENBG, GREEN, GREEN, T_NAME)
 
-    y = note_strip(s, 466, "মিটার বিপ মোডে; সুইচে বিদ্যুৎ থাকা অবস্থায় নয়")
+    y = note_strip(s, 466, "মিটার বিপ মোডে; সুইচ সরবরাহ থেকে বিচ্ছিন্ন")
     s.fit(y, 24)
     return s.save(f"{OUT}/d06_test.svg")
 
@@ -404,17 +404,18 @@ def d06_test():
 def d07_direct():
     """ছোট পাম্পে কন্টাক্টর ছাড়া সংযোগ — পুরো কারেন্ট সুইচের ভেতর দিয়ে।"""
     s = SVG(1240, 560)
-    s.title("সরাসরি সংযোগ — ছোট পাম্পে", T_TITLE)
+    s.title("ছোট পাম্পে সরাসরি সংযোগ", T_TITLE)
 
     LY, NY = 190, 400
     s.text(96, LY + 9, "L", T_NODE, LIVE, 700, "end")
     s.text(96, NY + 9, "N", T_NODE, NEUT, 700, "end")
 
-    # লাইভ লাইন:  MCB → ফ্লোট সুইচ → মোটর
+    # লাইভ লাইন:  MPCB → ফ্লোট সুইচ → মোটর।  ০.৩৭৬ kW-এর বেশি পাম্পে
+    # বিএনবিসি ১.৩.২২(গ)-র ওভারলোড সুরক্ষা MPCB-ই দেয় (অধ্যায় ৯-এর ৯.১১)।
     s.path(f"M 112 {LY} L 300 {LY}", LIVE, SW)
     # MCB
     s.rect(300, LY - 44, 96, 88, PLATE, NAVY, 2.6, 8)
-    s.text(348, LY - 56, "MCB", T_BODY, NAVY, 700, "middle")
+    s.text(348, LY - 56, "MPCB", T_BODY, NAVY, 700, "middle")
     s.path(f"M 348 {LY - 26} L 348 {LY + 26}", NAVY, 3.0)
     s.path(f"M 396 {LY} L 560 {LY}", LIVE, SW)
 
@@ -432,6 +433,8 @@ def d07_direct():
     s.circle(880, 295, 52, "#FFFFFF", SYM, SW)
     s.text(880, 307, "M", T_NODE, SYM, 700, "middle")
     s.text(966, 302, "পাম্প মোটর", T_BODY, NAVY, 700, "start")
+    s.text(348, LY + 76, "মোটরের কারেন্টে সেট", T_SMALL, GREY, 700,
+           "middle")
     s.path(f"M 880 {295 + 52} L 880 {NY}", NEUT, SW)
 
     # নিউট্রাল
@@ -449,37 +452,256 @@ def d08_contactor():
     return photo_callouts(
         "d08_contactor", "ম্যাগনেটিক কন্টাক্টরের টার্মিনাল",
         "ph_contactor.jpg",
-        left=[("কয়েল A1", 0.35, 0.13), ("ইনপুট L1 L2 L3", 0.505, 0.305)],
+        left=[("কয়েল A1", 0.35, 0.13), ("ইনপুট 1 3 5", 0.505, 0.305)],
         right=[("কয়েল A2", 0.70, 0.11), ("অক্সিলিয়ারি 13-14", 0.845, 0.305),
-               ("আউটপুট T1 T2 T3", 0.615, 0.80)],
-        note="ফ্লোট সুইচের তার যায় কেবল A1 আর A2-তে",
+               ("আউটপুট 2 4 6", 0.615, 0.80)],
+        note="ফ্লোট সুইচ বসে কয়েলের A1-এর লাইনে; A2 যায় নিউট্রালে",
         iw=560)
 
 
-# ── ৯–১০. ইনস্টিটিউটের সোর্স স্লাইড ─────────────────────────────────────
+# ── ৯–১০ ও ১৩. পাম্প কন্ট্রোলের সার্কিট (হাতে আঁকা) ───────────────────
+# আগের d09/d10 ছিল ইনস্টিটিউটের স্লাইড ২৫–২৮ হুবহু।  দুটি কারণে সেগুলো
+# বাদ:  (ক) সিঙ্গেল কন্ডিশনের স্লাইড COM–NO দিয়ে আঁকা, অর্থাৎ খালি করার
+# সংযোগ, অথচ অধ্যায়ের মূল কাজ ছাদের ট্যাংক ভরা (COM–NC);  (খ) কোনো
+# স্লাইডেই ওভারলোড রিলে নেই, অথচ বিএনবিসি ১.৩.২২(গ) ০.৩৭৬ kW-এর বেশি
+# মোটরে ওভারকারেন্ট সুরক্ষা চায় (অধ্যায় ৯-এর ৯.১.১)।  নাম অধ্যায় ৯-এর
+# রীতিতে:  Q1 মেইন ব্রেকার, F1 কন্ট্রোল ফিউজ/এমসিবি, F2 ওভারলোড রিলে,
+# KM1 কন্টাক্টর।
+#
+# তারের তালিকা (ছবি আঁকার আগে লেখা, অধ্যায় ১৪-এর নিয়মে):
+#   সিঙ্গেল কন্ডিশন  L → F1 → F2:95;  F2:96 → FS:COM;  FS:NC → KM1:A1;
+#                     KM1:A2 → N।
+#   ডাবল কন্ডিশন     L → F1 → F2:95;  F2:96 → FS-1:COM;  FS-1:NO →
+#                     FS-2:COM;  FS-2:NC → KM1:A1;  KM1:A2 → N।
+#   অটো-ম্যানুয়াল     L → F1 → F2:95;  F2:96 → S1 (AUTO ও MAN দুই
+#                     কন্টাক্টের ইনপুট);  S1 AUTO → FS-1:COM;  FS-1:NO →
+#                     FS-2:COM;  FS-2:NC → KM1:A1;  S1 MAN → STOP:11;
+#                     STOP:12 → START:13 ও KM1:13;  START:14 ও KM1:14 →
+#                     KM1:A1;  KM1:A2 → N।
+#   AUTO-তে MAN শাখার দিকে উল্টো পথ খোঁজা হয়েছে:  A1 → KM1 13-14 → STOP
+#   → S1 MAN (খোলা) — থামে।  তাই AUTO-তে ল্যাচ হয় না, ট্যাংক ভরলে কয়েল
+#   ছাড়ে।  MAN-এ উল্টো পথ A1 → FS-2 → FS-1 → S1 AUTO (খোলা) — থামে।
+#   পাওয়ার:  L → Q1 → KM1 1-2 → F2 (তিন পোল সিরিজে, ৯.১০) → পাম্প;
+#             N → Q1 → KM1 3-4 → পাম্প।
+from dia_ch08 import coil_sym                                    # noqa: E402
+from dia_ch09 import (fuse, thermal_sym, _nc, _no, _pb, nc_tip,  # noqa: E402
+                      no_tip)
+
+CW = SYM          # স্থির ছবি — তারের এক রং; লাইভ-নিউট্রাল লেবেলে
+
+
+def float_act(s, cx, blade_y, top, name, sub=None):
+    """ফ্লোটের প্রতীক — ব্লেড থেকে ড্যাশ-রেখা উপরে একটি ভাসমান খোলস।"""
+    s.path(f"M {cx} {blade_y:.0f} L {cx} {top + 14}", "#3B3B3B", 2.2,
+           dash="7 5")
+    float_body(s, cx, top, r=16)
+    s.text(cx, top - 30, name, T_SMALL, NAVY, 700, "middle")
+    if sub:
+        s.text(cx, top - 56, sub, T_TINY, GREY, 700, "middle")
+
+
+def f2_contact(s, x, LY):
+    """F2-এর 95-96 (NC), উপরে থার্মাল প্রতীক।"""
+    _nc(s, x, LY, CW)
+    s.path(f"M {x + 40} {nc_tip(x, LY, x + 40):.0f} L {x + 40} {LY - 64}",
+           SYM, 2, dash="6 5")
+    thermal_sym(s, x + 40, LY - 88, 34, 40, SYM, 2.4)
+    s.text(x + 66, LY - 112, "F2", T_SMALL, AMBER, 700, "start")
+    s.text(x + 10, LY + 36, "95", T_TINY, NAVY, 700, "middle")
+    s.text(x + 92, LY + 36, "96", T_TINY, NAVY, 700, "middle")
+
+
+def fs_contact(s, x, LY, kind, name, sub=None):
+    """ফ্লোট সুইচের কন্টাক্ট:  kind = "NC" বা "NO" (ফ্লোট নিচে অবস্থায়)।"""
+    if kind == "NC":
+        _nc(s, x, LY, CW)
+        tip = nc_tip(x, LY, x + 46)
+    else:
+        _no(s, x, LY, CW)
+        tip = no_tip(x, LY, x + 46)
+    float_act(s, x + 46, tip, LY - 92, name, sub)
+    s.text(x + 4, LY + 36, "COM", T_TINY, NAVY, 700, "middle")
+    s.text(x + 92, LY + 36, kind, T_TINY, NAVY, 700, "middle")
+
+
+def coil13(s, x, LY):
+    coil_sym(s, x, LY - 40, 116, 80, "KM1")
+    s.text(x - 10, LY - 50, "A1", T_TINY, NAVY, 700, "end")
+    s.text(x + 126, LY - 50, "A2", T_TINY, NAVY, 700, "start")
+
+
+def _power13(s, x0, y0):
+    """সিঙ্গেল ফেজ পাম্পের পাওয়ার সার্কিট, খাড়া করে।"""
+    XL, XN = x0 + 120, x0 + 240
+    s.text(XL, y0, "L", T_NODE, LIVE, 700, "middle")
+    s.text(XN, y0, "N", T_NODE, NEUT, 700, "middle")
+    Q, K, F, M = y0 + 70, y0 + 180, y0 + 292, y0 + 404
+    for x in (XL, XN):
+        s.path(f"M {x} {y0 + 16} L {x} {Q - 34}", CW, SW)
+    # Q1
+    s.rect(XL - 34, Q - 34, XN - XL + 68, 68, PLATE, NAVY, 2.6, 8)
+    for x in (XL, XN):
+        s.path(f"M {x} {Q - 20} L {x} {Q + 20}", NAVY, 3.2)
+    s.path(f"M {XL} {Q} L {XN} {Q}", NAVY, 2.0, dash="7 5")
+    s.text(XL - 46, Q + 8, "Q1", T_BODY, NAVY, 700, "end")
+    for x in (XL, XN):
+        s.path(f"M {x} {Q + 34} L {x} {K - 34}", CW, SW)
+    # KM1 মেইন কন্টাক্ট (খোলা)
+    for x, a, b in ((XL, "1", "2"), (XN, "3", "4")):
+        node(s, x, K - 34, CW)
+        s.path(f"M {x} {K - 34} L {x + 30} {K + 20}", DEAD, SW)
+        node(s, x, K + 34, CW)
+        s.text(x - 14, K - 26, a, T_TINY, NAVY, 700, "end")
+        s.text(x - 14, K + 46, b, T_TINY, NAVY, 700, "end")
+    s.path(f"M {XL + 16} {K - 4} L {XN + 16} {K - 4}", GREEN, 2.0,
+           dash="7 5")
+    s.text(XL - 46, K + 8, "KM1", T_BODY, GREEN, 700, "end")
+    s.path(f"M {XL} {K + 34} L {XL} {F - 34}", CW, SW)
+    # F2 — থার্মাল উপাদান, কেবল L পথে আঁকা (তিন পোল সিরিজে, ৯.১০)
+    s.rect(XL - 40, F - 46, 80, 92, "#FFFBF2", AMBER, 2.2, 8, dash="7 5")
+    s.path(f"M {XL} {F - 34} L {XL} {F - 28}", CW, SW)
+    thermal_sym(s, XL, F, 34, 56, CW, 3.0)
+    s.path(f"M {XL} {F + 28} L {XL} {F + 34}", CW, SW)
+    s.text(XL - 46, F + 8, "F2", T_BODY, AMBER, 700, "end")
+    # মোটর
+    s.path(f"M {XL} {F + 34} L {XL} {M - 40} L {XL + 34} {M - 40}", CW, SW)
+    s.path(f"M {XN} {K + 34} L {XN} {M - 40} L {XN - 34} {M - 40}", CW, SW)
+    cx = (XL + XN) / 2
+    s.circle(cx, M, 44, "#FFFFFF", SYM, 3.4)
+    s.text(cx, M - 2, "M", T_NODE, SYM, 700, "middle")
+    s.text(cx, M + 26, "1 ~", T_TINY, SYM, 700, "middle")
+    s.text(cx + 58, M + 8, "পাম্প", T_BODY, NAVY, 700, "start")
+    return M + 44
+
+
 def d09_single():
-    return two_panel(
-        "d09_single", "সিঙ্গেল কন্ডিশন — এক ফ্লোট সুইচ",
-        ("সার্কিট ডায়াগ্রাম", "h25_single_schem.png"),
-        ("কানেকশন ডায়াগ্রাম", "h26_single_conn.png"),
-        "MC = ম্যাগনেটিক কন্টাক্টর; A1 ও A2 তার কয়েলের দুই প্রান্ত",
-        pw=574, rw=574, ph=420)
+    s = SVG(1240, 760)
+    s.title("সিঙ্গেল কন্ডিশনে ছাদের ট্যাংক ভরার সার্কিট", T_TITLE)
+    panel(s, 46, 96, 420, 560, "পাওয়ার সার্কিট", STEEL)
+    _power13(s, 76, 186)
+    panel(s, 486, 96, 708, 560, "কন্ট্রোল সার্কিট", GREEN)
+
+    LY, NY, RX = 380, 560, 1150
+    s.text(528, LY + 9, "L", T_NODE, LIVE, 700, "end")
+    s.text(528, NY + 9, "N", T_NODE, NEUT, 700, "end")
+    s.path(f"M 540 {LY} L 562 {LY}", CW, SW)
+    fuse(s, 598, LY, 72, 42, "F1")
+    s.path(f"M 634 {LY} L 660 {LY}", CW, SW)
+    f2_contact(s, 660, LY)
+    s.path(f"M 752 {LY} L 800 {LY}", CW, SW)
+    fs_contact(s, 800, LY, "NC", "FS")
+    s.path(f"M 892 {LY} L 960 {LY}", CW, SW)
+    coil13(s, 960, LY)
+    s.path(f"M 1076 {LY} L {RX} {LY} L {RX} {NY}", NEUT, SW)
+    s.path(f"M 540 {NY} L {RX} {NY}", NEUT, SW)
+    node(s, RX, NY, NEUT)
+
+    y = note_strip(s, 680, "ভরার সংযোগ COM–NC; খালি করার কাজে তারটি "
+                           "NC থেকে NO-তে যাবে")
+    s.fit(y, 24)
+    return s.save(f"{OUT}/d09_single.svg")
 
 
 def d10_double():
-    return two_panel(
-        "d10_double", "ডাবল কন্ডিশন — দুই ফ্লোট সুইচ",
-        ("সার্কিট ডায়াগ্রাম", "h27_double_schem.png"),
-        ("কানেকশন ডায়াগ্রাম", "h28_double_conn.png"),
-        "দুই সুইচ সিরিজে — দুটোই বন্ধ হলে তবেই কয়েল টান পায়",
-        pw=574, rw=574, ph=420)
+    s = SVG(1240, 460)
+    s.title("ডাবল কন্ডিশনের কন্ট্রোল সার্কিট", T_TITLE)
+    LY, NY, RX = 250, 350, 1130
+    s.text(70, LY + 9, "L", T_NODE, LIVE, 700, "end")
+    s.text(70, NY + 9, "N", T_NODE, NEUT, 700, "end")
+    s.path(f"M 82 {LY} L 118 {LY}", CW, SW)
+    fuse(s, 154, LY, 72, 42, "F1")
+    s.path(f"M 190 {LY} L 260 {LY}", CW, SW)
+    f2_contact(s, 260, LY)
+    s.path(f"M 352 {LY} L 440 {LY}", CW, SW)
+    fs_contact(s, 440, LY, "NO", "FS-1", "রিজার্ভার")
+    s.path(f"M 532 {LY} L 640 {LY}", CW, SW)
+    fs_contact(s, 640, LY, "NC", "FS-2", "ছাদের ট্যাংক")
+    s.path(f"M 732 {LY} L 860 {LY}", CW, SW)
+    coil13(s, 860, LY)
+    s.path(f"M 976 {LY} L {RX} {LY} L {RX} {NY}", NEUT, SW)
+    s.path(f"M 82 {NY} L {RX} {NY}", NEUT, SW)
+    node(s, RX, NY, NEUT)
+    y = note_strip(s, 386, "দুই সুইচ সিরিজে; দুটির কন্টাক্টই বন্ধ হলে "
+                           "কয়েলে সরবরাহ যায়")
+    s.fit(y, 24)
+    return s.save(f"{OUT}/d10_double.svg")
+
+
+def d13_automan():
+    """অটো-ম্যানুয়াল:  S1 (MAN–0–AUTO) দুই শাখার একটি বেছে নেয়।"""
+    s = SVG(1240, 760)
+    s.title("অটো-ম্যানুয়াল সিলেক্টর সুইচসহ কন্ট্রোল সার্কিট", T_TITLE)
+    LY = 250                 # AUTO শাখা
+    MY = LY + 180            # MAN শাখা
+    HB = MY + 96             # হোল্ডিং শাখা
+    NY = HB + 104
+    RX = 1150
+    P = 400                  # শাখা যেখানে ভাগ হয়
+    SX = 432                 # S1-এর দুই কন্টাক্ট
+    X = 1000                 # কয়েলের আগের নোড
+    AX, BX = 780, 900        # START-এর দুই নোড
+
+    s.text(70, LY + 9, "L", T_NODE, LIVE, 700, "end")
+    s.text(70, NY + 9, "N", T_NODE, NEUT, 700, "end")
+    s.path(f"M 82 {LY} L 118 {LY}", CW, SW)
+    fuse(s, 154, LY, 72, 42, "F1")
+    s.path(f"M 190 {LY} L 236 {LY}", CW, SW)
+    f2_contact(s, 236, LY)
+    s.path(f"M 328 {LY} L {SX} {LY}", CW, SW)
+    node(s, P, LY, CW)
+    s.path(f"M {P} {LY} L {P} {MY} L {SX} {MY}", CW, SW)
+
+    # S1 — দুই কন্টাক্ট, এক হাতল (অবস্থান 0-তে দুটিই খোলা)
+    _no(s, SX, LY, CW)
+    _no(s, SX, MY, CW)
+    kx = SX + 46
+    s.path(f"M {kx} {no_tip(SX, LY, kx):.0f} L {kx} {LY - 70}", GREY, 2.2,
+           dash="6 4")
+    s.path(f"M {kx} {no_tip(SX, MY, kx):.0f} L {kx} {LY + 26}", GREY, 2.2,
+           dash="6 4")
+    s.circle(kx, LY - 84, 13, "#FFFFFF", GREY, 2.4)
+    s.text(kx, LY - 112, "S1  MAN–0–AUTO", T_SMALL, NAVY, 700, "middle")
+    s.text(SX + 92, LY + 36, "AUTO", T_TINY, STEEL, 700, "middle")
+    s.text(SX + 92, MY + 36, "MAN", T_TINY, STEEL, 700, "middle")
+
+    # AUTO শাখা — দুই ফ্লোট সিরিজে
+    s.path(f"M {SX + 92} {LY} L 600 {LY}", CW, SW)
+    fs_contact(s, 600, LY, "NO", "FS-1", "রিজার্ভার")
+    s.path(f"M 692 {LY} L 800 {LY}", CW, SW)
+    fs_contact(s, 800, LY, "NC", "FS-2", "ছাদের ট্যাংক")
+    s.path(f"M 892 {LY} L 1020 {LY}", CW, SW)
+    node(s, X, LY, CW)
+    coil13(s, 1020, LY)
+    s.path(f"M 1136 {LY} L {RX} {LY} L {RX} {NY}", NEUT, SW)
+
+    # MAN শাখা — অধ্যায় ৮-এর ল্যাচিং
+    s.path(f"M {SX + 92} {MY} L 620 {MY}", CW, SW)
+    _nc(s, 620, MY, CW)
+    _pb(s, 666, MY, RED, "#F6C9C4", "STOP")
+    s.path(f"M 712 {MY} L {AX} {MY}", CW, SW)
+    _no(s, AX, MY, CW, w=BX - AX)
+    _pb(s, (AX + BX) / 2, MY, GREEN, "#BFE3CE", "START",
+        tip=no_tip(AX, MY, (AX + BX) / 2, BX - AX))
+    s.path(f"M {AX} {MY} L {AX} {HB} L {AX + 20} {HB}", CW, SW)
+    _no(s, AX + 20, HB, CW, w=80)
+    s.path(f"M {AX + 100} {HB} L {BX} {HB} L {BX} {MY}", CW, SW)
+    s.text((AX + BX) / 2, HB + 40, "KM1 13-14", T_SMALL, GREEN, 700,
+           "middle")
+    s.path(f"M {BX} {MY} L {X} {MY} L {X} {LY}", CW, SW)
+
+    s.path(f"M 82 {NY} L {RX} {NY}", NEUT, SW)
+    node(s, RX, NY, NEUT)
+    y = note_strip(s, NY + 40, "AUTO-তে ফ্লোট চালায়, MAN-এ START-STOP; "
+                               "F2 দুই মোডেই পাম্প থামায়")
+    s.fit(y, 24)
+    return s.save(f"{OUT}/d13_automan.svg")
 
 
 # ── ১১. ডাবল কন্ডিশনের দুই ট্যাংক ───────────────────────────────────────
 def d11_levels():
     """কোন সুইচ কোথায় বসে আর কোন কন্টাক্ট ব্যবহার হয়।"""
     s = SVG(1240, 700)
-    s.title("ডাবল কন্ডিশন — দুই ট্যাংকে দুই সুইচ", T_TITLE)
+    s.title("ডাবল কন্ডিশনে দুই ট্যাংকের দুই ফ্লোট সুইচ", T_TITLE)
 
     # ছাদের ট্যাংক (ডানে, উপরে)
     s.rect(806, 108, 344, 150, "#FFFFFF", NAVY, 2.8, 5)
@@ -488,7 +710,7 @@ def d11_levels():
     s.rect(867, 128, 22, 22, METAL, GREY, 2, 4)
     s.path("M 878 150 L 900 208", "#3B3B3B", 2.8)
     float_body(s, 916, 224, r=22)
-    s.text(1132, 150, "FS-2 · com–NC", T_BODY, GREEN, 700, "end")
+    s.text(1132, 150, "FS-2 · COM–NC", T_BODY, GREEN, 700, "end")
     s.path("M 806 262 L 1150 262", METAL, 5.0)          # ছাদ
 
     # রিজার্ভার (বাঁয়ে, নিচে)
@@ -499,7 +721,7 @@ def d11_levels():
     s.rect(157, 390, 22, 22, METAL, GREY, 2, 4)
     s.path("M 168 412 L 190 458", "#3B3B3B", 2.8)
     float_body(s, 206, 472, r=22)
-    s.text(96, 604, "FS-1 · com–NO", T_BODY, STEEL, 700, "start")
+    s.text(96, 604, "FS-1 · COM–NO", T_BODY, STEEL, 700, "start")
 
     # পাম্প ও পাইপ
     blk(s, 590, 316, "পাম্প", 176, 60, "#FFFFFF", STEEL, T_NAME, STEEL, 3.0)
@@ -520,12 +742,12 @@ def d11_levels():
         s.text(x + 39, 540, nm, T_TINY, NAVY, 700, "middle")
         s.path(f"M {x + 78} 585 L {x + 168} 585", LIVE, 3.0)
     s.rect(870, 561, 96, 48, "#FFFFFF", NAVY, 2.6, 8)
-    s.text(918, 593, "MC", T_BODY, NAVY, 700, "middle")
+    s.text(918, 593, "KM1", T_BODY, NAVY, 700, "middle")
     s.path("M 966 585 L 1020 585", NEUT, 3.0)
     s.text(1032, 592, "N", T_BODY, NEUT, 700, "start")
 
-    y = note_strip(s, 640, "রিজার্ভারে পানি থাকলে আর ট্যাংক না ভরলে — "
-                           "তবেই পাম্প চলে")
+    y = note_strip(s, 640, "রিজার্ভারে পানি আছে এবং ছাদের ট্যাংক ভরেনি, "
+                           "তখনই পাম্প চলে")
     s.fit(y, 24)
     return s.save(f"{OUT}/d11_levels.svg")
 
@@ -533,18 +755,18 @@ def d11_levels():
 # ── ১২. বাস্তবে বসানো বোর্ড ─────────────────────────────────────────────
 def d12_panel():
     return photo_callouts(
-        "d12_panel", "বসানো অবস্থায় — বোর্ডে কন্ট্রোলার", "ph_panel.jpg",
+        "d12_panel", "বোর্ডে বসানো লেভেল কন্ট্রোলার", "ph_panel.jpg",
         left=[("MCB", 0.21, 0.44), ("ইন্ডিকেটর", 0.27, 0.90)],
         right=[("লেভেল কন্ট্রোলার", 0.63, 0.16),
                ("AUTO / MANUAL", 0.71, 0.42),
                ("কন্ট্রোল তার", 0.62, 0.80)],
-        note="ম্যানুয়াল মোড থাকতেই হবে — ফ্লোট নষ্ট হলে পাম্প যেন চলে",
+        note="ম্যানুয়াল মোডে ফ্লোট নষ্ট হলেও পাম্প চালানো যায়",
         iw=760)
 
 
 ALL = [d01_system, d02_parts, d03_inside, d04_states, d05_action, d06_test,
        d07_direct, d08_contactor, d09_single, d10_double, d11_levels,
-       d12_panel]
+       d12_panel, d13_automan]
 
 
 if __name__ == "__main__":
